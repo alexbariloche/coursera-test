@@ -25,12 +25,12 @@ h1 {
 	border: 1px solid black;
 	background-color: #76A2C8;
 	height: 150px;
-	width: 100%;
+	margin: 10px;
 }
 
 h3 {
 	border: 1px solid black;
-	margin: 0px;
+	margin: -1px;
 	padding: 0px;
 	float: right;
 	width: 28%;
