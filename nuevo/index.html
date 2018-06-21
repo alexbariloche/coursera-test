@@ -1,0 +1,99 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parroquia</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/material-icons.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>	
+</head>
+<body>
+	
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <div class="navbar-brand">
+		        <a href="index.html"><h1>Parroquia San Eduardo</h1></a>
+			  </div>
+
+		      <button id="navbarToggle" type="button" class="navbar-toggle collapsed" 
+		      		  data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		    
+		    <div id="collapsable-nav" class="collapse navbar-collapse">
+		       <ul id="nav-list" class="nav navbar-nav navbar-right">
+		        <li id="navHomeButton" class="visible-xs">
+		          <a href="#" onclick="$dc.Inicio();">Inicio</a>
+		            <!-- <span class="glyphicon glyphicon-home"></span> Inicio</a> -->
+		        </li>
+		        <li id="navMisas">
+		          <a href="#" onclick="$dc.Misas();" title="Horarios de Misas y Celebraciones">Horarios Misas</a>
+		            <!-- <span class="glyphicon glyphicon-time"></span><br class="hidden-xs"> Horarios Misas</a> -->
+		        </li>
+		        <li>
+		          <a href="#">Sacramentos</a>
+		            <!-- <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Sacramentos</a> -->
+		        </li>
+		        <li id="navHomilias">
+		          <a href="#" onclick="$dc.Homilias();" title="Audio de homilías de Domingos y Fiestas">Homilías</a>
+		            <!-- <span class="glyphicon glyphicon-certificate"><i class="material-icons"></i></span><br class="hidden-xs"> Homilías</a> -->
+		        </li>
+		        <li>
+		          <a href="#">Economía</a>
+					<!-- 		            <span><i class="fa fa-dollar"></i></span><br class="hidden-xs"> Economía</a> -->
+		        </li>
+		      </ul><!-- #nav-list -->
+		    </div><!-- .collapse .navbar-collapse -->
+		  </div><!-- .container -->
+		</nav><!-- #header-nav -->
+	</header>
+
+	<div id="main-content">
+   	</div>
+
+	<footer class="panel-footer">
+		<div class="container">
+		  <div class="row">
+		    <section id="horarios" class="col-md-4 col-sm-12">
+		      <span>Horarios de secretaría:</span><br>
+		      <p>Martes a Viernes de 10 a 16:00 hs.<br>
+		      Sabados de 10 a 14:00 hs.</p>
+		      <hr class="visible-sm visible-xs">
+		    </section>
+		    <section id="contacto" class="col-md-4 col-sm-12">
+		      <span>Contactos:</span><br>
+		      <p>
+			      <a href="tel:294-444-8441">
+			      	+54 294 444-8441</a><br>
+			      <a href="tel:294-444-8984">
+			      	+54 294 444-8984 (sacerdotes)</a><br>
+			      <a id="email" href="mailto:secretaria@parroquiasaneduardo.com.ar" target="_blank">
+			      	secretaria@parroquiasaneduardo.com.ar</a>
+		      </p>
+		      <hr class="visible-sm visible-xs">
+		    </section>
+		    <section id="direccion" class="col-md-4 col-sm-12">
+		      <span>Dirección:</span><br>
+		      <p>Av. Bustillo km 25,5 - Llao Llao<br>Casilla Correo 1222 - R8400GAC<br>Bariloche, Rio Negro, Argentina</span></p>
+		    </section>
+		  </div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ajax-utils.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

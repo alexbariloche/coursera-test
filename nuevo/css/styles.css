@@ -1,0 +1,180 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #82E5E7;
+  font-family: 'Lora', sans-serif;
+}
+
+#header-nav {
+  background-color: #82B2E7;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-brand h1 {
+  margin-top: -10px;
+  text-align: center;
+  color: #222;
+}
+
+#collapsable-nav {
+  border: 0px;
+  padding: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav a:hover, #collapsable-nav a:focus {
+  text-decoration: none;
+}
+
+.jumbotron {
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+.jumbotron img {
+  margin: auto;
+  width: 800px;
+}
+
+#nav-list {
+  margin: 0;
+}
+
+#nav-list li {
+  text-align: center;
+}
+
+.panel-footer {
+  background-color: #333;
+}
+
+#main-content {
+  border: none;
+}
+
+.row {
+  width: 100%;
+  align-content: center;
+  margin: 0;
+}
+
+.tile {
+  height: 220px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+footer {
+  border: none;
+  border-radius: 0;
+}
+
+footer span {
+  font-size: 1.2em;
+}
+
+footer section {
+  color: #CCC;
+}
+
+hr {
+  border-top: 1px solid #666;
+}
+
+#horarios p {
+  line-height: 2.2;
+}
+
+section {
+  margin: 0;
+}
+
+section p {
+  font-size: 0.9em;
+}
+
+#contacto a {
+    color: #CCC;
+}
+
+#contacto a:hover, #contacto a:focus {
+    color: #82B2E7;
+    text-decoration: none;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .jumbotron img {
+    width: 720px;
+  }
+/*  #header-nav {
+    padding-bottom: 20px;
+  }
+*/}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron img {
+    width: 720px;
+  }
+/*  #header-nav {
+    padding-bottom: 20px;
+  }
+*/}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    text-align: center;
+  }
+  .jumbotron img {
+    width: 680px;
+  }
+  .navbar-brand h1 {
+    font-size: 1.8em;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  section {
+    text-align: center;
+  }
+  .jumbotron img {
+    min-width: 200px;
+  }
+  .navbar-brand h1 {
+    font-size: 1.8em;
+    margin-top: -8px;
+  }
+  #nav-list #navHomeButton {
+    border-top: 1px solid black;
+  }
+  #nav-list li {
+    border-bottom: 1px solid black;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 455px) {
+  .navbar-brand h1 {
+    font-size: 1em;
+    margin-top: -2px;
+  }
+  #contacto #email {
+    margin-left: -20px;
+  }
+}
+
+
+
