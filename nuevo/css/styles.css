@@ -1,12 +1,16 @@
 body {
   font-size: 16px;
   color: #000;
-  background-color: #82E5E7;
+  background-color: #f2d98c;
+  /* full sat: #ffdf80; */
+  /* 80% sat: #f2d98c; */
   font-family: 'Lora', sans-serif;
 }
 
 #header-nav {
-  background-color: #82B2E7;
+  background-color: #e6b319;
+  /* full sat: #ffbf00; */
+  /* 80% sat: #e6b319; */
   border: none;
   border-radius: 0;
 }
@@ -108,7 +112,7 @@ section p {
 }
 
 #contacto a:hover, #contacto a:focus {
-    color: #82B2E7;
+    color: #e6b319;
     text-decoration: none;
 }
 
@@ -117,20 +121,14 @@ section p {
   .jumbotron img {
     width: 720px;
   }
-/*  #header-nav {
-    padding-bottom: 20px;
-  }
-*/}
+}
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .jumbotron img {
     width: 720px;
   }
-/*  #header-nav {
-    padding-bottom: 20px;
-  }
-*/}
+}
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
