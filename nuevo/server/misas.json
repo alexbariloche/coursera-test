@@ -1,0 +1,75 @@
+{
+	"misas":
+	{
+		"semanales":
+		{
+			"desde": ,
+			"hasta":,
+			"diaria":
+			[
+				{
+					"capilla": "San Eduardo",
+					"hora": "12:00",
+					"sacerdote": "Gustavo"
+				},				
+				{
+					"capilla": "NS de Lujan",
+					"hora": "12:15",
+					"sacerdote": "Eduardo"
+				}
+			],
+			"sabado":
+			[
+				{
+					"capilla": "San Eduardo",
+					"hora": "12:00",
+					"sacerdote": "Gustavo"
+				},				
+				{
+					"capilla": "NS de Lujan",
+					"hora": "12:15",
+					"sacerdote": "Eduardo"
+				}
+			],
+			"domingo":
+			[
+				{
+					"capilla": "San Eduardo",
+					"hora": "12:00",
+					"sacerdote": "Gustavo"
+				},				
+				{
+					"capilla": "NS de Lujan",
+					"hora": "12:15",
+					"sacerdote": "Eduardo"
+				}
+			]
+		},
+		"fiestas":
+		{
+			"activa": false,
+			"descripcion":,
+			"celebraciones": 
+			[
+				{
+					"dia": ,
+					"fecha": ,
+					"descripcion":,
+					"capillas": 
+					[
+						{
+							"capilla": "San Eduardo",
+							"hora": "12:00",
+							"sacerdote": "Gustavo"
+						},				
+						{
+							"capilla": "NS de Lujan",
+							"hora": "12:15",
+							"sacerdote": "Eduardo"
+						}
+					]
+				}
+			]
+		}
+	}
+}
