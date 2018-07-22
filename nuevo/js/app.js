@@ -1,18 +1,22 @@
 (function () {
 'use strict';
 
-var homeHtmlUrl = "snippets/home-snippet.html";
-var MisasHtmlUrl = "snippets/misas-snippet.html";
-var HomiliasHtmlUrl = "snippets/homilias-snippet.html";
-
-var insertHtml = function (selector, html) {
-  var targetElem = document.querySelector(selector);
-  targetElem.innerHTML = html;
-};
+// Function that shows 'loading' gif
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
   html += "<img src='images/ajax-loader.gif'></div>";
   insertHtml(selector, html);
+};
+
+// Main page content snippets
+var homeHtmlUrl = "snippets/home-snippet.html";
+var MisasHtmlUrl = "snippets/misas-snippet.html";
+var HomiliasHtmlUrl = "snippets/homilias-snippet.html";
+
+// Function that inserts content at html element
+var insertHtml = function (selector, html) {
+  var targetElem = document.querySelector(selector);
+  targetElem.innerHTML = html;
 };
 
 // First main page content loading
@@ -35,6 +39,27 @@ $(function () {
     }
   });
 });
+
+var homilias = {
+  "actuales":
+  [
+    {
+      "tiempo": "Pascual",
+      "descripcion": "Domingo XI",
+      "fecha" : "08/07/2018",
+      "audio" : "media/homilias/Domingo XI Tiempo Ordinario 2018.mp3"
+    },
+    {
+      "tiempo": "Ordinario",
+      "descripcion": "Domingo X",
+      "fecha" : "01/07/2018",
+      "audio" : "media/homilias/Domingo X Tiempo Ordinario 2018.mp3"
+    }
+  ],
+  "historicas":
+  [
+  ]
+};
 
 // AngularJS code
 angular.module('SanEduardoApp', [])
@@ -75,7 +100,8 @@ function menuController() {
         $("#collapsable-nav").collapse('hide');
       },
       false);
-  };
+};
+
 }
 
 })();

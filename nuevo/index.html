@@ -5,15 +5,24 @@
 	<meta charset="utf-8">
 	<title>Parroquia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/material-icons.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-</head>
-<body>
 
-	<header ng-controller="MenuController as menu">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/material-icons.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/ajax-utils.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+
+<body ng-controller="MenuController as menu">
+
+	<header>
 		<nav id="header-nav" class="navbar navbar-default">
 		  <div class="container">
 		    <div class="navbar-header">
@@ -58,8 +67,21 @@
 		</nav><!-- #header-nav -->
 	</header>
 
-	<div id="main-content">
-   	</div>
+	<div id="main-content"></div>
+	<!-- <div>
+  	<h3 align="center">Audio de Homilías</h3>
+		<div align="middle" class="container">
+			<div class="row" ng-repeat="homilia in menu.homilias.actuales">
+				<a target="_self" href="{{ homilia.audio }}">
+					<div class="col-md-4 homilia-detalle" align="right">{{ homilia.descripcion }} - Tiempo {{ homilia.tiempo }}</div>
+					<div class="col-md-4 homilia-detalle" align="left">
+						( {{ homilia.fecha}})
+						<img title="" valign="middle" height="25px" alt="" width="25px" src="images/audios.jpg" />
+					</div>
+				</a>
+		</div>
+		<div>&nbsp;</div>
+</div> -->
 
 	<footer class="panel-footer">
 		<div class="container">
@@ -89,12 +111,6 @@
 		  </div>
 		</div>
 	</footer>
-
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/ajax-utils.js"></script>
-	<script src="js/angular.min.js"></script>
-	<script src="js/app.js"></script>
 
 </body>
 </html>
