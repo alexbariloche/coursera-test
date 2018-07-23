@@ -1,0 +1,22 @@
+<div class="loader">
+  <div class="container">
+    <div class="row">
+      <h3 align="center">Narrowed Menu Choices</h3>
+    </div>
+    <div class="row" ng-repeat="item in foundItems">
+      <div class="col-lg-3">
+        Name
+      </div>
+      <div class="col-lg-1">
+        Short Name
+      </div>
+      <div class="col-lg-6">
+        Description
+      </div>
+      <div class="col-lg-2">
+        <button type="button" name="button" ng-click="OnRemove({index: $index});">Remove</button>
+      </div>
+    </div>
+
+  </div>
+</div>
