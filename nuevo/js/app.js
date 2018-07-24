@@ -63,45 +63,41 @@ var homilias = {
 
 // AngularJS code
 angular.module('SanEduardoApp', [])
-.controller('MenuController', menuController);
+  .controller('MenuController', menuController)
+  .service('MenuService', menuService);
 
-menuController.$inject = [];
-function menuController() {
-  var menu = this;
+menuController.$inject = ['MenuService'];
+function menuController( menuService) {
+  var menuCtrl = this;
 
-  menu.Misas = function () {
-    showLoading("#main-content");
-    $ajaxUtils.sendGetRequest(
-      MisasHtmlUrl,
-      function (homeHtml) {
-        insertHtml("#main-content", homeHtml);
-        $("#collapsable-nav").collapse('hide');
-      },
-      false);
+  menuCtrl.Inicio = function () {
+    menuService.GetMainContent(homeHtmlUrl);
   };
 
-  menu.Homilias = function () {
-    showLoading("#main-content");
-    $ajaxUtils.sendGetRequest(
-      HomiliasHtmlUrl,
-      function (homeHtml) {
-        insertHtml("#main-content", homeHtml);
-        $("#collapsable-nav").collapse('hide');
-      },
-      false);
+  menuCtrl.Misas = function () {
+    menuService.GetMainContent(MisasHtmlUrl);
   };
 
-  menu.Inicio = function () {
-    showLoading("#main-content");
-    $ajaxUtils.sendGetRequest(
-      homeHtmlUrl,
-      function (homeHtml) {
-        insertHtml("#main-content", homeHtml);
-        $("#collapsable-nav").collapse('hide');
-      },
-      false);
-};
+  menuCtrl.Homilias = function () {
+    menuService.GetMainContent(HomiliasHtmlUrl);
+  };
+  
+}
 
+menuService.$inject = [ '$http'];
+function menuService( $http) {
+  var menuSrvc = this;
+
+  menuSrvc.GetMainContent = function (url) {
+    showLoading("#main-content");
+    return $http({
+      method: 'GET',
+      url: url
+    }).then( function (response) {
+      insertHtml("#main-content", response.data);
+      $("#collapsable-nav").collapse('hide');
+    });
+  };
 }
 
 })();
