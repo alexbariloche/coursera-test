@@ -23,6 +23,11 @@ function narrowItDownController(menuSearchService) {
       console.log(error);
     });
   };
+
+  narrower.removeItem = function (index) {
+    narrower.found.splice(index,1);
+  };
+
 };
 
 // Service
@@ -30,6 +35,8 @@ menuSearchService.$inject = ['$http', 'ApiBasePath'];
 function menuSearchService($http, ApiBasePath) {
   var searcher = this;
 
+  // Get menu items that match the search searchTerm
+  // ** note: case of text is ignored (Veal will get VEAL, Veal, and veal)**
   searcher.getMatchedMenuItems = function (searchTerm) {
     var promise = $http({
       method: "GET",
@@ -37,10 +44,13 @@ function menuSearchService($http, ApiBasePath) {
     });
     return promise.then(function (menuItems) {
       var items = [];
-      for (var item in menuItems.data.menu_items) {
-        var itemDesc = menuItems.data.menu_items[item].description;
-        if ( itemDesc.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) {
-          items.push(menuItems.data.menu_items[item]);
+      if ((searchTerm !== undefined) && (searchTerm !== "") &&
+          (menuItems !== undefined) && (menuItems.data.menu_items.length > 0)) {
+        for (var item in menuItems.data.menu_items) {
+          var itemDesc = menuItems.data.menu_items[item].description;
+          if ( itemDesc.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) {
+            items.push(menuItems.data.menu_items[item]);
+          }
         }
       }
       return items;
@@ -55,7 +65,8 @@ function foundItemsDirective() {
   var ddo = {
     templateUrl: 'found-items.html',
     scope: {
-      foundItems: '<',
+      items: '<',
+      choicesCount: '@',
       onRemove: '&'
     }
   };

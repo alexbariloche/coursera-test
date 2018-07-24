@@ -1,22 +1,19 @@
+<h5 style="margin-left: 20px;">{{ choicesCount}}</h5>
 <div class="loader">
   <div class="container">
-    <div class="row">
-      <h3 align="center">Narrowed Menu Choices</h3>
-    </div>
-    <div class="row" ng-repeat="item in foundItems">
+    <div class="row" ng-repeat="item in items">
       <div class="col-lg-3">
-        Name
+        {{ item.name }} ({{ item.short_name}})
       </div>
-      <div class="col-lg-1">
-        Short Name
-      </div>
-      <div class="col-lg-6">
-        Description
+      <div class="col-lg-7">
+        {{ item.description}}
       </div>
       <div class="col-lg-2">
-        <button type="button" name="button" ng-click="OnRemove({index: $index});">Remove</button>
+        <button type="button" name="button" ng-click="onRemove({index: $index});">Don't want this one!</button>
       </div>
     </div>
-
+  </div>
+  <div class="empty">
+    Nothing found
   </div>
 </div>

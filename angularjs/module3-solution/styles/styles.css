@@ -1,14 +1,17 @@
 h1 {
   margin-bottom: 30px;
 }
-h3 {
-  margin-top: 0px;
+h5 {
+  float: left;
 }
 .row {
   width: 100%;
+  border-bottom: solid black 1px;
+  padding-top: 15px;
 }
 .row > div {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  height: 45px;
 }
 input[type="text"] {
   width: 200px;
