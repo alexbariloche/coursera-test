@@ -13,11 +13,15 @@ narrowItDownController.$inject = ['MenuSearchService'];
 function narrowItDownController(menuSearchService) {
   var narrower = this;
   narrower.found = [];
+  narrower.emptyMessage = "Enter a search term";
 
   narrower.getMatchedMenuItems = function () {
     var promise = menuSearchService.getMatchedMenuItems(narrower.searchTerm);
     promise.then(function (itemsMatched) {
       narrower.found = itemsMatched;
+      if (narrower.found.length === 0) {
+        narrower.emptyMessage = "Nothing Found";
+      }
     })
     .catch(function (error) {
       console.log(error);
@@ -26,6 +30,9 @@ function narrowItDownController(menuSearchService) {
 
   narrower.removeItem = function (index) {
     narrower.found.splice(index,1);
+    if (narrower.found.length === 0) {
+      narrower.emptyMessage = "All Menu choices removed";
+    }
   };
 
 };
@@ -36,7 +43,7 @@ function menuSearchService($http, ApiBasePath) {
   var searcher = this;
 
   // Get menu items that match the search searchTerm
-  // ** note: case of text is ignored (Veal will get VEAL, Veal, and veal)**
+  // ** note: the case of text is ignored => "Veal" will get VEAL, Veal, veal, etc**
   searcher.getMatchedMenuItems = function (searchTerm) {
     var promise = $http({
       method: "GET",
@@ -66,11 +73,21 @@ function foundItemsDirective() {
     templateUrl: 'found-items.html',
     scope: {
       items: '<',
-      choicesCount: '@',
+      emptyMessage: '<',
       onRemove: '&'
-    }
+    },
+    controller: FoundItemsDirectiveController,
+    controllerAs: 'found',
+    bindToController: true
   };
   return ddo;
 };
 
+function FoundItemsDirectiveController() {
+  var found = this;
+
+  found.emptyList = function () {
+    return ((found.items === undefined) ||(found.items.length === 0));
+  }
+}
 })();
