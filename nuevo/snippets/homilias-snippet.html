@@ -1,12 +1,13 @@
 <h3 align="center">Audio de Homilías</h3>
 <div align="middle" class="container">
-	<div class="row" ng-repeat="homilia in menu.homilias.actuales">
-		<a target="_self" href="{{ homilia.audio }}">
-			<div class="col-md-4 homilia-detalle" align="right">{{ homilia.descripcion }} - Tiempo {{ homilia.tiempo }}</div>
-			<div class="col-md-4 homilia-detalle" align="left">
-				( {{ homilia.fecha}})
-				<img title="" valign="middle" height="25px" alt="" width="25px" src="images/audios.jpg" />
-			</div>
-		</a>
+	<div class="row" ng-repeat="homilia in homilias.list.dominicales">
+		<div class="col-md-8 homilia-detalle" align="right">
+			{{ homilia.descripcion }} - Tiempo {{ homilia.tiempo }} ({{ homilia.fecha}})
+		</div>
+		<div class="col-md-4 homilia-detalle" align="left">
+			<a target="_blank" href="{{ homilia.audio }}">
+					<img title="" valign="middle" height="25px" alt="" width="25px" alt="Escuchar" src="images/audios.jpg" />
+			</a>
+		</div>
 </div>
 <div>&nbsp;</div>

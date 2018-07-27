@@ -66,21 +66,10 @@
 		</nav><!-- #header-nav -->
 	</header>
 
-	<div id="main-content"></div>
-	<!-- <div>
-  	<h3 align="center">Audio de Homilías</h3>
-		<div align="middle" class="container">
-			<div class="row" ng-repeat="homilia in menuCtrl.homilias.actuales">
-				<a target="_self" href="{{ homilia.audio }}">
-					<div class="col-md-4 homilia-detalle" align="right">{{ homilia.descripcion }} - Tiempo {{ homilia.tiempo }}</div>
-					<div class="col-md-4 homilia-detalle" align="left">
-						( {{ homilia.fecha}})
-						<img title="" valign="middle" height="25px" alt="" width="25px" src="images/audios.jpg" />
-					</div>
-				</a>
-		</div>
-		<div>&nbsp;</div>
-</div> -->
+	<!-- Main content -->
+	<main-content id="main-content" ng-if="menuCtrl.inicio"></main-content>
+	<homilias-content ng-if="menuCtrl.homilias"></homilias-content>
+	<misas-content ng-if="menuCtrl.misas"></misas-content>
 
 	<footer class="panel-footer">
 		<div class="container">
