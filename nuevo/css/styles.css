@@ -66,6 +66,12 @@ body {
   border: none;
 }
 
+.misas-title {
+  font-size: 1.1em;
+  font-style: oblique;
+  border-bottom: 1px black solid;
+}
+
 .row {
   width: 100%;
   align-content: center;
@@ -91,8 +97,12 @@ footer section {
   color: #CCC;
 }
 
-hr {
+section hr {
   border-top: 1px solid #666;
+}
+
+.misas-detail > hr {
+  border-bottom: 1px solid black;
 }
 
 #horarios p {
@@ -132,7 +142,16 @@ section p {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  section {
+  section  {
+    text-align: center;
+  }
+  .misas_detail #horario {
+    text-align: center;
+  }
+  .misas_detail #capilla {
+    text-align: center;
+  }
+  .misas_detail #padre {
     text-align: center;
   }
   .jumbotron img {
@@ -150,6 +169,15 @@ section p {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   section {
+    text-align: center;
+  }
+  .misas_detail #horario {
+    text-align: center;
+  }
+  .misas_detail #capilla {
+    text-align: center;
+  }
+  .misas_detail #padre {
     text-align: center;
   }
   .jumbotron img {

@@ -1,45 +1,59 @@
 {
 	"semanales":
 	{
-		"desde": "Abril",
-		"hasta": "Octubre 2018",
-		"diaria":
+		"intervalo": "Abril a Octubre de 2018",
+		"tipos":
 		[
 			{
-				"capilla": "San Eduardo",
-				"hora": "11:00",
-				"sacerdote": "Gustavo"
+				"descripcion": "Sabado",
+				"dias": "Sábados",
+				"misas":
+				[
+					{
+						"capilla": "San Eduardo",
+						"hora": "12:00",
+						"sacerdote": "Gustavo"
+					},
+					{
+						"capilla": "NS de Lujan",
+						"hora": "12:15",
+						"sacerdote": "Eduardo"
+					}
+				]
 			},
 			{
-				"capilla": "Carmelitas",
-				"hora": "19:00",
-				"sacerdote": "Eduardo"
-			}
-		],
-		"sabado":
-		[
-			{
-				"capilla": "San Eduardo",
-				"hora": "12:00",
-				"sacerdote": "Gustavo"
+				"descripcion": "Dominical",
+				"dias": "Domingos",
+				"misas":
+				[
+					{
+						"capilla": "San Eduardo",
+						"hora": "12:00",
+						"sacerdote": "Gustavo"
+					},
+					{
+						"capilla": "NS de Lujan",
+						"hora": "12:15",
+						"sacerdote": "Eduardo"
+					}
+				]
 			},
 			{
-				"capilla": "NS de Lujan",
-				"hora": "12:15",
-				"sacerdote": "Eduardo"
-			}
-		],
-		"domingo":
-		[
-			{
-				"capilla": "San Eduardo",
-				"hora": "12:00",
-				"sacerdote": "Gustavo"
-			},
-			{
-				"capilla": "NS de Lujan",
-				"hora": "12:15",
-				"sacerdote": "Eduardo"
+				"descripcion": "Diaria",
+				"dias": "Lunes a Viernes",
+				"misas":
+				[
+					{
+						"capilla": "San Eduardo",
+						"hora": "11:00",
+						"sacerdote": "Gustavo"
+					},
+					{
+						"capilla": "Carmelitas",
+						"hora": "19:00",
+						"sacerdote": "Eduardo"
+					}
+				]
 			}
 		]
 	},
