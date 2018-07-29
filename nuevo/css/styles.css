@@ -2,15 +2,11 @@ body {
   font-size: 16px;
   color: #000;
   background-color: #f2d98c;
-  /* full sat: #ffdf80; */
-  /* 80% sat: #f2d98c; */
   font-family: 'Lora', sans-serif;
 }
 
 #header-nav {
   background-color: #e6b319;
-  /* full sat: #ffbf00; */
-  /* 80% sat: #e6b319; */
   border: none;
   border-radius: 0;
 }
@@ -72,6 +68,16 @@ body {
   border-bottom: 1px black solid;
 }
 
+#misas-tipo {
+  padding-top: 5px;
+}
+
+.homilia-detalle a:hover, #contacto a:focus {
+    color: ##333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .row {
   width: 100%;
   align-content: center;
@@ -101,12 +107,13 @@ section hr {
   border-top: 1px solid #666;
 }
 
-.misas-detail > hr {
-  border-bottom: 1px solid black;
+#horario hr {
+  border-top: 1px solid black;
 }
 
 #horarios p {
-  line-height: 2.2;
+  margin-top: 9px;
+  line-height: 1.9;
 }
 
 section {
@@ -145,15 +152,6 @@ section p {
   section  {
     text-align: center;
   }
-  .misas_detail #horario {
-    text-align: center;
-  }
-  .misas_detail #capilla {
-    text-align: center;
-  }
-  .misas_detail #padre {
-    text-align: center;
-  }
   .jumbotron img {
     width: 680px;
   }
@@ -162,22 +160,9 @@ section p {
   }
 }
 
-.homilia-detalle {
-  padding: 0 5px;
-}
-
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   section {
-    text-align: center;
-  }
-  .misas_detail #horario {
-    text-align: center;
-  }
-  .misas_detail #capilla {
-    text-align: center;
-  }
-  .misas_detail #padre {
     text-align: center;
   }
   .jumbotron img {
@@ -198,10 +183,13 @@ section p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 455px) {
   .navbar-brand h1 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-top: -2px;
   }
   #contacto #email {
     margin-left: -20px;
+  }
+  .homilia-detalle {
+    font-size: 0.9em;
   }
 }

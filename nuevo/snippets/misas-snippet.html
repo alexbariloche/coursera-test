@@ -13,18 +13,20 @@
 			Padre
 		</div>
 	</div>
-	<div class="row" ng-repeat="misaTipo in misas.list.semanales.tipos">
-		<div class="misas-detail" ng-repeat="misa in misaTipo.misas">
+	<div id="misas-tipo" ng-repeat="misaTipo in misas.list.semanales.tipos">
+		<div class="row misas-detail" ng-repeat="misa in misaTipo.misas">
 			<div id="horario" class="col-md-4 col-sm-12">
+				<hr class="visible-sm visible-xs">
 				{{misaTipo.dias}} a las {{ misa.hora }} hs
 			</div>
 			<div id="capilla" class="col-md-4 col-sm-12">
+				<span class="visible-sm visible-xs">Capilla</span>
 				{{ misa.capilla }}
 			</div>
 			<div id="padre" class="col-md-4 col-sm-12">
+				<span class="visible-sm visible-xs">Padre</span>
 				{{ misa.sacerdote}}
 			</div>
-			<hr class="visible-md visible-sm visible-xs">
 		</div>
 	</div>
 </div>
