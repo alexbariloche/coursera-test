@@ -185,13 +185,10 @@ section p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 455px) {
   .navbar-brand h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: -2px;
   }
   #contacto #email {
     margin-left: -20px;
   }
-   #homilia-detalle {
-    font-size: 0.9em;
-  } 
 }
