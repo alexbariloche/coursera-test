@@ -130,6 +130,7 @@ section p {
 
 #contacto a {
     color: #CCC;
+    text-decoration: none;
 }
 
 #contacto a:hover, #contacto a:focus {
@@ -192,5 +193,9 @@ section p {
   }
   #contacto #email {
     margin-left: -20px;
+  }
+  #contacto a {
+      color: #CCC;
+      text-decoration: underline;
   }
 }
