@@ -9,6 +9,8 @@ body {
   background-color: #e6b319;
   border: none;
   border-radius: 0;
+  height: 80px;
+  padding-top: 20px;
 }
 
 .navbar-brand h1 {
@@ -72,7 +74,7 @@ body {
   padding-top: 5px;
 }
 
-.homilia-detalle a:hover, #contacto a:focus {
+#homilia-tiempo a:hover, #contacto a:focus {
     color: ##333;
     font-weight: bold;
     text-decoration: none;
@@ -107,7 +109,7 @@ section hr {
   border-top: 1px solid #666;
 }
 
-#horario hr {
+#horario hr, #homilia-tiempo hr {
   border-top: 1px solid black;
 }
 
@@ -189,7 +191,7 @@ section p {
   #contacto #email {
     margin-left: -20px;
   }
-  .homilia-detalle {
+  /* #homilia-detalle {
     font-size: 0.9em;
-  }
+  } */
 }
