@@ -188,7 +188,7 @@ section p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 455px) {
   .navbar-brand h1 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: -2px;
   }
   #contacto #email {
@@ -198,4 +198,7 @@ section p {
       color: #CCC;
       text-decoration: underline;
   }
+  /* #header-nav {
+    min-width: 370px;
+  } */
 }
