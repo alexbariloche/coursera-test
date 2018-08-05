@@ -9,8 +9,6 @@ body {
   background-color: #e6b319;
   border: none;
   border-radius: 0;
-  height: 80px;
-  padding-top: 20px;
 }
 
 .navbar-brand h1 {
@@ -21,9 +19,13 @@ body {
 
 #collapsable-nav {
   border: 0px;
-  padding: 0;
+  padding-top: 20px;
 }
 
+.navbar-header {
+  height: 80px;
+  padding-top: 20px;
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #222;
 }
@@ -185,7 +187,7 @@ section p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 455px) {
   .navbar-brand h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: -2px;
   }
   #contacto #email {
