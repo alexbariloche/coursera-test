@@ -19,7 +19,7 @@ function RoutesConfig ($stateProvider, $urlRouterProvider) {
       controller: 'CategoriesController as catsList',
       resolve: {
         allCats: ['MenuDataService', function (MenuDataService) {
-          return MenuDataService.getAllCategories();
+            return MenuDataService.getAllCategories();
         }]
       }
     })
@@ -30,7 +30,7 @@ function RoutesConfig ($stateProvider, $urlRouterProvider) {
       resolve: {
         allItems: ['$stateParams', 'MenuDataService',
           function ($stateParams, MenuDataService) {
-          return MenuDataService.getItemsForCategory($stateParams.catId);
+            return MenuDataService.getItemsForCategory($stateParams.catId);
         }]
       }
     });

@@ -17,6 +17,7 @@ ItemsController.$inject = ['allItems'];
 function ItemsController(allItems) {
   var ic = this;
   ic.items = allItems.data.menu_items;
+  ic.category = allItems.data.category;
 };
 
 })();
