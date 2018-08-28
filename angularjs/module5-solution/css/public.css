@@ -37,11 +37,11 @@
 }
 
 fieldset > form {
-  text-align: center;
+  /* text-align: center; */
 }
 
 fieldset > form > div {
-  text-align: center;
+  /* text-align: center; */
 }
 
 form > input {
@@ -56,6 +56,10 @@ form > input {
 
 form > button {
   color: black;
+  margin-left: 200px;
+  border: solid black 2px;
+  border-radius: 10px;
+  font-size: 1.1em;
 }
 
 .ng-touched.ng-valid {

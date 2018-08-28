@@ -3,21 +3,36 @@
 angular.module('public')
 .controller('RegistrationController', RegistrationController);
 
-RegistrationController.$inject = [ 'MyInfoService']
-function RegistrationController(MyInfoService) {
+RegistrationController.$inject = [ 'MenuService']
+function RegistrationController(MenuService) {
   var reg = this;
 
+  reg.favMenuError = false;
   reg.completed = false;
+
   reg.user = {
     firstName: "",
     lastName: "",
     email: "",
-    phone: ""
+    phone: "",
+    favMenu: ""
   };
 
   reg.submit = function () {
-    reg.completed = true;
-    MyInfoService.setMyInfo(reg.user);
+    var menuCheck = MenuService.getMenuItem(reg.user.favMenu);
+
+    menuCheck.then (
+      function (response) {
+        reg.favMenuError = false;
+        reg.completed = true;
+        MenuService.setMyInfo(reg.user);
+      },
+      function (response) {
+        reg.completed = false;
+        reg.favMenuError = true;
+      }
+    );
+
   };
 }
 

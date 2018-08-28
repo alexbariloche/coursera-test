@@ -27,8 +27,8 @@ function routeConfig ($stateProvider) {
       controller: 'MyInfoController',
       controllerAs: 'inf',
       resolve: {
-        user: ['MyInfoService', function (MyInfoService) {
-          return MyInfoService.getMyInfo();
+        user: ['MenuService', function (MenuService) {
+          return MenuService.getMyInfo();
         }]
       }
     })
