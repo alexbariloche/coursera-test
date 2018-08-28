@@ -55,15 +55,6 @@ fieldset > form > input {
   padding: 0 5px;
 }
 
-fieldset > form > div {
-  text-align: center;
-}
-
-.favMenu {
-  width: 50px;
-  margin-left: 20px;
-}
-
 fieldset > form > button {
   color: black;
   width: 80px;
@@ -85,17 +76,15 @@ fieldset > form > button {
   border-radius: 5px;
 }
 
-.msg {
-  text-align: center;
-}
-
-.msg span {
-  width: 450px;
+fieldset > form > div {
+  margin-top: 25px;
+  padding: 10px 0;
+  width: 300px;
   color: black;
   background-color: #f6b319;
   border: solid 1px #333;
   border-radius: 5px;
-  margin-top: 15px;
+  padding: 2px 2px;
 }
 
 /* END SIGN IN PAGE */

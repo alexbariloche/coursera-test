@@ -1,16 +1,18 @@
 <div class="container">
   <h2 id="menu-categories-title">My Info</h2>
 
-  <div id="info" ng-if="!inf.user.registeredUser">
-    Not Signed Up Yet.
-    <button ui-sref="public.signup">Sign up Now!</button>
-  </div>
-  <div id="info" ng-if="inf.user.registeredUser">
-    Username: {{ inf.user.userInfo.firstName}} {{ inf.user.userInfo.lastName}} <br>
-    Email: {{ inf.user.userInfo.email}} <br>
-    Phone: {{ inf.user.userInfo.phone }} <br>
-    Fav Menu: {{ inf.user.userInfo.favMenu }} <br>
-    <div>
+  <div class="row">
+    <div id="info" ng-if="!inf.user.registeredUser">
+      Not Signed Up Yet.
+      <button ui-sref="public.signup">Sign up Now!</button>
+    </div>
+    <div id="info" ng-if="inf.user.registeredUser">
+      Username: {{ inf.user.userInfo.firstName}} {{ inf.user.userInfo.lastName}} <br>
+      Email: {{ inf.user.userInfo.email}} <br>
+      Phone: {{ inf.user.userInfo.phone }} <br>
+      <hr>
+      Favorite Menu: {{ inf.user.userInfo.favMenu }} <br>
       <menu-item menu-item="inf.user.userInfo.menuItem"></menu-item>
     </div>
   </div>
+</div>

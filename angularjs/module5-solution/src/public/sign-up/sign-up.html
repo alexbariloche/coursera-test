@@ -28,42 +28,41 @@
         pattern="(\d{3})-(\d{3})-(\d{4})">
         <br>
 
-      <div>Menu ID of favorite dish
-        <input type="text" name="favMenu" class="favMenu" placeholder="ID"
-            ng-model="reg.user.favMenu"
-            required>
-          <br>
-      </div>
+      <input type="text" name="favMenu"placeholder="ID of favorite dish"
+          ng-model="reg.user.favMenu"
+          required>
+        <br>
 
       <button
         ng-disabled="regForm.$invalid"
         ng-click="reg.submit()">Submit</button>
 
-      <div>
-        <div class="msg">
-        <span
-          ng-if="(regForm.firstName.$error.minlength || regForm.firstName.$error.required) && regForm.firstName.$touched">
-          First Name must be at least 4 characters long<br>
-        </span>
-        <span
-          ng-if="(regForm.lastName.$error.minlength || regForm.lastName.$error.required) && regForm.lastName.$touched">
-          Last Name must be at least 4 characters long<br>
-        </span>
-        <span ng-if="regForm.lastName.$error.maxlength && regForm.lastName.$touched">
-          Last Name must not be longer than 15 characters<br>
-        </span>
-        <span ng-if="regForm.email.$invalid && regForm.email.$touched">
-          Must be a valid email address: handle@domain format<br>
-        </span>
-        <span ng-if="regForm.phone.$invalid && regForm.phone.$touched">
-          Phone must be in the format ###-###-####.<br>
-        </span>
-        <span ng-if="reg.favMenuError">No such menu exists<br></span>
-        <span ng-if="!reg.completed">Please complete your Info<br></span>
-        <span ng-if="reg.completed">Your information has been saved<br></span>
-
+      <div class="msg"
+        ng-if="(regForm.firstName.$error.minlength || regForm.firstName.$error.required) && regForm.firstName.$touched">
+        First Name must be at least 4 characters long<br>
       </div>
+      <div class="msg"
+        ng-if="(regForm.lastName.$error.minlength || regForm.lastName.$error.required) && regForm.lastName.$touched">
+        Last Name must be at least 4 characters long<br>
       </div>
+      <div class="msg"
+        ng-if="regForm.lastName.$error.maxlength && regForm.lastName.$touched">
+        Last Name must not be longer than 15 characters<br>
+      </div>
+      <div class="msg"
+        ng-if="regForm.email.$invalid && regForm.email.$touched">
+        Must be a valid email address: handle@domain format<br>
+      </div>
+      <div class="msg"
+        ng-if="regForm.phone.$invalid && regForm.phone.$touched">
+        Phone must be in the format ###-###-####.<br>
+      </div>
+      <div class="msg"
+        ng-if="reg.favMenuError">No such menu exists<br></div>
+      <div class="msg"
+        ng-if="!reg.completed">Please complete your Info<br></div>
+      <div class="msg"
+        ng-if="reg.completed">Your information has been saved<br></div>
     </form>
 
   </fieldset>
