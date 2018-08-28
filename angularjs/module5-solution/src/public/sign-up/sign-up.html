@@ -41,10 +41,10 @@
 
       <div>
         <div class="msg">
-        <scan
+        <span
           ng-if="(regForm.firstName.$error.minlength || regForm.firstName.$error.required) && regForm.firstName.$touched">
           First Name must be at least 4 characters long<br>
-        </scan>
+        </span>
         <span
           ng-if="(regForm.lastName.$error.minlength || regForm.lastName.$error.required) && regForm.lastName.$touched">
           Last Name must be at least 4 characters long<br>
@@ -59,7 +59,7 @@
           Phone must be in the format ###-###-####.<br>
         </span>
         <span ng-if="reg.favMenuError">No such menu exists<br></span>
-        <scan ng-if="!reg.completed">Please complete your Info<br></scan>
+        <span ng-if="!reg.completed">Please complete your Info<br></span>
         <span ng-if="reg.completed">Your information has been saved<br></span>
 
       </div>
