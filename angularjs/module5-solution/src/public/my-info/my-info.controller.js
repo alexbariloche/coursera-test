@@ -5,8 +5,9 @@ angular.module('public')
 
 MyInfoController.$inject = ['user'];
 function MyInfoController(user) {
-  var $ctrl = this;
-  $ctrl.user = user;
+  var inf = this;
+
+  inf.user = user;
 }
 
 })();

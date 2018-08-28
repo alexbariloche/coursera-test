@@ -37,14 +37,11 @@
 }
 
 fieldset > form {
-  /* text-align: center; */
+  text-align: center;
+  margin-top: 25px;
 }
 
-fieldset > form > div {
-  /* text-align: center; */
-}
-
-form > input {
+fieldset > form > input {
   color: black;
   width: 300px;
   margin-bottom: 15px;
@@ -54,36 +51,59 @@ form > input {
   padding: 0 5px;
 }
 
-form > button {
+fieldset > form > div {
+  text-align: center;
+}
+
+.favMenu {
+  width: 50px;
+  margin-left: 20px;
+}
+
+fieldset > form > button {
   color: black;
-  margin-left: 200px;
+  width: 80px;
+  height: 40px;
+  background-color: #999;
+  margin-top: 10px;
+  margin-left: 220px;
   border: solid black 2px;
-  border-radius: 10px;
-  font-size: 1.1em;
+  border-radius: 5px;
 }
 
 .ng-touched.ng-valid {
   border: 2px green solid;
   border-radius: 5px;
-
 }
 
 .ng-touched.ng-invalid {
   border: 2px red solid;
   border-radius: 5px;
-
 }
 
-form > div.msg {
+fieldset > form > div.msg {
   text-align: center;
+  width: 300px;
   color: black;
   background-color: #f6b319;
   border: solid 1px #333;
   border-radius: 5px;
   margin-top: 15px;
-  width: 450px;
 }
 
+#info {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#info button {
+  color: black;
+  border: solid black 2px;
+  border-radius: 5px;
+  width: 160px;
+  background-color: #999;
+  margin-left: 25px;
+}
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
@@ -109,6 +129,10 @@ form > div.msg {
 }
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title {
+  text-align: center;
 }
 
 #menu-categories-title + div {

@@ -1,5 +1,5 @@
 <div class="container">
-  <h2 id="menu-categories-title" class="text-center">Sign Up</h2>
+  <h2 id="menu-categories-title">Sign Up</h2>
 
   <fieldset>
 
@@ -11,12 +11,12 @@
         minlength="4">
         <br>
 
-        <input type="text" name="lastName" placeholder="Last Name"
-          ng-model="reg.user.lastName"
-          required
-          minlength="4"
-          ng-maxlength="15">
-          <br>
+      <input type="text" name="lastName" placeholder="Last Name"
+        ng-model="reg.user.lastName"
+        required
+        minlength="4"
+        ng-maxlength="15">
+        <br>
 
       <input type="email" name="email" placeholder="Email"
         ng-model="reg.user.email"
@@ -28,20 +28,23 @@
         pattern="(\d{3})-(\d{3})-(\d{4})">
         <br>
 
-        <input type="text" name="favMenu" placeholder="Favorite dish (Menu Id)"
-          ng-model="reg.user.favMenu"
-          required>
-        <br>
+      <div>Menu ID of favorite dish
+        <input type="text" name="favMenu" class="favMenu" placeholder="ID"
+            ng-model="reg.user.favMenu"
+            required>
+          <br>
+      </div>
 
       <button
         ng-disabled="regForm.$invalid"
         ng-click="reg.submit()">Submit</button>
 
-      <div class="msg">
-        <span
+      <div>
+        <div class="msg">
+        <scan
           ng-if="(regForm.firstName.$error.minlength || regForm.firstName.$error.required) && regForm.firstName.$touched">
           First Name must be at least 4 characters long<br>
-        </span>
+        </scan>
         <span
           ng-if="(regForm.lastName.$error.minlength || regForm.lastName.$error.required) && regForm.lastName.$touched">
           Last Name must be at least 4 characters long<br>
@@ -56,10 +59,11 @@
           Phone must be in the format ###-###-####.<br>
         </span>
         <span ng-if="reg.favMenuError">No such menu exists<br></span>
-        <span ng-if="!reg.completed">Enter your Info<br></span>
+        <scan ng-if="!reg.completed">Please complete your Info<br></scan>
         <span ng-if="reg.completed">Your information has been saved<br></span>
-      </div>
 
+      </div>
+      </div>
     </form>
 
   </fieldset>

@@ -15,7 +15,8 @@ function RegistrationController(MenuService) {
     lastName: "",
     email: "",
     phone: "",
-    favMenu: ""
+    favMenu: "",
+    menuItem: {}
   };
 
   reg.submit = function () {
@@ -25,11 +26,13 @@ function RegistrationController(MenuService) {
       function (response) {
         reg.favMenuError = false;
         reg.completed = true;
+        reg.user.menuItem = response.data;
         MenuService.setMyInfo(reg.user);
       },
       function (response) {
         reg.completed = false;
         reg.favMenuError = true;
+        MenuService.resetMyInfo();
       }
     );
 

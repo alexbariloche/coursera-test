@@ -10,27 +10,35 @@ function MenuService($http, ApiPath) {
   var service = this;
 
   service.user = {
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    favMenu: ""
+    registeredUser: false,
+    userInfo: {
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      favMenu: "",
+      menuItem: {}
+    }
   };
 
   service.setMyInfo = function (signUpUser) {
-    service.user = signUpUser;
+    service.user.registeredUser = true;
+    service.user.userInfo = signUpUser;
   };
 
   service.getMyInfo = function () {
     return service.user;
   };
 
+  service.resetMyInfo = function () {
+    service.user.registeredUser = false;
+  }
+
   service.getCategories = function () {
     return $http.get(ApiPath + '/categories.json').then(function (response) {
       return response.data;
     });
   };
-
 
   service.getMenuItems = function (category) {
     var config = {};
@@ -50,7 +58,5 @@ function MenuService($http, ApiPath) {
   };
 
 }
-
-
 
 })();
