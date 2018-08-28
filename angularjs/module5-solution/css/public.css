@@ -36,6 +36,10 @@
   opacity: .8;
 }
 
+/* END HOME PAGE */
+
+/* SIGN IN PAGE */
+
 fieldset > form {
   text-align: center;
   margin-top: 25px;
@@ -81,8 +85,11 @@ fieldset > form > button {
   border-radius: 5px;
 }
 
-fieldset > form > div.msg {
+.msg {
   text-align: center;
+}
+
+.msg span {
   width: 300px;
   color: black;
   background-color: #f6b319;
@@ -90,6 +97,10 @@ fieldset > form > div.msg {
   border-radius: 5px;
   margin-top: 15px;
 }
+
+/* END SIGN IN PAGE */
+
+/* MY INFO PAGE */
 
 #info {
   margin-top: 25px;
@@ -104,7 +115,8 @@ fieldset > form > div.msg {
   background-color: #999;
   margin-left: 25px;
 }
-/* END HOME PAGE */
+
+/* END MY INFO PAGE */
 
 /* MENU CATEGORIES PAGE */
 .category-tile {
