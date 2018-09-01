@@ -77,9 +77,8 @@ fieldset > form > button {
 }
 
 fieldset > form > div {
-  margin-top: 25px;
-  padding: 10px 0;
-  width: 300px;
+  text-align: center;
+  margin: 25px 15px 0;
   color: black;
   background-color: #f6b319;
   border: solid 1px #333;
