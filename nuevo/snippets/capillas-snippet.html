@@ -1,0 +1,19 @@
+<h2 align="center">Capillas</h2>
+
+<div id="capillas-content" align="middle" class="container">
+	<div class="row capillas-detail" ng-repeat="capilla in capillas.list.capillas">
+		<hr>
+		<dir class="row">
+			<div id="foto" class="col-md-4 col-sm-12" ng-repeat="foto in capilla.fotos">
+				<img src="images/{{foto.archivo}}" class="img-responsive" />
+			</div>
+		</dir>
+		<div id="nombre">
+			{{ capilla.nombre }}
+		</div>
+		<div id="direccion">
+			{{ capilla.direccion }}
+		</div>
+	</div>
+</div>
+<div>&nbsp;</div>

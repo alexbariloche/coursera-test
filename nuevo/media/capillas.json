@@ -1,0 +1,31 @@
+{
+	"capillas":
+	[
+		{
+			"nombre": "San Eduardo - Sede Parroquial, Secretaría",
+			"direccion": "Avenida Bustillo Km 25.5 - Llao Llao",
+			"fotos":
+			[
+				{
+					"archivo": "SanEduardo1_web.jpg"
+				},
+				{
+					"archivo": "SanEduardo2_web.jpg"
+				},
+				{
+					"archivo": "SanEduardo3_web.jpg"
+				}
+			]
+		},
+		{
+			"nombre": "Madre Teresa de Calcuta",
+			"direccion": "Avenida Bustillo Km 20",
+			"fotos":
+			[
+				{
+					"archivo": "TeresaCalcuta1_web.jpg"
+				}
+			]
+		}
+	]
+}
