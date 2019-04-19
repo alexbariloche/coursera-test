@@ -1,12 +1,12 @@
 body {
   font-size: 16px;
   color: #000;
-  background-color: #f2d98c;
+  background-color: #82E5E7;  /* #f2d98c; */
   font-family: 'Lora', sans-serif;
 }
 
 #header-nav {
-  background-color: #e6b319;
+  background-color: #82B2E7; /* #e6b319; */
   border: none;
   border-radius: 0;
 }
