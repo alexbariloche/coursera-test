@@ -44,10 +44,19 @@
 		          <a href="#" ng-click="menuCtrl.Inicio();">Inicio</a>
 		        </li>
 		        <li id="navMisas">
-		          <a href="#" ng-click="menuCtrl.Misas();" title="Horarios de Misas y Celebraciones">Horarios Misas</a>
+		          <a href="#" ng-click="menuCtrl.Misas();" title="Horarios de Misas y Celebraciones">Horarios</a>
 		        </li>
 		        <li id="navHomilias">
-		          <a href="#" ng-click="menuCtrl.Homilias();" title="Audio de homilías de Domingos y Fiestas">Homilías</a>
+		          <a href="#" ng-click="menuCtrl.Homilias();" title="Audio de Homilías de Domingos y Fiestas">Homilías</a>
+		        </li>
+		        <li id="navHomilias">
+		          <a href="#" ng-click="menuCtrl.Capillas();" title="Capillas de la Parroquia">Capillas</a>
+		        </li>
+		        <li id="navHomilias">
+		          <a href="#" ng-click="menuCtrl.Sacramentos();" title="Bautismos y Matrimonios">Sacramentos</a>
+		        </li>
+		        <li id="navHomilias">
+		          <a href="#" ng-click="menuCtrl.Economia();" title="Balances Económicos">Economía</a>
 		        </li>
 		      </ul><!-- #nav-list -->
 		    </div><!-- .collapse .navbar-collapse -->
@@ -57,8 +66,11 @@
 
 	<!-- Main content -->
 	<main-content id="main-content" ng-if="menuCtrl.inicio"></main-content>
-	<homilias-content ng-if="menuCtrl.homilias"></homilias-content>
 	<misas-content ng-if="menuCtrl.misas"></misas-content>
+	<homilias-content ng-if="menuCtrl.homilias"></homilias-content>
+	<capillas-content ng-if="menuCtrl.capillas"></capillas-content>
+	<sacramentos-content ng-if="menuCtrl.sacramentos"></sacramentos-content>
+	<economia-content ng-if="menuCtrl.economia"></economia-content>
 
 	<footer class="panel-footer">
 		<div class="container">

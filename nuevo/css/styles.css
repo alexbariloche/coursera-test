@@ -82,6 +82,10 @@ body {
     text-decoration: none;
 }
 
+#foto {
+  margin: 10px;
+}
+
 .row {
   width: 100%;
   align-content: center;

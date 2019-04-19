@@ -43,7 +43,11 @@ angular.module('SanEduardoApp', [])
   .service('MenuService', menuService)
   .directive('mainContent', mainContentDirective)
   .directive('misasContent', misasContentDirective)
-  .directive('homiliasContent', homiliasContentDirective);
+  .directive('homiliasContent', homiliasContentDirective)
+  .directive('capillasContent', capillasContentDirective)
+  .directive('sacramentosContent', sacramentosContentDirective)
+  .directive('economiaContent', economiaContentDirective)
+  ;
 
 // Main directive
 function mainContentDirective() {
@@ -103,6 +107,66 @@ function homiliasContentDirectiveController( $http) {
   });
 }
 
+// Capillas directive
+function capillasContentDirective() {
+  var ddo = {
+    templateUrl: "snippets/capillas-snippet.html",
+    controller: capillasContentDirectiveController,
+    controllerAs: 'capillas',
+    bindToController: true
+};
+  return ddo;
+}
+
+capillasContentDirectiveController.$inject = [ '$http'];
+function capillasContentDirectiveController( $http) {
+  var capillas = this;
+
+  // Get Json with Chapels
+  $http ({
+    method: 'GET',
+    url: 'media/capillas.json'
+  }).then( function (response) {
+    capillas.list = response.data;
+  }, function (error) {
+    console.log(error);
+  });
+}
+
+// Sacramentos directive
+function sacramentosContentDirective() {
+  var ddo = {
+    templateUrl: "snippets/sacramentos-snippet.html"
+  };
+  return ddo;
+}
+
+// Economia directive
+function economiaContentDirective() {
+  var ddo = {
+    templateUrl: "snippets/economia-snippet.html",
+    controller: economiaContentDirectiveController,
+    controllerAs: 'balances',
+    bindToController: true
+};
+  return ddo;
+}
+
+economiaContentDirectiveController.$inject = [ '$http'];
+function economiaContentDirectiveController( $http) {
+  var economia = this;
+
+  // Get Json with Balances
+  $http ({
+    method: 'GET',
+    url: 'media/balances.json'
+  }).then( function (response) {
+    misas.list = response.data;
+  }, function (error) {
+    console.log(error);
+  });
+}
+
 menuService.$inject = [ '$http'];
 function menuService( $http) {
   var menuSrvc = this;
@@ -126,23 +190,62 @@ function menuController( menuService) {
   menuCtrl.inicio = true;
   menuCtrl.homilias = false;
   menuCtrl.misas = false;
+  menuCtrl.capillas = false;
+  menuCtrl.sacramentos = false;
+  menuCtrl.economia = false;
 
   menuCtrl.Inicio = function () {
     menuCtrl.inicio = true;
     menuCtrl.homilias = false;
     menuCtrl.misas = false;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = false;
+    menuCtrl.economia = false;
   };
 
   menuCtrl.Misas = function () {
     menuCtrl.inicio = false;
     menuCtrl.homilias = false;
     menuCtrl.misas = true;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = false;
+    menuCtrl.economia = false;
   };
 
   menuCtrl.Homilias = function () {
     menuCtrl.inicio = false;
     menuCtrl.misas = false;
     menuCtrl.homilias = true;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = false;
+    menuCtrl.economia = false;
+  };
+
+  menuCtrl.Capillas = function () {
+    menuCtrl.inicio = false;
+    menuCtrl.misas = false;
+    menuCtrl.homilias = false;
+    menuCtrl.capillas = true;
+    menuCtrl.sacramentos = false;
+    menuCtrl.economia = false;
+  };
+
+  menuCtrl.Sacramentos = function () {
+    menuCtrl.inicio = false;
+    menuCtrl.misas = false;
+    menuCtrl.homilias = false;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = true;
+    menuCtrl.economia = false;
+  };
+
+  menuCtrl.Economia = function () {
+    menuCtrl.inicio = false;
+    menuCtrl.misas = false;
+    menuCtrl.homilias = false;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = false;
+    menuCtrl.economia = true;
   };
 
 }
