@@ -154,14 +154,14 @@ function economiaContentDirective() {
 
 economiaContentDirectiveController.$inject = [ '$http'];
 function economiaContentDirectiveController( $http) {
-  var economia = this;
+  var balances = this;
 
   // Get Json with Balances
   $http ({
     method: 'GET',
     url: 'media/balances.json'
   }).then( function (response) {
-    misas.list = response.data;
+    balances.list = response.data;
   }, function (error) {
     console.log(error);
   });

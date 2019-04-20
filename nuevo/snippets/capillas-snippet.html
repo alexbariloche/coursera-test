@@ -1,18 +1,44 @@
 <h2 align="center">Capillas</h2>
 
 <div id="capillas-content" align="middle" class="container">
-	<div class="row capillas-detail" ng-repeat="capilla in capillas.list.capillas">
+	<div class="row capillas-detail">
 		<hr>
-		<dir class="row">
-			<div id="foto" class="col-md-4 col-sm-12" ng-repeat="foto in capilla.fotos">
-				<img src="images/{{foto.archivo}}" class="img-responsive" />
+		<div class="col-md-6 col-sm-12">
+			<div id="nombre">
+				San Eduardo - Sede Parroquial y Secretaría
 			</div>
-		</dir>
-		<div id="nombre">
-			{{ capilla.nombre }}
+			<div id="direccion">
+				Avenida Bustillo Km 25.5 - Llao Llao
+			</div>
+			<div id="foto">
+				<img src="images/SanEduardo1_web.jpg" class="img-responsive" />
+			</div>
 		</div>
-		<div id="direccion">
-			{{ capilla.direccion }}
+		<div class="col-md-6 col-sm-12">
+			<div>&nbsp;</div>
+			<a href="https://www.google.com.ar/maps/place/Parroquia+San+Eduardo/@-41.0549765,-71.5298012,16.12z/data=!4m5!3m4!1s0x961a75782f32f6db:0x4f166028d309d36!8m2!3d-41.0547123!4d-71.5273663?hl=es-419" target="_blank">
+				<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5527.443199105376!2d-71.52980117353665!3d-41.05497653382576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a75782f32f6db%3A0x4f166028d309d36!2sParroquia+San+Eduardo!5e0!3m2!1ses-419!2sar!4v1555765399022!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</a>
+		</div>
+	</div>
+	<div class="row capillas-detail">
+		<hr>
+		<div class="col-md-6 col-sm-12">
+			<div id="nombre">
+				San José - Monasterio Carmelitas Descalzas
+			</div>
+			<div id="direccion">
+				Avenida Bustillo Km 19.5
+			</div>
+			<div id="foto">
+				<img src="images/Carmelitas1_web.jpg" class="img-responsive" />
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<div>&nbsp;</div>
+			<a href="https://www.google.com.ar/maps/place/Monasterio+Carmelitas+Descalzas/@-41.0608283,-71.4914637,16.51z/data=!4m5!3m4!1s0x961a75c31dc63885:0x9423c43c0788f146!8m2!3d-41.0611813!4d-71.4912343?hl=es-419" target="_blank">
+				<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4217.780163391831!2d-71.49146365951502!3d-41.06082829592768!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a75c31dc63885%3A0x9423c43c0788f146!2sMonasterio+Carmelitas+Descalzas!5e0!3m2!1ses-419!2sar!4v1555766203423!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</a>
 		</div>
 	</div>
 </div>

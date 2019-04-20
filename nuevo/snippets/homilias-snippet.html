@@ -3,12 +3,14 @@
 	<div class="row" ng-repeat="homilia in homilias.list.dominicales">
 		<div id="homilia-tiempo" class="col-md-4 col-sm-12">
 			<hr class="visible-sm visible-xs">
-			<span>
-				<a target="_blank" href="{{ homilia.audio }}">
-					{{ homilia.descripcion }}
-				</a>
-				<img src="images/audios.jpg" class="img-responsive">
-			</span>
+			<div align="left">
+				<span>
+					<a target="_blank" href="{{ homilia.audio }}">
+			          	<i class="glyphicon glyphicon-headphones"></i>
+						 &nbsp; {{ homilia.descripcion }}
+					</a>
+				</span>
+			</div>
 		</div>
 		<div id="homilia-descripcion" class="col-md-4 col-sm-12">
 			Tiempo {{ homilia.tiempo }}
