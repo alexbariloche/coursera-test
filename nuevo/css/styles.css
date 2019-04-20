@@ -73,17 +73,13 @@ body {
 }
 
 #misas-tipo {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 #homilia-tiempo a:hover, #contacto a:focus {
     color: ##333;
     font-weight: bold;
     text-decoration: none;
-}
-
-#foto {
-  margin: 10px;
 }
 
 .row {
@@ -115,7 +111,7 @@ section hr {
   border-top: 1px solid #666;
 }
 
-#horario hr, #homilia-audio hr {
+.hrblack {
   border-top: 1px solid black;
 }
 
@@ -144,6 +140,10 @@ section p {
 
 #homilia-audio {
   margin-bottom: 20px;
+}
+
+.capilla-nombre {
+  font-size: 1.2em;
 }
 
 /********** Large devices only **********/
