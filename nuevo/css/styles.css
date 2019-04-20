@@ -147,18 +147,12 @@ section p {
   .jumbotron img {
     width: 720px;
   }
-  #homilia-tiempo span {
-    align-content: left;
-  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .jumbotron img {
     width: 720px;
-  }
-  #homilia-tiempo span {
-    align-content: left;
   }
 }
 
@@ -172,6 +166,9 @@ section p {
   }
   .navbar-brand h1 {
     font-size: 1.8em;
+  }
+  #homilia-audio {
+    text-align: inherit;
   }
 }
 
@@ -196,6 +193,9 @@ section p {
   #mapa {
     width: 300px;
     height: 225px;
+  }
+  #homilia-audio {
+    text-align: inherit;
   }
 }
 
