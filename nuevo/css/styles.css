@@ -115,7 +115,7 @@ section hr {
   border-top: 1px solid #666;
 }
 
-#horario hr, #homilia-tiempo hr {
+#horario hr, #homilia-audio hr {
   border-top: 1px solid black;
 }
 
@@ -140,6 +140,10 @@ section p {
 #contacto a:hover, #contacto a:focus {
     color: #e6b319;
     text-decoration: none;
+}
+
+#homilia-audio {
+  margin-bottom: 20px;
 }
 
 /********** Large devices only **********/
@@ -167,9 +171,6 @@ section p {
   .navbar-brand h1 {
     font-size: 1.8em;
   }
-  #homilia-audio {
-    text-align: inherit;
-  }
 }
 
 /********** Extra small devices only **********/
@@ -195,7 +196,7 @@ section p {
     height: 225px;
   }
   #homilia-audio {
-    text-align: inherit;
+    margin-bottom: 0px;
   }
 }
 
@@ -222,7 +223,7 @@ section p {
     width: 300px;
     height: 225px;
   }
-  /* #header-nav {
-    min-width: 370px;
-  } */
+  #homilia-audio {
+    margin-bottom: 0px;
+  }
 }
