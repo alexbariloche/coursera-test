@@ -111,6 +111,15 @@ section hr {
   border-top: 1px solid #666;
 }
 
+#lema {
+  font-size: 2em;
+}
+
+#padres {
+  margin: 15px;
+  font-style: italic;
+}
+
 .hrblack {
   border-top: 1px solid black;
 }
@@ -143,7 +152,7 @@ section p {
 }
 
 .capilla-nombre {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 /********** Large devices only **********/
@@ -198,6 +207,9 @@ section p {
   #homilia-audio {
     margin-bottom: 0px;
   }
+  #lema {
+    font-size: 1.7em;
+  }
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -225,5 +237,8 @@ section p {
   }
   #homilia-audio {
     margin-bottom: 0px;
+  }
+  #lema {
+    font-size: 1.2em;
   }
 }
