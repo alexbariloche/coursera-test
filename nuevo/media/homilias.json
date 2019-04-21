@@ -2,43 +2,43 @@
 	"dominicales":
 	[
 		{
-			"tiempo": "Pascual",
+			"tiempo": "de Pascua",
 			"descripcion": "Vigilia Pascual",
 			"fecha" : "20/04/2019",
 			"audio" : "media/homilias/Vigilia Pascual 2019.mp3"
 		},
 		{
-			"tiempo": "Pascual",
+			"tiempo": "de Pascua",
 			"descripcion": "Viernes Santo",
 			"fecha" : "19/04/2019",
 			"audio" : "media/homilias/Viernes Santo 2019.mp3"
 		},
 		{
-			"tiempo": "Pascual",
+			"tiempo": "de Pascua",
 			"descripcion": "Jueves Santo",
 			"fecha" : "18/04/2019",
 			"audio" : "media/homilias/Jueves Santo 2019.mp3"
 		},
 		{
-			"tiempo": "Cuaresma",
+			"tiempo": "de Cuaresma",
 			"descripcion": "Domingo de Ramos",
 			"fecha" : "14/04/2019",
 			"audio" : "media/homilias/Domingo de Ramos 2019.mp3"
 		},
 		{
-			"tiempo": "Cuaresma",
+			"tiempo": "de Cuaresma",
 			"descripcion": "Quinto Domingo",
 			"fecha" : "07/04/2019",
 			"audio" : "media/homilias/5to Domingo Tiempo Cuaresma 2019.mp3"
 		},
 		{
-			"tiempo": "Cuaresma",
+			"tiempo": "de Cuaresma",
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "31/03/2019",
 			"audio" : "media/homilias/4to Domingo Tiempo Cuaresma 2019.mp3"
 		},
 		{
-			"tiempo": "Cuaresma",
+			"tiempo": "de Cuaresma",
 			"descripcion": "Primer Domingo",
 			"fecha" : "10/03/2019",
 			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2019.mp3"
@@ -86,67 +86,67 @@
 			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2019.mp3"
 		},
 		{
-			"tiempo": "Navidad",
+			"tiempo": "de Navidad",
 			"descripcion": "Bautismo del Señor",
 			"fecha" : "13/01/2019",
 			"audio" : "media/homilias/Bautismo2019.mp3"
 		},
 		{
-			"tiempo": "Navidad",
+			"tiempo": "de Navidad",
 			"descripcion": "Epifanía",
 			"fecha" : "06/01/2019",
 			"audio" : "media/homilias/Epifania2019.mp3"
 		},
 		{
-			"tiempo": "Navidad",
+			"tiempo": "de Navidad",
 			"descripcion": "Santa María Madre de Dios",
 			"fecha" : "01/01/2019",
 			"audio" : "media/homilias/StaMariaMadreDios2019.mp3"
 		},
 		{
-			"tiempo": "Navidad",
+			"tiempo": "de Navidad",
 			"descripcion": "Sagrada Familia",	
 			"fecha" : "30/12/2018",
 			"audio" : "media/homilias/Sagrada Familia 2018.mp3"
 		},
 		{
-			"tiempo": "Navidad",
+			"tiempo": "de Navidad",
 			"descripcion": "Nochebuena",
 			"fecha" : "24/12/2018",
 			"audio" : "media/homilias/Nochebuena 2018.mp3"
 		},
 		{
-			"tiempo": "Adviento",
+			"tiempo": "de Adviento",
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "23/12/2018",
 			"audio" : "media/homilias/4to Domingo Adviento 2018.mp3"
 		},
 		{
-			"tiempo": "Adviento",
+			"tiempo": "de Adviento",
 			"descripcion": "Tercer Domingo",
 			"fecha" : "16/12/2018",
 			"audio" : "media/homilias/3er Domingo Adviento 2018.mp3"
 		},
 		{
-			"tiempo": "Adviento",
+			"tiempo": "de Adviento",
 			"descripcion": "Segundo Domingo",
 			"fecha" : "09/12/2018",
 			"audio" : "media/homilias/2do Domingo Adviento 2018.mp3"
 		},
 		{
-			"tiempo": "Adviento",
+			"tiempo": "de Adviento",
 			"descripcion": "Inmaculada Concepción",
 			"fecha" : "08/12/2018",
 			"audio" : "media/homilias/Inmaculada Concepcion 2018.mp3"
 		},
 		{
-			"tiempo": "Adviento",
+			"tiempo": "de Adviento",
 			"descripcion": "Primer Domingo",
 			"fecha" : "02/12/2018",
 			"audio" : "media/homilias/1er Domingo Adviento 2018.mp3"
 		},
 		{
-			"tiempo": "Adviento",
+			"tiempo": "de Adviento",
 			"descripcion": "Cristo Rey",
 			"fecha" : "25/11/2018",
 			"audio" : "media/homilias/Cristo Rey 2018.mp3"
