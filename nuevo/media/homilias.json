@@ -2,6 +2,102 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Pascual",
+			"descripcion": "Vigilia Pascual",
+			"fecha" : "20/04/2019",
+			"audio" : "media/homilias/Vigilia Pascual 2019.mp3"
+		},
+		{
+			"tiempo": "Pascual",
+			"descripcion": "Viernes Santo",
+			"fecha" : "19/04/2019",
+			"audio" : "media/homilias/Viernes Santo 2019.mp3"
+		},
+		{
+			"tiempo": "Pascual",
+			"descripcion": "Jueves Santo",
+			"fecha" : "18/04/2019",
+			"audio" : "media/homilias/Jueves Santo 2019.mp3"
+		},
+		{
+			"tiempo": "Cuaresma",
+			"descripcion": "Domingo de Ramos",
+			"fecha" : "14/04/2019",
+			"audio" : "media/homilias/Domingo de Ramos 2019.mp3"
+		},
+		{
+			"tiempo": "Cuaresma",
+			"descripcion": "Quinto Domingo",
+			"fecha" : "07/04/2019",
+			"audio" : "media/homilias/5to Domingo Tiempo Cuaresma 2019.mp3"
+		},
+		{
+			"tiempo": "Cuaresma",
+			"descripcion": "Cuarto Domingo",
+			"fecha" : "31/03/2019",
+			"audio" : "media/homilias/4to Domingo Tiempo Cuaresma 2019.mp3"
+		},
+		{
+			"tiempo": "Cuaresma",
+			"descripcion": "Primer Domingo",
+			"fecha" : "10/03/2019",
+			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo VIII",
+			"fecha" : "03/03/2019",
+			"audio" : "media/homilias/Domingo VIII Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo VII",
+			"fecha" : "24/02/2019",
+			"audio" : "media/homilias/Domingo VII Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo VI",
+			"fecha" : "17/02/2019",
+			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo V",
+			"fecha" : "10/02/2019",
+			"audio" : "media/homilias/Domingo V Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo IV",
+			"fecha" : "03/02/2019",
+			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo III",
+			"fecha" : "27/01/2019",
+			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo II",
+			"fecha" : "20/01/2019",
+			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Navidad",
+			"descripcion": "Bautismo del Señor",
+			"fecha" : "13/01/2019",
+			"audio" : "media/homilias/Bautismo2019.mp3"
+		},
+		{
+			"tiempo": "Navidad",
+			"descripcion": "Epifanía",
+			"fecha" : "06/01/2019",
+			"audio" : "media/homilias/Epifania2019.mp3"
+		},
+		{
 			"tiempo": "Navidad",
 			"descripcion": "Santa María Madre de Dios",
 			"fecha" : "01/01/2019",
