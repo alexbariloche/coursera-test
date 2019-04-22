@@ -200,9 +200,12 @@ section p {
   #nav-list li {
     border-bottom: 1px solid black;
   }
-  #mapa {
+  .mapa {
     width: 300px;
     height: 225px;
+  }
+  .capilla-imagen {
+    margin-top: 15px;
   }
   #homilia-audio {
     margin-bottom: 0px;
