@@ -2,7 +2,7 @@
 <h3 align="center">{{misas.list.semanales.intervalo}}</h3>
 
 <div id="misas-content" align="middle" class="container">
-	<div class="row misas-title visible-lg visible-md">
+<!-- 	<div class="row misas-title visible-lg visible-md">
 		<div class="col-md-4 col-sm-12">
 			Dia y Horario
 		</div>
@@ -13,7 +13,11 @@
 			Padre
 		</div>
 	</div>
-	<div id="misas-tipo" ng-repeat="misaTipo in misas.list.semanales.tipos">
+ -->
+ 	<div id="misas-tipo" ng-repeat="misaTipo in misas.list.semanales.tipos">
+		<div>
+			<hr class="hrblack visible-lg visible-md">
+		</div>
 		<div class="row misas-detail" ng-repeat="misa in misaTipo.misas">
 			<div id="horario" class="col-md-4 col-sm-12">
 				<hr class="hrblack visible-sm visible-xs">
