@@ -9,6 +9,7 @@ body {
   background-color: #82B2E7; /* #e6b319; */
   border: none;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 .navbar-brand h1 {
@@ -38,6 +39,12 @@ body {
   text-decoration: none;
 }
 
+.snippet-title {
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
 .jumbotron {
   width: 100%;
   padding: 0;
@@ -64,6 +71,18 @@ body {
 
 #main-content {
   border: none;
+}
+
+#misas-snippet {
+  background-color: #B782E7;
+}
+
+#homilias-snippet {
+  background-color: #B3E782;
+}
+
+#capillas-snippet {
+  background-color: #E7B682;
 }
 
 .misas-title {
@@ -113,6 +132,7 @@ section hr {
 
 #lema {
   font-size: 2em;
+  margin-top: 20px;
 }
 
 #padres {
@@ -222,7 +242,6 @@ section p {
 
   }
   .navbar-brand h1 {
-    /* font-size: 1.2em; */
     margin-top: 5px;
     max-width: 340px;
     word-break: normal;

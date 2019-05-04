@@ -1,45 +1,35 @@
-<h2 align="center">Horarios de Misas y Celebraciones</h2>
-<h3 align="center">{{misas.list.semanales.intervalo}}</h3>
+<div id="misas-snippet">
+	<h2 class="snippet-title">Horarios de Misas y Celebraciones</h2>
+	<h3 align="center">{{misas.list.semanales.intervalo}}</h3>
 
-<div id="misas-content" align="middle" class="container">
-<!-- 	<div class="row misas-title visible-lg visible-md">
-		<div class="col-md-4 col-sm-12">
-			Dia y Horario
-		</div>
-		<div class="col-md-4 col-sm-12">
-			Capilla
-		</div>
-		<div class="col-md-4 col-sm-12">
-			Padre
-		</div>
-	</div>
- -->
- 	<div id="misas-tipo" ng-repeat="misaTipo in misas.list.semanales.tipos">
-		<div>
-			<hr class="hrblack visible-lg visible-md">
-		</div>
-		<div class="row misas-detail" ng-repeat="misa in misaTipo.misas">
-			<div id="horario" class="col-md-4 col-sm-12">
-				<hr class="hrblack visible-sm visible-xs">
-				{{misaTipo.dias}} a las {{ misa.hora }} hs
+	<div id="misas-content" align="middle" class="container">
+	 	<div id="misas-tipo" ng-repeat="misaTipo in misas.list.semanales.tipos">
+			<div>
+				<hr class="hrblack visible-lg visible-md">
 			</div>
-			<div id="capilla" class="col-md-4 col-sm-12">
-				<span class="visible-sm visible-xs">
-					Capilla&nbsp;{{ misa.capilla }}
-				</span>
-				<span class="visible-md visible-lg">
-					{{ misa.capilla }}
-				</span>
-			</div>
-			<div id="padre" class="col-md-4 col-sm-12">
-				<span class="visible-sm visible-xs">
-					Padre&nbsp;{{ misa.sacerdote}}
-				</span>
-				<span class="visible-md visible-lg">
-					{{ misa.sacerdote}}
-				</span>
+			<div class="row misas-detail" ng-repeat="misa in misaTipo.misas">
+				<div id="horario" class="col-md-4 col-sm-12">
+					<hr class="hrblack visible-sm visible-xs">
+					{{misaTipo.dias}} a las {{ misa.hora }} hs
+				</div>
+				<div id="capilla" class="col-md-4 col-sm-12">
+					<span class="visible-sm visible-xs">
+						Capilla&nbsp;{{ misa.capilla }}
+					</span>
+					<span class="visible-md visible-lg">
+						{{ misa.capilla }}
+					</span>
+				</div>
+				<div id="padre" class="col-md-4 col-sm-12">
+					<span class="visible-sm visible-xs">
+						Padre&nbsp;{{ misa.sacerdote}}
+					</span>
+					<span class="visible-md visible-lg">
+						{{ misa.sacerdote}}
+					</span>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div>&nbsp;</div>
 </div>
-<div>&nbsp;</div>
