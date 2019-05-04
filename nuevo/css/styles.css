@@ -141,10 +141,13 @@ section hr {
   border-top: 1px solid #666;
 }
 
+.textshadow {
+    text-shadow: 3px 2px 10px rgba(76,46,255,0.74);
+}
+
 #lema {
   font-size: 2.5em;
   margin-top: 50px;
-  text-shadow: 3px 2px 10px rgba(76,46,255,0.74);
 }
 
 #padres {
@@ -153,13 +156,11 @@ section hr {
   font-weight: 500;
   font-style: italic;
   margin-top: 150px;
-  text-shadow: 3px 2px 10px rgba(76,46,255,0.74);
 }
 
 #redoracion {
   font-size: 1.4em;
   margin-top: 200px;
-  text-shadow: 3px 2px 10px rgba(76,46,255,0.99);
 }
 
 .hrblack {
