@@ -6,10 +6,10 @@ body {
 }
 
 #header-nav {
-  background-color: #82B2E7; /* #e6b319; */
+  background-color: #E2AB10; /* #e6b319; */
   border: none;
   border-radius: 0;
-  border-bottom: 1px black solid;
+  border-bottom: 1px #777 solid;
   margin-bottom: 0;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 #collapsable-nav {
-  border: 0px;
+  border: 0;
   padding-top: 20px;
 }
 
@@ -36,8 +36,16 @@ body {
   text-decoration: none;
 }
 
+#collapsable-nav a {
+  padding: 8px 20px;
+  margin: 8px 4px 0 0;
+  border: 1px solid #E2AB10;
+  border-radius: 9px;
+}
+
 #collapsable-nav a:hover, #collapsable-nav a:focus {
   text-decoration: none;
+  box-shadow: 0px 0px 20px 2px #eee;
 }
 
 .snippet-title {
@@ -74,6 +82,15 @@ body {
   border: none;
 }
 
+#home-snippet {
+  background: url("../images/SanEduardo2_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  height: 600px;
+}
+
 #misas-snippet {
   background-color: #B782E7;
 }
@@ -94,12 +111,6 @@ body {
 
 #misas-tipo {
   padding-top: 8px;
-}
-
-#homilia-tiempo a:hover, #contacto a:focus {
-    color: ##333;
-    font-weight: bold;
-    text-decoration: none;
 }
 
 .row {
@@ -132,13 +143,23 @@ section hr {
 }
 
 #lema {
-  font-size: 2em;
-  margin-top: 20px;
+  font-size: 2.2em;
+  margin-top: 50px;
+  text-shadow: 3px 2px 10px rgba(76,46,255,0.74);
 }
 
 #padres {
   margin: 15px;
+  font-size: 1.2em;
+  font-weight: 500;
   font-style: italic;
+  margin-top: 150px;
+  text-shadow: 3px 2px 10px rgba(76,46,255,0.74);
+}
+
+#redoracion {
+  font-size: 1.2em;
+  margin-top: 250px;
 }
 
 .hrblack {
@@ -158,13 +179,15 @@ section p {
   font-size: 0.9em;
 }
 
-#contacto a {
-    color: #CCC;
+#contacto a, #redoracion a {
+    color: #ccc;
     text-decoration: none;
 }
 
-#contacto a:hover, #contacto a:focus {
+#contacto a:hover, #contacto a:focus,
+#redoracion a:hover, #redoracion a:focus {
     color: #e6b319;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -175,6 +198,10 @@ section p {
 .capilla-nombre {
   font-size: 1.5em;
 }
+
+.capilla-imagen {
+    max-width: 400px;
+  }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -220,6 +247,7 @@ section p {
   }
   #nav-list li {
     border-bottom: 1px solid black;
+    padding-bottom: 5px;
   }
   .mapa {
     width: 300px;
@@ -263,5 +291,9 @@ section p {
   }
   #lema {
     font-size: 1.2em;
+    margin-top: 125px;
+  }
+  #padres {
+    margin-top: 70px;
   }
 }
