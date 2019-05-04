@@ -1,15 +1,15 @@
 body {
   font-size: 16px;
   color: #000;
-  background-color: #82E5E7;  /* #f2d98c; */
+  background-color: #E6B52E;
   font-family: 'Lora', sans-serif;
 }
 
 #header-nav {
-  background-color: #E2AB10; /* #e6b319; */
+  background-color: #E2AB10;
   border: none;
   border-radius: 0;
-  border-bottom: 1px #777 solid;
+  box-shadow: 0px 0px 20px 8px #222;
   margin-bottom: 0;
 }
 
@@ -25,7 +25,6 @@ body {
 }
 
 .navbar-header {
-  /* height: 80px; */
   padding: 20px 0;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -92,11 +91,11 @@ body {
 }
 
 #misas-snippet {
-  background-color: #B782E7;
+  background-color: #AB75DB;
 }
 
 #homilias-snippet {
-  background-color: #B3E782;
+  background-color: #B7DE3B;
 }
 
 #capillas-snippet {
@@ -158,8 +157,9 @@ section hr {
 }
 
 #redoracion {
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top: 250px;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF; /*, 0 0 20px #4C2EFF, 0 0 30px #4C2EFF, 0 0 40px #4C2EFF, 0 0 55px #4C2EFF, 0 0 75px #4C2EFF; */
 }
 
 .hrblack {
@@ -290,10 +290,13 @@ section p {
     margin-bottom: 0px;
   }
   #lema {
-    font-size: 1.2em;
+    font-size: 2em;
     margin-top: 125px;
   }
   #padres {
-    margin-top: 70px;
+    margin-top: 50px;
+  }
+  #redoracion {
+    margin-top: 220px;
   }
 }
