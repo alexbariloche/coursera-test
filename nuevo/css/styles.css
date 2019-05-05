@@ -164,7 +164,7 @@ section hr {
 
 #redoracion {
   font-size: 1.4em;
-  /* margin-top: 200px; */
+  margin-top: 200px;
 }
 
 .hrblack {
@@ -313,6 +313,6 @@ section p {
     color: #eee;
   }
   #redoracion {
-    /* margin-top: 110px; */
+    margin-top: 110px;
   }
 }
