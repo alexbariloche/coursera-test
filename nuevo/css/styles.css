@@ -6,7 +6,7 @@ body {
 }
 
 #header-nav {
-  background-color: #E2AB10;
+  background-color: #2EE6B5;
   border: none;
   border-radius: 0;
   box-shadow: 0px 0px 20px 8px #222;
@@ -38,7 +38,7 @@ body {
 #collapsable-nav a {
   padding: 8px 10px;
   margin: 8px 15px 0 15px;
-  border: 1px solid #E2AB10;
+  border: 1px solid #2EE6B5;
   border-radius: 9px;
 }
 
