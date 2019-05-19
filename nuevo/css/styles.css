@@ -86,8 +86,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: color-burn;
-  height: 600px;
+  /*background-blend-mode: color-burn;*/
+  height: 640px;
 }
 
 #misas-snippet {
@@ -114,6 +114,11 @@ body {
 
 #misas-tipo {
   padding-top: 8px;
+}
+
+#myCarousel {
+  height: 300px;
+  width: 450px;
 }
 
 .row {
@@ -151,7 +156,7 @@ section hr {
 
 #lema {
   font-size: 2.5em;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 #padres {
@@ -159,12 +164,14 @@ section hr {
   font-size: 1.5em;
   font-weight: 500;
   font-style: italic;
-  margin-top: 150px;
 }
 
 #redoracion {
-  font-size: 1.4em;
-  margin-top: 200px;
+  font-size: 1.2em;
+  text-align: right;
+  padding: 0 10px 10px;
+  margin-top: -40px;
+  font-style: italic;
 }
 
 .hrblack {
@@ -276,11 +283,20 @@ section p {
   }
   #lema {
     font-size: 1.7em;
+    margin-top: 125px;
+  }
+  #padres {
+    font-size: 1.2em;
+    margin-top: 250px;
+    color: #ccc;
   }
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 450px) {
+  #home-snippet {
+    height: 400px;
+  }
   .navbar-brand {
     height: 45px;
   }
@@ -309,10 +325,12 @@ section p {
   }
   #padres {
     font-size: 1.2em;
-    margin-top: 180px;
-    color: #eee;
+    margin-top: 90px;
+    color: #ccc;
   }
-  #redoracion {
-    margin-top: 110px;
+  #myCarousel {
+    height: 200px;
+    width: 350px;
+    align-self: center;
   }
 }
