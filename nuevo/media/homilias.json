@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Quinto Domingo",
+			"fecha" : "19/05/2019",
+			"audio" : "media/homilias/5to Domingo Tiempo Pascual 2019.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "12/05/2019",
 			"audio" : "media/homilias/4to Domingo Tiempo Pascual 2019.mp3"
