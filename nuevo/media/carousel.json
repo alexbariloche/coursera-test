@@ -1,0 +1,17 @@
+{
+	"slides":
+	[
+		{
+			"imagen" : "MadreLuz1_web.jpg",
+			"descripcion": "Madre de la Luz"
+		},
+		{
+			"imagen" : "SanEduardo3_web.jpg",
+			"descripcion": "Altar San Eduardo"
+		},
+		{
+			"imagen" : "NSRosarioySanPio1_web.jpg",
+			"descripcion": "Colonia Suiza"
+		}
+	]
+}
