@@ -153,15 +153,15 @@ body {
 }
 
 #myCarousel {
-  margin-top: 30px;
-  height: 400px;
-  width: 300px;
+  margin-top: 0px;
+  height: 450px;
+  width: 380px;
 }
 
 .item img {
-  width: 100%;
-  max-height: 400px;
-  max-width: 300px;
+  min-height: 450px;
+  max-height: 450px;
+  max-width: 380px;
   opacity: 0.8;
 }
 
