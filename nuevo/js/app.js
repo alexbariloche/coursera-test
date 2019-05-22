@@ -110,27 +110,9 @@ function homiliasContentDirectiveController( $http) {
 // Capillas directive
 function capillasContentDirective() {
   var ddo = {
-    templateUrl: "snippets/capillas-snippet.html",
-    controller: capillasContentDirectiveController,
-    controllerAs: 'capillas',
-    bindToController: true
-};
+    templateUrl: "snippets/capillas-snippet.html"
+  };
   return ddo;
-}
-
-capillasContentDirectiveController.$inject = [ '$http'];
-function capillasContentDirectiveController( $http) {
-  var capillas = this;
-
-  // Get Json with Chapels
-  $http ({
-    method: 'GET',
-    url: 'media/capillas.json'
-  }).then( function (response) {
-    capillas.list = response.data;
-  }, function (error) {
-    console.log(error);
-  });
 }
 
 // Sacramentos directive
