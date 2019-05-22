@@ -17,6 +17,7 @@
 	<script src="js/ajax-utils.js"></script>
 	<script src="js/angular.min.js"></script>
 	<script src="js/app.js"></script>
+
 </head>
 
 <body ng-controller="MenuController as menuCtrl">
@@ -65,6 +66,8 @@
 		</nav><!-- #header-nav -->
 	</header>
 
+	<div id="prueba"></div>
+
 	<!-- Main content -->
 	<main-content id="main-content" ng-if="menuCtrl.inicio"></main-content>
 	<misas-content ng-if="menuCtrl.misas"></misas-content>
@@ -106,6 +109,5 @@
 		  </div>
 		</div>
 	</footer>
-
 </body>
 </html>
