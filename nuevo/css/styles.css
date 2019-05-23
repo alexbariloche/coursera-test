@@ -73,7 +73,7 @@ body {
 
 #collapsable-nav a {
   padding: 8px 10px;
-  margin: 8px 15px 0 15px;
+  margin: 8px 5px 0 5px;
   border: 1px solid #2EE6B5;
   border-radius: 9px;
 }
@@ -142,6 +142,10 @@ body {
   background-color: #ddd;
 }
 
+#retiros-snippet {
+  background-color: #2EBBE6;
+}
+
 .misas-title {
   font-size: 1.1em;
   font-style: oblique;
@@ -175,6 +179,12 @@ body {
   height: 220px;
   border: 1px solid black;
   margin-bottom: 15px;
+}
+
+.intralink {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 footer {

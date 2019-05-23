@@ -41,7 +41,7 @@
 
 		    <div id="collapsable-nav" class="collapse navbar-collapse">
 		       <ul id="nav-list" class="nav navbar-nav navbar-right">
-		        <li id="navHomeButton" class="visible-xs">
+		        <li id="navHomeButton" class="visible-md">
 		          <a href="#" ng-click="menuCtrl.Inicio();">Inicio</a>
 		        </li>
 		        <li id="navMisas">
@@ -55,6 +55,9 @@
 		        </li>
 		        <li id="navHomilias">
 		          <a href="#" ng-click="menuCtrl.Sacramentos();" title="Bautismos y Matrimonios">Sacramentos</a>
+		        </li>
+		        <li id="navRetiros">
+		          <a href="#" ng-click="menuCtrl.Retiros();" title="Retiros">Retiros</a>
 		        </li>
 		        <li id="navHomilias" class="visible-md visible-lg visible-sm">
 					<a href="#" ng-click="menuCtrl.Economia();" title="Balances Económicos">Economía
@@ -74,6 +77,7 @@
 	<homilias-content ng-if="menuCtrl.homilias"></homilias-content>
 	<capillas-content ng-if="menuCtrl.capillas"></capillas-content>
 	<sacramentos-content ng-if="menuCtrl.sacramentos"></sacramentos-content>
+	<retiros-content ng-if="menuCtrl.retiros"></retiros-content>
 	<economia-content ng-if="menuCtrl.economia"></economia-content>
 
 	<footer class="panel-footer">

@@ -46,6 +46,7 @@ angular.module('SanEduardoApp', [])
   .directive('homiliasContent', homiliasContentDirective)
   .directive('capillasContent', capillasContentDirective)
   .directive('sacramentosContent', sacramentosContentDirective)
+  .directive('retirosContent', retirosContentDirective)
   .directive('economiaContent', economiaContentDirective)
   ;
 
@@ -123,6 +124,14 @@ function sacramentosContentDirective() {
   return ddo;
 }
 
+// Retiros directive
+function retirosContentDirective() {
+  var ddo = {
+    templateUrl: "snippets/retiros-snippet.html"
+  };
+  return ddo;
+}
+
 // Economia directive
 function economiaContentDirective() {
   var ddo = {
@@ -174,6 +183,7 @@ function menuController( menuService) {
   menuCtrl.misas = false;
   menuCtrl.capillas = false;
   menuCtrl.sacramentos = false;
+  menuCtrl.retiros = false;
   menuCtrl.economia = false;
 
   menuCtrl.Inicio = function () {
@@ -182,6 +192,7 @@ function menuController( menuService) {
     menuCtrl.misas = false;
     menuCtrl.capillas = false;
     menuCtrl.sacramentos = false;
+    menuCtrl.retiros = false;
     menuCtrl.economia = false;
   };
 
@@ -191,6 +202,7 @@ function menuController( menuService) {
     menuCtrl.misas = true;
     menuCtrl.capillas = false;
     menuCtrl.sacramentos = false;
+    menuCtrl.retiros = false;
     menuCtrl.economia = false;
   };
 
@@ -200,6 +212,7 @@ function menuController( menuService) {
     menuCtrl.homilias = true;
     menuCtrl.capillas = false;
     menuCtrl.sacramentos = false;
+    menuCtrl.retiros = false;
     menuCtrl.economia = false;
   };
 
@@ -209,6 +222,7 @@ function menuController( menuService) {
     menuCtrl.homilias = false;
     menuCtrl.capillas = true;
     menuCtrl.sacramentos = false;
+    menuCtrl.retiros = false;
     menuCtrl.economia = false;
   };
 
@@ -218,6 +232,17 @@ function menuController( menuService) {
     menuCtrl.homilias = false;
     menuCtrl.capillas = false;
     menuCtrl.sacramentos = true;
+    menuCtrl.retiros = false;
+    menuCtrl.economia = false;
+  };
+
+  menuCtrl.Retiros = function () {
+    menuCtrl.inicio = false;
+    menuCtrl.misas = false;
+    menuCtrl.homilias = false;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = false;
+    menuCtrl.retiros = true;
     menuCtrl.economia = false;
   };
 
@@ -227,48 +252,10 @@ function menuController( menuService) {
     menuCtrl.homilias = false;
     menuCtrl.capillas = false;
     menuCtrl.sacramentos = false;
+    menuCtrl.retiros = false;
     menuCtrl.economia = true;
   };
 
 }
-
-$('#previous').on('click', function(){
-    // Change to the previous image
-    $('#im_' + currentImage).stop().fadeOut(1);
-    decreaseImage();
-    $('#im_' + currentImage).stop().fadeIn(1);
-  }); 
-  $('#next').on('click', function(){
-    // Change to the next image
-    $('#im_' + currentImage).stop().fadeOut(1);
-    increaseImage();
-    $('#im_' + currentImage).stop().fadeIn(1);
-  }); 
-
-  var currentImage = 1;
-  var totalImages = 3;
-
-  function increaseImage() {
-    /* Increase currentImage by 1.
-    * Resets to 1 if larger than totalImages
-    */
-    ++currentImage;
-    if(currentImage > totalImages) {
-      currentImage = 1;
-    }
-  }
-  function decreaseImage() {
-    /* Decrease currentImage by 1.
-    * Resets to totalImages if smaller than 1
-    */
-    --currentImage;
-    if(currentImage < 1) {
-      currentImage = totalImages;
-    }
-  }
-
-  window.setInterval(function() {
-    $('#previous').click();
-  }, 2500);
 
 })();
