@@ -388,8 +388,8 @@ section p {
     color: #ccc;
   }
   #myCarousel {
-    height: 200px;
-    width: 350px;
+    height: 180px;
+    width: 320px;
     align-self: center;
   }
 }
