@@ -140,6 +140,14 @@ body {
   background-color: #2EBBE6;
 }
 
+.intralink {
+  font-style: italic;
+}
+
+.intralink:hover, .intralink:focus{
+  color: #2EE6B5; /*#E6B52E;*/
+}
+
 .misas-title {
   font-size: 1.1em;
   font-style: oblique;
