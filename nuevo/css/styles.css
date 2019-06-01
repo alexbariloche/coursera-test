@@ -33,13 +33,6 @@ body {
 .navButton:hover {
   opacity: 1;
 }
-.caption {
-  float: right;
-}
-.imageContainer:not(:first-child) {
-  /* Hide all images except the first */
-  display: none;
-}
 
 .home-icon {
   text-align: right;
@@ -140,12 +133,8 @@ body {
   background-color: #2EBBE6;
 }
 
-.intralink {
-  font-style: italic;
-}
-
 .intralink:hover, .intralink:focus{
-  color: #2EE6B5; /*#E6B52E;*/
+  color: #2EE6B5;
 }
 
 .misas-title {
@@ -160,8 +149,9 @@ body {
 
 #myCarousel {
   margin-top: 0px;
-  height: 450px;
+/*  height: 450px; */
   width: 380px;
+  height: inherit;
 }
 
 .item img {
@@ -187,6 +177,7 @@ body {
   color: #333;
   font-weight: 600;
   text-decoration: none;
+  font-style: italic;
 }
 
 footer {
@@ -374,7 +365,7 @@ section p {
     color: #ccc;
   }
   #myCarousel {
-    height: 120px;
+/*    height: 120px; */
     width: 320px;
     align-self: center;
   }
