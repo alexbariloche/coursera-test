@@ -341,13 +341,13 @@ section p {
   #home-snippet {
     height: 400px;
   }
-  #header-nav {
+/*  #header-nav {
     max-height: 90px;
   }
   .navbar-header {
     max-height: inherit;
   }
-  .navbar-brand {
+*/  .navbar-brand {
     height: 45px;
     margin-top: -30px;
   }
