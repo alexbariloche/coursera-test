@@ -341,19 +341,14 @@ section p {
   #home-snippet {
     height: 400px;
   }
-/*  #header-nav {
-    max-height: 90px;
-  }
-  .navbar-header {
-    max-height: inherit;
-  }
-*/  .navbar-brand {
+  .navbar-brand {
     height: 45px;
     margin-top: -30px;
   }
   .navbar-brand h1 {
     margin-top: 5px;
     max-width: 340px;
+    font-size: 1.5em;
     word-break: normal;
   }
   #contacto #email {
