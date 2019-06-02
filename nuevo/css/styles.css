@@ -292,6 +292,9 @@ section p {
   #collapsable-nav a {
     margin-bottom: 20px;
   }
+  #capilla {
+    padding-top: 10px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -375,7 +378,6 @@ section p {
     color: #ccc;
   }
   #myCarousel {
-/*    height: 120px; */
     width: 320px;
     align-self: center;
   }
