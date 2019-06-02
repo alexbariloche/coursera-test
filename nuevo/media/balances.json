@@ -1,0 +1,436 @@
+{
+	"economia":
+	{
+		"tipos":
+		[
+			{
+				"enlace": "mensuales",
+				"titulo": "Mensual",
+				"balances":
+				[
+					{
+						"anio": "2019",
+						"mes": "Junio",
+						"areas":
+						[
+							{
+								"descripcion": "Gastos y Mantenimiento",
+								"entradas":
+								[
+									{ "item": "NS del Cerro|8360.00" },
+									{ "item": "Teresa de Calcuta|2478.00" }
+								],
+								"salidas": 
+								[
+									{ "item": "Servicios 8 capillas|9000.00" },
+									{ "item": "Combustible|2500.00" }
+								],
+								"totales":
+								{
+									"entradas": "9999.00",
+									"salidas": "11000.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "1001.00"
+								}
+							},
+							{
+								"descripcion": "Caridad",
+								"entradas": 
+								[
+								],
+								"salidas": 
+								[
+								],
+								"totales":
+								{
+									"entradas": "$ 0.00",
+									"salidas": "$ 0.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "$ 0.00"
+								}
+							},
+							{
+								"descripcion": "Evangelización",
+								"entradas": 
+								[
+								],
+								"salidas": 
+								[
+								],
+								"totales":
+								{
+									"entradas": "$ 0.00",
+									"salidas": "$ 0.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "$ 0.00"
+								}
+							}
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2019",
+						"mes": "Mayo",
+						"areas":
+						[
+							{
+								"descripcion": "Gastos y Mantenimiento",
+								"entradas":
+								[
+									{ "item": "NS del Cerro|8360.00" },
+									{ "item": "Teresa de Calcuta|2478.00" }
+								],
+								"salidas": 
+								[
+									{ "item": "Servicios 8 capillas|9000.00" },
+									{ "item": "Combustible|2500.00" }
+								],
+								"totales":
+								{
+									"entradas": "9999.00",
+									"salidas": "11000.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "1001.00"
+								}
+							},
+							{
+								"descripcion": "Caridad",
+								"entradas": 
+								[
+								],
+								"salidas": 
+								[
+								],
+								"totales":
+								{
+									"entradas": "$ 0.00",
+									"salidas": "$ 0.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "$ 0.00"
+								}
+							},
+							{
+								"descripcion": "Evangelización",
+								"entradas": 
+								[
+								],
+								"salidas": 
+								[
+								],
+								"totales":
+								{
+									"entradas": "$ 0.00",
+									"salidas": "$ 0.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "$ 0.00"
+								}
+							}
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2019",
+						"mes": "Abril",
+						"areas":
+						[
+							{
+								"descripcion": "Gastos y Mantenimiento",
+								"entradas":
+								[
+									{ "item": "NS del Cerro|8360.00" },
+									{ "item": "Teresa de Calcuta|2478.00" }
+								],
+								"salidas": 
+								[
+									{ "item": "Servicios 8 capillas|9000.00" },
+									{ "item": "Combustible|2500.00" }
+								],
+								"totales":
+								{
+									"entradas": "9999.00",
+									"salidas": "11000.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "1001.00"
+								}
+							},
+							{
+								"descripcion": "Caridad",
+								"entradas": 
+								[
+								],
+								"salidas": 
+								[
+								],
+								"totales":
+								{
+									"entradas": "$ 0.00",
+									"salidas": "$ 0.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "$ 0.00"
+								}
+							},
+							{
+								"descripcion": "Evangelización",
+								"entradas": 
+								[
+								],
+								"salidas": 
+								[
+								],
+								"totales":
+								{
+									"entradas": "$ 0.00",
+									"salidas": "$ 0.00"
+								},
+								"resultado":
+								{
+									"tipo": "Déficit",
+									"monto": "$ 0.00"
+								}
+							}
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2019",
+						"mes": "Marzo",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2019",
+						"mes": "Febrero",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2019",
+						"mes": "Enero",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2018",
+						"mes": "Diciembre",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2018",
+						"mes": "Noviembre",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2018",
+						"mes": "Octubre",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2018",
+						"mes": "Setiembre",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2018",
+						"mes": "Agosto",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2018",
+						"mes": "Julio",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					}
+				]
+			},
+			{
+				"enlace": "anuales",
+				"titulo": "Anual",
+				"balances":
+				[
+					{
+						"anio": "2018",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2017",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2016",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2015",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2014",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2013",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2012",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2011",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2010",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2009",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2008",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2007",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					}
+				]
+			},
+			{
+				"enlace": "santa-sede",
+				"titulo": "Santa Sede y Estado Vaticano",
+				"balances":
+				[
+					{
+						"anio": "2011",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2008",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2007",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					},
+					{
+						"anio": "2006",
+						"mes": "",
+						"area":
+						[
+						],
+						"avisos": "Sitio web: www.parroquiasaneduardo.com.ar"
+					}
+				]
+			}
+		]
+	}
+}
