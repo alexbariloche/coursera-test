@@ -317,6 +317,9 @@ section p {
   .capilla-imagen {
     margin-top: 15px;
   }
+  #capilla {
+    padding-top: 10px;
+  }
   #homilia-audio {
     margin-bottom: 0px;
   }
@@ -358,6 +361,9 @@ section p {
   }
   #homilia-audio {
     margin-bottom: 0px;
+  }
+  #capilla {
+    padding-top: 10px;
   }
   #lema {
     font-size: 2em;
