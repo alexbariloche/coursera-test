@@ -147,6 +147,10 @@ body {
   padding-top: 8px;
 }
 
+.diaTipo {
+  font-weight: bold;
+}
+
 #myCarousel {
   margin-top: 0px;
 /*  height: 450px; */
