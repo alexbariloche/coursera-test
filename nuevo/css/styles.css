@@ -5,14 +5,6 @@ body {
   font-family: 'Lora', sans-serif;
 }
 
-#showContainer {
-  /* Main wrapper for all images */
-  width: 670px;
-  padding: 0;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
 .navButton {
   /* Make buttons look nice */ 
   cursor: pointer;
@@ -30,6 +22,7 @@ body {
   opacity: 0.65;
   user-select: none;
 }
+
 .navButton:hover {
   opacity: 1;
 }
@@ -41,11 +34,20 @@ body {
 }
 
 #header-nav {
-  background-color: #2EE6B5;
+  /* background-color: #2EE6B5; */
   border: none;
   border-radius: 0;
   box-shadow: 0px 0px 20px 8px #222;
   margin-bottom: 0;
+  background: rgba(241,111,92,1);
+background: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(46,230,181,1)), color-stop(0%, rgba(46,230,181,1)), color-stop(80%, rgba(35,184,144,1)), color-stop(100%, rgba(35,184,144,1)));
+background: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
+background: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
+background: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
+background: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#23b890', GradientType=1 );
+
 }
 
 .navbar-brand h1 {
@@ -152,16 +154,16 @@ body {
 }
 
 #myCarousel {
-  margin-top: 0px;
+  margin-top: 10px;
 /*  height: 450px; */
-  width: 380px;
-  height: inherit;
+  width: 420px;
+  height: 500px;
 }
 
 .item img {
-  min-height: 450px;
-  max-height: 450px;
-  max-width: 380px;
+  min-height: 500px;
+  max-height: 500px;
+  max-width: 420px;
   opacity: 0.8;
 }
 
@@ -215,6 +217,7 @@ section hr {
   font-size: 1.5em;
   font-weight: 500;
   font-style: italic;
+  height: 500px;
 }
 
 #redoracion {
@@ -268,7 +271,7 @@ section p {
 
 .capilla-imagen {
     max-width: 400px;
-  }
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
