@@ -27,26 +27,9 @@
 					<h4 id="{{balanceTipo.enlace}}-{{balance.anio}}{{balance.mes}}">
 						Balance {{ balanceTipo.titulo }} de {{ balance.mes}} {{ balance.anio }}
 					</h4>
-					<div id="balance-area" ng-repeat="areaBalance in balance.areas">
-						<div class="balance-titulo">{{ areaBalance.descripcion }}</div>
-						<div>&nbsp;</div>
-						<div class="balance-tipo">Entradas</div>
-						<div ng-repeat="entradas in areaBalance.entradas">
-							<div>{{ entradas.item }}</div>
-						</div>
-						<div>Total Entradas: {{ areaBalance.totales.entradas }}</div>
-						<div>&nbsp;</div>
-						<div class="balance-tipo">Salidas</div>
-						<div ng-repeat="salidas in areaBalance.salidas">
-							<div>{{ salidas.item }}</div>
-						</div>
-						<div>Total Salidas: {{ areaBalance.totales.salidas }}</div>
-						<div>&nbsp;</div>
-						<div class="balance-resultado">{{ areaBalance.resultado.tipo }} {{ areaBalance.resultado.monto }}</div>
-						<hr class="hrblack">
-					</div>
-					<div>&nbsp;</div>
-					<div>{{ balance.avisos }}</div>
+					<a href="documents/Balances/{{ balance.archivo }}">
+						Balance {{ balanceTipo.titulo }} de {{ balance.mes}} {{ balance.anio }}
+					</a>
 					<div class="row home-icon">
 						<a href="#balances-snippet"><i class="fa fa-chevron-circle-up"></i></a>
 					</div>
