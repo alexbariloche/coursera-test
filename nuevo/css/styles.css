@@ -34,20 +34,11 @@ body {
 }
 
 #header-nav {
-  /* background-color: #2EE6B5; */
+  background-color: #2EE6B5;
   border: none;
   border-radius: 0;
   box-shadow: 0px 0px 20px 8px #222;
   margin-bottom: 0;
-  background: rgba(241,111,92,1);
-background: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(46,230,181,1)), color-stop(0%, rgba(46,230,181,1)), color-stop(80%, rgba(35,184,144,1)), color-stop(100%, rgba(35,184,144,1)));
-background: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
-background: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
-background: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
-background: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(46,230,181,1) 0%, rgba(46,230,181,1) 0%, rgba(35,184,144,1) 80%, rgba(35,184,144,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#23b890', GradientType=1 );
-
 }
 
 .navbar-brand h1 {
@@ -377,11 +368,21 @@ section p {
   }
   #padres {
     font-size: 1.2em;
-    margin-top: 90px;
+    margin-top: 10px;
+    align-content: center;
     color: #ccc;
   }
   #myCarousel {
+    top: 0;
+    margin-top: 10px;
     width: 320px;
-    align-self: center;
+    height: 430px;
+    margin-left: -25px;
+  }
+  .item img {
+    min-height: 430px;
+    max-height: 430px;
+    max-width: 420px;
+    opacity: 0.8;
   }
 }
