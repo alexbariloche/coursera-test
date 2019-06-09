@@ -5,7 +5,7 @@
 		[
 			{
 				"enlace": "mensuales",
-				"titulo": "Mensual",
+				"titulo": "Mensuales",
 				"balances":
 				[
 					{
@@ -22,12 +22,22 @@
 						"anio": "2019",
 						"mes": "Marzo",
 						"archivo": "SanEduardo_balance_201903.pdf"
+					},
+					{
+						"anio": "2019",
+						"mes": "Febrero",
+						"archivo": "SanEduardo_balance_201902.pdf"
+					},
+					{
+						"anio": "2019",
+						"mes": "Enero",
+						"archivo": "SanEduardo_balance_201901.pdf"
 					}
 				]
 			},
 			{
 				"enlace": "anuales",
-				"titulo": "Anual",
+				"titulo": "Anuales",
 				"balances":
 				[
 				]
