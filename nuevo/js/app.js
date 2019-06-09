@@ -76,7 +76,7 @@ function misasContentDirectiveController( $http) {
   // Get Json with Masses to offer
   $http ({
     method: 'GET',
-    url: 'media/misas.json'
+    url: 'media/misas.json' + '?_=' + new Date().getTime()
   }).then( function (response) {
     misas.list = response.data;
   }, function (error) {
@@ -102,7 +102,7 @@ function homiliasContentDirectiveController( $http) {
   // Get Json with Homilies to offer
   $http ({
     method: 'GET',
-    url: 'media/homilias.json'
+    url: 'media/homilias.json' + '?_=' + new Date().getTime()
   }).then( function (response) {
     homilias.list = response.data;
   });
@@ -150,7 +150,7 @@ function economiaContentDirectiveController( $http) {
   // Get Json with Balances
   $http ({
     method: 'GET',
-    url: 'media/balances.json'
+    url: 'media/balances.json' + '?_=' + new Date().getTime()
   }).then( function (response) {
     balances.list = response.data;
   }, function (error) {
