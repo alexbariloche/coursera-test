@@ -5,7 +5,7 @@
 		[
 			{
 				"enlace": "mensuales",
-				"titulo": "Mensual",
+				"titulo": "Mensuales",
 				"balances":
 				[
 					{
@@ -37,7 +37,7 @@
 			},
 			{
 				"enlace": "anuales",
-				"titulo": "Anual",
+				"titulo": "Anuales",
 				"balances":
 				[
 				]
