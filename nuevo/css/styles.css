@@ -223,7 +223,7 @@ section hr {
   border-top: 1px solid black;
 }
 
-#horarios p {
+#horarios p, #curas p {
   margin-top: 9px;
   line-height: 1.9;
 }
@@ -323,11 +323,6 @@ section p {
   #lema {
     font-size: 1.7em;
     margin-top: 125px;
-  }
-  #padres {
-    font-size: 1.2em;
-    margin-top: 250px;
-    color: #ccc;
   }
 }
 
