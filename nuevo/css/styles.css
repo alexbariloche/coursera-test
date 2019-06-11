@@ -106,10 +106,14 @@ body {
   height: 640px;
 }
 
+#misas-snippet, #homilias-snippet, #capillas-snippet, #balances-snippet, #retiros-snippet {
+  background-color: #BBE62E;
+}
+
+/*
 #misas-snippet {
   background-color: #AB75DB;
 }
-
 #homilias-snippet {
   background-color: #9EBF36;
 }
@@ -125,6 +129,7 @@ body {
 #retiros-snippet {
   background-color: #2EBBE6;
 }
+*/
 
 .intralink:hover, .intralink:focus{
   color: #2EE6B5;
