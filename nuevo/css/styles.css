@@ -329,6 +329,13 @@ section p {
     font-size: 1.7em;
     margin-top: 125px;
   }
+  #header-nav {
+    background-color: #62ECC8;
+  }
+  #misas-snippet, #homilias-snippet, #capillas-snippet, 
+  #balances-snippet, #retiros-snippet, #sacramentos-snippet {
+    background-color: #B1F6E3;
+  }
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
