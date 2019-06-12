@@ -102,12 +102,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-blend-mode: color-burn;*/
   height: 640px;
 }
 
-#misas-snippet, #homilias-snippet, #capillas-snippet, #balances-snippet, #retiros-snippet {
-  background-color: #BBE62E;
+#misas-snippet, #homilias-snippet, #capillas-snippet, 
+#balances-snippet, #retiros-snippet, #sacramentos-snippet {
+  background-color: #62ECC8;
 }
 
 /*
@@ -384,5 +384,12 @@ section p {
     max-height: 430px;
     max-width: 420px;
     opacity: 0.8;
+  }
+  #header-nav {
+    background-color: #62ECC8;
+  }
+  #misas-snippet, #homilias-snippet, #capillas-snippet, 
+  #balances-snippet, #retiros-snippet, #sacramentos-snippet {
+    background-color: #96F2DA;
   }
 }
