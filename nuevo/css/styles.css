@@ -107,7 +107,8 @@ body {
 
 #misas-snippet, #homilias-snippet, #capillas-snippet, 
 #balances-snippet, #retiros-snippet, #sacramentos-snippet {
-  background-color: #62ECC8;
+/*  background-color: #62ECC8; */
+  background-color: #E6B52E;
 }
 
 /*
@@ -334,7 +335,8 @@ section p {
   }
   #misas-snippet, #homilias-snippet, #capillas-snippet, 
   #balances-snippet, #retiros-snippet, #sacramentos-snippet {
-    background-color: #B1F6E3;
+    background-color: #E6B52E;
+    /*background-color: #B1F6E3;*/
   }
 }
 
@@ -393,10 +395,11 @@ section p {
     opacity: 0.8;
   }
   #header-nav {
-    background-color: #62ECC8;
+    background-color: #69D1B6;
   }
   #misas-snippet, #homilias-snippet, #capillas-snippet, 
   #balances-snippet, #retiros-snippet, #sacramentos-snippet {
-    background-color: #B1F6E3;
+/*    background-color: #B1F6E3; */
+    background-color: #C99E28;
   }
 }
