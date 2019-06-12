@@ -295,6 +295,9 @@ section p {
   #capilla {
     padding-top: 10px;
   }
+  .misas-detail {
+    line-height: 1.2;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -401,5 +404,8 @@ section p {
   #balances-snippet, #retiros-snippet, #sacramentos-snippet {
 /*    background-color: #B1F6E3; */
     background-color: #C99E28;
+  }
+  .misas-detail {
+    line-height: 1.1;
   }
 }
