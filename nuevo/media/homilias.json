@@ -2,6 +2,18 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Corpus Christi",
+			"fecha" : "23/06/2019",
+			"audio" : "media/homilias/Corpus_Christi2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Santísima Trinidad",
+			"fecha" : "16/06/2019",
+			"audio" : "media/homilias/Santisima_Trinidad2019.mp3"
+		},
+		{
 			"tiempo": "de Pascua",
 			"descripcion": "Pentecostés",
 			"fecha" : "09/06/2019",
