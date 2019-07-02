@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XII",
+			"fecha" : "30/06/2019",
+			"audio" : "media/homilias/Domingo XII Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Corpus Christi",
 			"fecha" : "23/06/2019",
 			"audio" : "media/homilias/Corpus_Christi2019.mp3"
