@@ -45,6 +45,10 @@
 				"titulo": "Anuales",
 				"balances":
 				[
+					{
+						"anio": "2018",
+						"archivo": "SanEduardo_balance_2018.pdf"
+					}
 				]
 			},
 			{
