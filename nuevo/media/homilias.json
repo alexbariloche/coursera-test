@@ -3,21 +3,21 @@
 	[
 		{
 			"tiempo": "Ordinario",
-			"descripcion": "Domingo XIV",
+			"descripcion": "Domingo XV",
 			"fecha" : "14/07/2019",
+			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo XIV",
+			"fecha" : "07/07/2019",
 			"audio" : "media/homilias/Domingo XIV Tiempo Ordinario 2019.mp3"
 		},
 		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo XIII",
-			"fecha" : "07/07/2019",
-			"audio" : "media/homilias/Domingo XIII Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XII",
 			"fecha" : "30/06/2019",
-			"audio" : "media/homilias/Domingo XII Tiempo Ordinario 2019.mp3"
+			"audio" : "media/homilias/Domingo XIII Tiempo Ordinario 2019.mp3"
 		},
 		{
 			"tiempo": "Ordinario",
