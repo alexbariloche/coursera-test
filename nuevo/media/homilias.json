@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XVII",
+			"fecha" : "28/07/2019",
+			"audio" : "media/homilias/Domingo XVII Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XV",
 			"fecha" : "14/07/2019",
 			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2019.mp3"
