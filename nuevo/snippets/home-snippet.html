@@ -1,4 +1,5 @@
-<div id="home-snippet" ng-if="!menuCtrl.articulos">
+<div id="home-snippet" ng-controller="ArticulosController as articulosCtrl">
+	<div ng-if="!articulosCtrl.Articulos">
 	<div class="container" align="center">
 		<div class="row">
 			<div id="lema" class="textshadow visible-lg visible-md">
@@ -28,7 +29,7 @@
 						</div>
 
 						<div class="item">
-							<a href="#" ng-click="menuCtrl.Articulos();" title="Articulos">Articulos
+							<a href="#" ng-click="articulosCtrl.Articulos();" title="Articulos">Articulos
 								<img src="images/carousel/Pironio_gde.jpg" alt="" class="responsive">
 							</a>
 						</div>
@@ -55,5 +56,6 @@
 			</div>
 		</div>
  	</div>
+	</div>
+	<articulos-content ng-if="articulosCtrl.Articulos"></articulos-content>
 </div>
-<articulos-content ng-if="menuCtrl.articulos"></articulos-content>

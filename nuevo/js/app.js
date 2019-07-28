@@ -40,6 +40,7 @@ $(function () {
 // AngularJS code
 angular.module('SanEduardoApp', [])
   .controller('MenuController', menuController)
+  .controller('ArticulosController', articulosController)
   .service('MenuService', menuService)
   .directive('mainContent', mainContentDirective)
   .directive('misasContent', misasContentDirective)
@@ -194,7 +195,6 @@ function menuController( menuService) {
   menuCtrl.sacramentos = false;
   menuCtrl.retiros = false;
   menuCtrl.economia = false;
-  menuCtrl.articulos = false;
 
   menuCtrl.Inicio = function () {
     menuCtrl.inicio = true;
@@ -204,7 +204,6 @@ function menuController( menuService) {
     menuCtrl.sacramentos = false;
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
-    menuCtrl.articulos = false;
   };
 
   menuCtrl.Misas = function () {
@@ -215,7 +214,6 @@ function menuController( menuService) {
     menuCtrl.sacramentos = false;
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
-    menuCtrl.articulos = false;
   };
 
   menuCtrl.Homilias = function () {
@@ -226,7 +224,6 @@ function menuController( menuService) {
     menuCtrl.sacramentos = false;
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
-    menuCtrl.articulos = false;
   };
 
   menuCtrl.Capillas = function () {
@@ -237,7 +234,6 @@ function menuController( menuService) {
     menuCtrl.sacramentos = false;
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
-    menuCtrl.articulos = false;
   };
 
   menuCtrl.Sacramentos = function () {
@@ -248,7 +244,6 @@ function menuController( menuService) {
     menuCtrl.sacramentos = true;
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
-    menuCtrl.articulos = false;
   };
 
   menuCtrl.Retiros = function () {
@@ -259,7 +254,6 @@ function menuController( menuService) {
     menuCtrl.sacramentos = false;
     menuCtrl.retiros = true;
     menuCtrl.economia = false;
-    menuCtrl.articulos = false;
   };
 
   menuCtrl.Economia = function () {
@@ -270,20 +264,19 @@ function menuController( menuService) {
     menuCtrl.sacramentos = false;
     menuCtrl.retiros = false;
     menuCtrl.economia = true;
-    menuCtrl.articulos = false;
   };
 
-  menuCtrl.Articulos = function () {
-    menuCtrl.inicio = false;
-    menuCtrl.homilias = false;
-    menuCtrl.misas = false;
-    menuCtrl.capillas = false;
-    menuCtrl.sacramentos = false;
-    menuCtrl.retiros = false;
-    menuCtrl.economia = false;
-    menuCtrl.articulos = true;
-  };
+}
 
+articulosController.$inject = ['MenuService'];
+function articulosController( menuService) {
+  var articulosCtrl = this;
+
+  articulosCtrl.articulos = false;
+
+  articulosCtrl.Articulos = function () {
+    articulosCtrl.articulos = true;
+  };
 }
 
 })();
