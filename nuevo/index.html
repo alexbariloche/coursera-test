@@ -54,7 +54,8 @@
 		          <a href="#" ng-click="menuCtrl.Capillas();" title="Capillas de la Parroquia">Capillas</a>
 		        </li>
 		        <li id="navSacramentos">
-		          <a href="#" ng-click="menuCtrl.Sacramentos();" title="Bautismos y Matrimonios">Sacramentos</a>
+<!-- 		          <a href="#" ng-click="menuCtrl.Sacramentos();" title="Bautismos y Matrimonios">Sacramentos</a> -->
+				  <a href="#" ng-click="menuCtrl.Articulos();" title="Articulos">Articulos</a>
 		        </li>
 		        <li id="navRetiros">
 		          <a href="#" ng-click="menuCtrl.Retiros();" title="Retiros">Retiros</a>
@@ -77,7 +78,7 @@
 	<sacramentos-content ng-if="menuCtrl.sacramentos"></sacramentos-content>
 	<retiros-content ng-if="menuCtrl.retiros"></retiros-content>
 	<economia-content ng-if="menuCtrl.economia"></economia-content>
-	<articulos-content ng-if="menuCtrl.articulos"></articulos-content>
+	<articulos-content ng-if="menuCtrl.articulos">hola</articulos-content>
 
 	<footer class="panel-footer">
 		<div id="redoracion" class="row textshadow" ng-if="menuCtrl.inicio">
