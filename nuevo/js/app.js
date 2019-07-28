@@ -286,15 +286,4 @@ function menuController( menuService) {
 
 }
 
-articulosController.$inject = ['MenuService'];
-function articulosController( menuService) {
-  var articulosCtrl = this;
-
-  articulosCtrl.articulos = false;
-
-  articulosCtrl.Articulos = function () {
-    articulosCtrl.articulos = true;
-  };
-}
-
 })();
