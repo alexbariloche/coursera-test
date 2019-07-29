@@ -184,10 +184,7 @@ body {
 }
 
 #novedades {
-  background: url("../images/carousel/SanEduardo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #E6B52E;
 }
 
 #novedades-title {
