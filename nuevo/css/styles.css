@@ -349,6 +349,9 @@ section p {
     font-size: 1.7em;
     margin-top: 125px;
   }
+  #novedades-title {
+    margin-top: 303px;
+  }
   #header-nav {
     background-color: #62ECC8;
   }
@@ -399,6 +402,15 @@ section p {
     margin-top: 10px;
     align-content: center;
     color: #ccc;
+  }
+  #novedades-title {
+    color: black;
+  }
+  .novedades-item {
+    color: black;
+  }
+  #novedades-fecha {
+    color: black;
   }
   #myCarousel {
     top: 0;
