@@ -185,10 +185,17 @@ body {
 
 #novedades-title {
   margin-top: 203px;
+  font-style: normal;
 }
 
 .novedades-item {
   font-size: 0.7em;
+}
+
+#novedades-fecha {
+  text-align: right;
+  font-size: 0.7em;
+  font-style: normal;
 }
 
 footer {
