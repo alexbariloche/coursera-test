@@ -183,6 +183,13 @@ body {
   font-style: italic;
 }
 
+#novedades {
+  background: url("../images/carousel/SanEduardo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #novedades-title {
   margin-top: 203px;
   font-style: normal;
