@@ -184,11 +184,11 @@ body {
 }
 
 #novedades-title {
-
+  margin-top: 203px;
 }
 
 .novedades-item {
-
+  font-size: 0.7em;
 }
 
 footer {
