@@ -54,7 +54,7 @@ angular.module('SanEduardoApp', [])
 // Main directive
 function mainContentDirective() {
   var ddo = {
-    templateUrl: "snippets/home-snippet.html"
+    templateUrl: "snippets/home-snippet.html",
     controller: mainContentDirectiveController,
     controllerAs: 'novedades',
     bindToController: true
