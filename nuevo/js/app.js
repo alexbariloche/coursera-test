@@ -55,8 +55,26 @@ angular.module('SanEduardoApp', [])
 function mainContentDirective() {
   var ddo = {
     templateUrl: "snippets/home-snippet.html"
+    controller: mainContentDirectiveController,
+    controllerAs: 'novedades',
+    bindToController: true
   };
   return ddo;
+}
+
+mainContentDirectiveController.$inject = [ '$http'];
+function mainContentDirectiveController( $http) {
+  var novedades = this;
+
+  // Get Json with Masses to offer
+  $http ({
+    method: 'GET',
+    url: 'media/novedades.json' + '?_=' + new Date().getTime()
+  }).then( function (response) {
+    novedades.list = response.data;
+  }, function (error) {
+    console.log(error);
+  });
 }
 
 // Misas directive
