@@ -66,7 +66,7 @@ mainContentDirectiveController.$inject = [ '$http'];
 function mainContentDirectiveController( $http) {
   var novedades = this;
 
-  // Get Json with Masses to offer
+  // Get Json with News to offer
   $http ({
     method: 'GET',
     url: 'media/novedades.json' + '?_=' + new Date().getTime()

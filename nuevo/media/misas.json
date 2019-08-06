@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Marzo a Octubre de 2019",
+		"intervalo": "13 de Julio al 25 de Agosto de 2019",
 		"tipos":
 		[
 			{
@@ -50,6 +50,11 @@
 						"capilla": "María Madre de la Luz",
 						"hora": "18:00",
 						"sacerdote": "Gustavo"
+					},
+					{
+						"capilla": "NS del Cerro",
+						"hora": "18:00",
+						"sacerdote": "Eduardo"
 					},
 					{
 						"capilla": "San Eduardo",
