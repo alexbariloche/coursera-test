@@ -75,6 +75,16 @@ function mainContentDirectiveController( $http) {
   }, function (error) {
     console.log(error);
   });
+
+  // Get Json with Carousel to offer
+  $http ({
+    method: 'GET',
+    url: 'media/carousel.json' + '?_=' + new Date().getTime()
+  }).then( function (response) {
+    novedades.carousel = response.data;
+  }, function (error) {
+    console.log(error);
+  });
 }
 
 // Misas directive
