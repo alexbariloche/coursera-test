@@ -67,7 +67,7 @@ function mainContentDirectiveController( $http) {
   var novedades = this;
 
   // Get Json with News to offer
-  $http ({
+/*  $http ({
     method: 'GET',
     url: 'media/novedades.json' + '?_=' + new Date().getTime()
   }).then( function (response) {
@@ -75,13 +75,13 @@ function mainContentDirectiveController( $http) {
   }, function (error) {
     console.log(error);
   });
-
+*/
   // Get Json with Carousel to offer
   $http ({
     method: 'GET',
     url: 'media/carousel.json' + '?_=' + new Date().getTime()
   }).then( function (response) {
-    novedades.carousel = response.data;
+    novedades.list = response.data;
   }, function (error) {
     console.log(error);
   });
