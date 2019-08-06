@@ -26,15 +26,12 @@
 								<div class="novedades-item">- {{ novedad.texto }}</div>
 							</div>
 							<div id="novedades-fecha">{{novedades.list.ultima_actualizacion}}</div>
-							<div ng-repeat="imagen in novedades.list.imagenes">
-								<div class="novedades-item">* {{ imagen.archivo }}</div>
-							</div>
 						</div>
-<!-- 
-						<div class="item" ng-repeat="imagen in novedades.carousel.imagenes">
+
+						<div class="item" ng-repeat="imagen in novedades.list.imagenes">
 							<img src="{{ imagen.archivo }}" alt="" class="responsive">
 						</div>
- -->
+<!-- 
 						<div class="item">
 							<img src="images/carousel/PJV21.jpg" alt="" class="responsive">
 						</div>
@@ -50,8 +47,7 @@
 						<div class="item">
 							<img src="images/carousel/Jesus en el Monte.jpg" alt="" class="responsive">
 						</div>
-
-					
+ -->					
 					</div>
 
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
