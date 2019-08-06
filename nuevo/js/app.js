@@ -56,7 +56,7 @@ function mainContentDirective() {
   var ddo = {
     templateUrl: "snippets/home-snippet.html",
     controller: mainContentDirectiveController,
-    controllerAs: 'novedades',
+    controllerAs: 'carousel',
     bindToController: true
   };
   return ddo;
@@ -64,24 +64,14 @@ function mainContentDirective() {
 
 mainContentDirectiveController.$inject = [ '$http'];
 function mainContentDirectiveController( $http) {
-  var novedades = this;
+  var carousel = this;
 
-  // Get Json with News to offer
-/*  $http ({
-    method: 'GET',
-    url: 'media/novedades.json' + '?_=' + new Date().getTime()
-  }).then( function (response) {
-    novedades.list = response.data;
-  }, function (error) {
-    console.log(error);
-  });
-*/
   // Get Json with Carousel to offer
   $http ({
     method: 'GET',
     url: 'media/carousel.json' + '?_=' + new Date().getTime()
   }).then( function (response) {
-    novedades.list = response.data;
+    carousel.list = response.data;
   }, function (error) {
     console.log(error);
   });

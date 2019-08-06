@@ -22,32 +22,15 @@
 						<div id="novedades" class="item active">
 							<!-- <img src="images/carousel/SanEduardo.jpg" alt="" class="responsive" height="300px"> -->
 							<div id="novedades-title">Últimas publicaciones</div>
-							<div ng-repeat="novedad in novedades.list.novedades">
+							<div ng-repeat="novedad in carousel.list.novedades">
 								<div class="novedades-item">- {{ novedad.texto }}</div>
 							</div>
-							<div id="novedades-fecha">{{novedades.list.ultima_actualizacion}}</div>
+							<div id="novedades-fecha">{{carousel.list.ultima_actualizacion}}</div>
 						</div>
 
-						<div class="item" ng-repeat="imagen in novedades.list.imagenes">
+						<div class="item" ng-repeat="imagen in carousel.list.imagenes">
 							<img src="{{ imagen.archivo }}" alt="" class="responsive">
 						</div>
-<!-- 
-						<div class="item">
-							<img src="images/carousel/PJV21.jpg" alt="" class="responsive">
-						</div>
-
-						<div class="item">
-							<img src="images/carousel/saneduardo_memberplay_aportes.jpg" alt="" class="responsive">
-						</div>
-
-						<div class="item">
-							<img src="images/carousel/Pironio_gde.jpg" alt="" class="responsive">
-						</div>
-
-						<div class="item">
-							<img src="images/carousel/Jesus en el Monte.jpg" alt="" class="responsive">
-						</div>
- -->					
 					</div>
 
 					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
