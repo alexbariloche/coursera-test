@@ -245,6 +245,14 @@ section hr {
   font-style: italic;
 }
 
+#colaboraciones {
+  font-size: 1.3em;
+  text-align: left;
+  padding: 0 10px 10px;
+  margin-top: -40px;
+  font-style: italic;
+}
+
 .hrblack {
   border-top: 1px solid black;
 }
@@ -262,13 +270,14 @@ section p {
   font-size: 0.9em;
 }
 
-#contacto a, #redoracion a {
+#contacto a, #redoracion a, #colaboraciones a {
     color: #ccc;
     text-decoration: none;
 }
 
 #contacto a:hover, #contacto a:focus,
-#redoracion a:hover, #redoracion a:focus {
+#redoracion a:hover, #redoracion a:focus,
+#colaboraciones a:hover, #colaboraciones a:focus {
     color: #e6b319;
     font-weight: bold;
     text-decoration: none;

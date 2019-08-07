@@ -27,7 +27,7 @@
 		  <div class="container">
 		    <div class="navbar-header">
 		      <div class="navbar-brand">
-		        <a href="index.html"><h1>Parroquia San&nbsp;Eduardo</h1></a>
+		        <a href="#" ng-click="menuCtrl.Inicio();"><h1>Parroquia San&nbsp;Eduardo</h1></a>
 			  </div>
 
 		      <button id="navbarToggle" type="button" class="navbar-toggle collapsed"
@@ -41,10 +41,10 @@
 
 		    <div id="collapsable-nav" class="collapse navbar-collapse">
 		       <ul id="nav-list" class="nav navbar-nav navbar-right">
-		        <li id="navHomeButton">
+<!-- 		        <li id="navHomeButton">
 		          <a href="#" ng-click="menuCtrl.Inicio();">Inicio</a>
 		        </li>
-		        <li id="navMisas">
+ -->		        <li id="navMisas">
 		          <a href="#" ng-click="menuCtrl.Misas();" title="Horarios de Misas y Celebraciones">Horarios</a>
 		        </li>
 		        <li id="navHomilias">
@@ -63,8 +63,10 @@
 		          <a href="#" ng-click="menuCtrl.Retiros();" title="Retiros">Retiros</a>
 		        </li>
 		        <li id="navEconomia">
-					<a href="#" ng-click="menuCtrl.Economia();" title="Balances Económicos">Economía
-					</a>
+					<a href="#" ng-click="menuCtrl.Economia();" title="Balances Económicos">Economía</a>
+		        </li>
+		        <li id="navCaritas">
+					<a href="#" ng-click="menuCtrl.Caritas();" title="Cáritas">Cáritas</a>
 		        </li>
 		      </ul><!-- #nav-list -->
 		    </div><!-- .collapse .navbar-collapse -->
@@ -81,6 +83,7 @@
 	<retiros-content ng-if="menuCtrl.retiros"></retiros-content>
 	<economia-content ng-if="menuCtrl.economia"></economia-content>
 	<articulos-content ng-if="menuCtrl.articulos"></articulos-content>
+	<caritas-content ng-if="menuCtrl.caritas"></caritas-content>
 
 	<footer class="panel-footer">
 		<div id="redoracion" class="row textshadow" ng-if="menuCtrl.inicio">

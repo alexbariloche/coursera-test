@@ -19,12 +19,14 @@ var insertHtml = function (selector, html) {
 // First main page content loading
 document.addEventListener("DOMContentLoaded", function (event) {
   showLoading("#main-content");
+/*  menuCtrl.Inicio();
   $ajaxUtils.sendGetRequest(
     "snippets/home-snippet.html",
     function (homeHtml) {
       insertHtml("#main-content", homeHtml);
     },
     false);
+*/
 });
 
 // JQuery function for menu collapsing to hamburger button on narrow screens
@@ -32,7 +34,7 @@ $(function () {
   $("#navbarToggle").blur(function (event) {
     var screenWidth = window.innerWidth;
     if (screenWidth < 768) {
-      $("#collapsable-nav").collapse('hide');
+      $("#collapsable-nav").collapse('show');
     }
   });
 });
@@ -49,6 +51,7 @@ angular.module('SanEduardoApp', [])
   .directive('retirosContent', retirosContentDirective)
   .directive('economiaContent', economiaContentDirective)
   .directive('articulosContent', articulosContentDirective)
+  .directive('caritasContent', caritasContentDirective)
   ;
 
 // Main directive
@@ -185,6 +188,14 @@ function articulosContentDirective() {
   return ddo;
 }
 
+// Caritas directive
+function caritasContentDirective() {
+  var ddo = {
+    templateUrl: "snippets/caritas-snippet.html"
+  };
+  return ddo;
+}
+
 menuService.$inject = [ '$http'];
 function menuService( $http) {
   var menuSrvc = this;
@@ -213,6 +224,7 @@ function menuController( menuService) {
   menuCtrl.retiros = false;
   menuCtrl.economia = false;
   menuCtrl.articulos = false;
+  menuCtrl.caritas = false;
 
   menuCtrl.Inicio = function () {
     menuCtrl.inicio = true;
@@ -223,6 +235,7 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Misas = function () {
@@ -234,6 +247,7 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Homilias = function () {
@@ -245,6 +259,7 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Capillas = function () {
@@ -256,6 +271,7 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Sacramentos = function () {
@@ -267,6 +283,7 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Retiros = function () {
@@ -278,6 +295,7 @@ function menuController( menuService) {
     menuCtrl.retiros = true;
     menuCtrl.economia = false;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Economia = function () {
@@ -289,6 +307,7 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = true;
     menuCtrl.articulos = false;
+    menuCtrl.caritas = false;
   };
 
   menuCtrl.Articulos = function () {
@@ -300,6 +319,19 @@ function menuController( menuService) {
     menuCtrl.retiros = false;
     menuCtrl.economia = false;
     menuCtrl.articulos = true;
+    menuCtrl.caritas = false;
+  };
+
+  menuCtrl.Caritas = function () {
+    menuCtrl.inicio = false;
+    menuCtrl.misas = false;
+    menuCtrl.homilias = false;
+    menuCtrl.capillas = false;
+    menuCtrl.sacramentos = false;
+    menuCtrl.retiros = false;
+    menuCtrl.economia = false;
+    menuCtrl.articulos = false;
+    menuCtrl.caritas = true;
   };
 
 }
