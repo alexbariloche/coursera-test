@@ -50,10 +50,11 @@ body {
 #collapsable-nav {
   border: 0;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .navbar-header {
-  padding: 20px 0;
+  padding: 20px 0 20px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #222;
