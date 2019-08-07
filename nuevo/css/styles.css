@@ -49,11 +49,11 @@ body {
 
 #collapsable-nav {
   border: 0;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .navbar-header {
-  padding: 20px 0;
+  padding: 12px 0;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #222;
@@ -83,6 +83,8 @@ body {
 
 #nav-list {
   margin: 0;
+  margin-top: -20px;
+  padding-bottom: 8px;
 }
 
 #nav-list li {
@@ -133,7 +135,8 @@ body {
 */
 
 .intralink:hover, .intralink:focus{
-  color: #2EE6B5;
+  /*color: #2EE6B5;*/
+  color: teal;
 }
 
 .misas-title {
@@ -177,7 +180,7 @@ body {
 }
 
 .intralink {
-  color: #333;
+  color: teal;
   font-weight: 600;
   text-decoration: none;
   font-style: italic;
