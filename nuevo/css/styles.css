@@ -49,21 +49,13 @@ body {
 
 #collapsable-nav {
   border: 0;
-<<<<<<< HEAD
   padding-top: 10px;
 }
 
 .navbar-header {
   padding: 12px 0;
-=======
-  padding-top: 20px;
-  padding-bottom: 10px;
 }
 
-.navbar-header {
-  padding: 20px 0 20px;
->>>>>>> 9d94806e9cac45737622ac851b69e2ac6aa3ba3c
-}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #222;
 }
