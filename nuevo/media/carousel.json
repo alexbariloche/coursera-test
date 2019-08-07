@@ -18,6 +18,12 @@
 	"novedades":
 	[
 		{
+			"texto": "Como Colaborar"
+		},
+		{
+			"texto": "Horarios Misas"
+		},
+		{
 			"texto": "Homilía Domingo XVIII Tiempo Ordinario"
 		},
 		{
@@ -25,9 +31,6 @@
 		},
 		{
 			"texto": "Notas Sección Iglesia"
-		},
-		{
-			"texto": "Horarios Misas"
 		}
 	]
 }
