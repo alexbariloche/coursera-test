@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "09/08/2019",
+	"ultima_actualizacion": "11/08/2019",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XIX Tiempo Ordinario"
+		},
+		{
 			"texto": "Retiro Proyecto de Jesús"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Horarios Misas"
-		},
-		{
-			"texto": "Homilía Domingo XVIII Tiempo Ordinario"
 		},
 		{
 			"texto": "Balance Julio 2019"

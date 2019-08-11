@@ -149,7 +149,7 @@ function sacramentosContentDirective() {
 // Retiros directive
 function retirosContentDirective() {
   var ddo = {
-    templateUrl: "snippets/retiros-snippet.html"
+    templateUrl: "snippets/retiros-snippet.html" + '?_=' + new Date().getTime()
   };
   return ddo;
 }
