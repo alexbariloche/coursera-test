@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "HomilíaAsunción de María"
+		},
+		{
 			"texto": "Homilía Domingo XIX Tiempo Ordinario"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Horarios Misas"
-		},
-		{
-			"texto": "Balance Julio 2019"
 		}
 	]
 }
