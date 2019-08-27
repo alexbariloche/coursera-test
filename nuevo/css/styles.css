@@ -306,6 +306,8 @@ section p {
 .proyecto-foto {
   margin: 10px 0 0 0; 
   max-width: 900px;
+  min-height: 600px;
+  max-height: 600px;
 }
 
 /********** Large devices only **********/
@@ -378,9 +380,6 @@ section p {
   #balances-snippet, #retiros-snippet, #sacramentos-snippet {
     background-color: #E6B52E;
     /*background-color: #B1F6E3;*/
-  }
-  .proyecto-foto {
-    max-width: 400px;
   }
 }
 
@@ -459,6 +458,8 @@ section p {
     line-height: 1.1;
   }
   .proyecto-foto {
-    max-width: 300px;
+    min-height: 430px;
+    max-height: 430px;
+    max-width: 420px;
   }
 }
