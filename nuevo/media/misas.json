@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "13 de Julio al 06 de Setiembre de 2019",
+		"intervalo": "Setiembre a Diciembre de 2019",
 		"tipos":
 		[
 			{
@@ -55,11 +55,6 @@
 						"capilla": "NS del Cerro",
 						"hora": "18:00",
 						"sacerdote": "Eduardo"
-					},
-					{
-						"capilla": "San Eduardo",
-						"hora": "19:00",
-						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -83,6 +78,18 @@
 					{
 						"capilla": "Carmelitas",
 						"hora": "11:30",
+						"sacerdote": "Eduardo/Gustavo"
+					}
+				]
+			},
+			{
+				"descripcion": "Por los Enfermos",
+				"dias": "Primer Domingo del Mes",
+				"misas":
+				[
+					{
+						"capilla": "Teresa de Calcuta",
+						"hora": "17:30",
 						"sacerdote": "Eduardo/Gustavo"
 					}
 				]
