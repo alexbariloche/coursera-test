@@ -10,6 +10,11 @@
 				[
 					{
 						"anio": "2019",
+						"mes": "Agosto",
+						"archivo": "SanEduardo_balance_201908.pdf"
+					},
+					{
+						"anio": "2019",
 						"mes": "Julio",
 						"archivo": "SanEduardo_balance_201907.pdf"
 					},
