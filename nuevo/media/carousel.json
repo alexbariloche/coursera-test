@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Horarios Misas"
+		},
+		{
 			"texto": "Balance Agosto 2019"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Fotos Proyecto de Jesús 21"
-		},
-		{
-			"texto": "Horarios Misas"
 		}
 	]
 }
