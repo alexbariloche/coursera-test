@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVI",
+			"fecha" : "29/09/2019",
+			"audio" : "media/homilias/Domingo XXVI Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXV",
 			"fecha" : "22/09/2019",
 			"audio" : "media/homilias/Domingo XXV Tiempo Ordinario 2019.mp3"
