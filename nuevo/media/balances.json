@@ -10,6 +10,11 @@
 				[
 					{
 						"anio": "2019",
+						"mes": "Setiembre",
+						"archivo": "SanEduardo_balance_201909.pdf"
+					},
+					{
+						"anio": "2019",
 						"mes": "Agosto",
 						"archivo": "SanEduardo_balance_201908.pdf"
 					},
@@ -62,6 +67,14 @@
 					{
 						"anio": "Año 2017",
 						"archivo": "SanEduardo_balance_2017.pdf"
+					},
+					{
+						"anio": "Año 2016",
+						"archivo": "SanEduardo_balance_2016.pdf"
+					},
+					{
+						"anio": "Año 2015",
+						"archivo": "SanEduardo_balance_2015.pdf"
 					}
 				]
 			},
