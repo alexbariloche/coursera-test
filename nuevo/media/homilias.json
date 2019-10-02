@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Fiesta",
+			"descripcion": "Santa Teresita",
+			"fecha" : "01/10/2019",
+			"audio" : "media/homilias/Santa Teresita 2019.mp3"
+		},
+		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXVI",
 			"fecha" : "29/09/2019",
