@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVII",
+			"fecha" : "06/10/2019",
+			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2019.mp3"
+		},
+		{
 			"tiempo": "Fiesta",
 			"descripcion": "Santa Teresita",
 			"fecha" : "01/10/2019",
