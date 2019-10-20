@@ -3,7 +3,13 @@
 	[
 		{
 			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXVII",
+			"descripcion": "Domingo XXIX",
+			"fecha" : "20/10/2019",
+			"audio" : "media/homilias/Domingo XXIX Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVIII",
 			"fecha" : "13/10/2019",
 			"audio" : "media/homilias/Domingo XXVIII Tiempo Ordinario 2019.mp3"
 		},
@@ -14,7 +20,7 @@
 			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2019.mp3"
 		},
 		{
-			"tiempo": "Fiesta",
+			"tiempo": "Ordinario",
 			"descripcion": "Santa Teresita",
 			"fecha" : "01/10/2019",
 			"audio" : "media/homilias/Santa Teresita 2019.mp3"

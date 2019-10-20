@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Setiembre a Diciembre de 2019",
+		"intervalo": "Octubre a Diciembre de 2019",
 		"tipos":
 		[
 			{
@@ -50,11 +50,6 @@
 						"capilla": "María Madre de la Luz",
 						"hora": "18:00",
 						"sacerdote": "Gustavo"
-					},
-					{
-						"capilla": "NS del Cerro",
-						"hora": "18:00",
-						"sacerdote": "Eduardo"
 					}
 				]
 			},
@@ -90,7 +85,7 @@
 					{
 						"capilla": "Teresa de Calcuta",
 						"hora": "17:30",
-						"sacerdote": "Eduardo/Gustavo"
+						"sacerdote": "Gustavo"
 					}
 				]
 			}
