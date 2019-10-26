@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Octubre a Diciembre de 2019",
+		"intervalo": "Octubre y Noviembre de 2019",
 		"tipos":
 		[
 			{
@@ -16,7 +16,7 @@
 					},
 					{
 						"capilla": "NS del Cerro",
-						"hora": "18:00",
+						"hora": "19:00",
 						"sacerdote": "Eduardo"
 					}
 				]
@@ -48,7 +48,7 @@
 					},
 					{
 						"capilla": "María Madre de la Luz",
-						"hora": "18:00",
+						"hora": "19:00",
 						"sacerdote": "Gustavo"
 					}
 				]
