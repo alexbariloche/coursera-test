@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXX",
+			"fecha" : "27/10/2019",
+			"audio" : "media/homilias/Domingo XXX Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXIX",
 			"fecha" : "20/10/2019",
 			"audio" : "media/homilias/Domingo XXIX Tiempo Ordinario 2019.mp3"
