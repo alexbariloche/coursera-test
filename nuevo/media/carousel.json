@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "26/10/2019",
+	"ultima_actualizacion": "01/11/2019",
 	"imagenes":
 	[
 		{
@@ -18,13 +18,13 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Todos los Santos"
+		},
+		{
 			"texto": "Homilía Domingo XXX Tiempo Ordinario"
 		},
 		{
 			"texto": "Horarios de Misas"
-		},
-		{
-			"texto": "Primera del Ciclo de Charlas (menu Iglesia)"
 		},
 		{
 			"texto": "Balance Setiembre 2019"

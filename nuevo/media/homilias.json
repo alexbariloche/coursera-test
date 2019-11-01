@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Todos los Santos",
+			"fecha" : "01/11/2019",
+			"audio" : "media/homilias/Todos los Santos 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXX",
 			"fecha" : "27/10/2019",
 			"audio" : "media/homilias/Domingo XXX Tiempo Ordinario 2019.mp3"
