@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Balance Setiembre 2019"
+		},
+		{
 			"texto": "Homilía Domingo XXXI Tiempo Ordinario"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Horarios de Misas"
-		},
-		{
-			"texto": "Balance Setiembre 2019"
 		}
 	]
 }
