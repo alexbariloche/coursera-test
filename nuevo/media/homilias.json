@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXXIII",
+			"fecha" : "17/11/2019",
+			"audio" : "media/homilias/Domingo XXXIII Tiempo Ordinario 2019.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXXII",
 			"fecha" : "10/11/2019",
 			"audio" : "media/homilias/Domingo XXXII Tiempo Ordinario 2019.mp3"
