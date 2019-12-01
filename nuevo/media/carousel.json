@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "25/11/2019",
+	"ultima_actualizacion": "01/12/2019",
 	"imagenes":
 	[
 		{
@@ -18,13 +18,10 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía 1er Domingo de Adviento"
+		},
+		{
 			"texto": "Horarios de Misas"
-		},
-		{
-			"texto": "Homilía Domingo Cristo Rey"
-		},
-		{
-			"texto": "Balance Octubre 2019"
-		},
+		}
 	]
 }
