@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "01/12/2019",
+	"ultima_actualizacion": "03/12/2019",
 	"imagenes":
 	[
 		{
@@ -17,6 +17,9 @@
 	],
 	"novedades":
 	[
+		{
+			"texto": "Balance Noviembre 2019"
+		},
 		{
 			"texto": "Homilía 1er Domingo de Adviento"
 		},
