@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Adviento",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "08/12/2019",
+			"audio" : "media/homilias/2do Domingo Adviento 2019.mp3"
+		},
+		{
+			"tiempo": "de Adviento",
 			"descripcion": "Primer Domingo",
 			"fecha" : "01/12/2019",
 			"audio" : "media/homilias/1er Domingo Adviento 2019.mp3"
@@ -324,7 +330,10 @@
 			"descripcion": "Tercer Domingo",
 			"fecha" : "16/12/2018",
 			"audio" : "media/homilias/3er Domingo Adviento 2018.mp3"
-		},
+		}
+	],
+	"historicas":
+	[
 		{
 			"tiempo": "de Adviento",
 			"descripcion": "Segundo Domingo",
@@ -336,10 +345,7 @@
 			"descripcion": "Inmaculada Concepción",
 			"fecha" : "08/12/2018",
 			"audio" : "media/homilias/Inmaculada Concepcion 2018.mp3"
-		}
-	],
-	"historicas":
-	[
+		},
 		{
 			"tiempo": "de Adviento",
 			"descripcion": "Primer Domingo",
