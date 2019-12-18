@@ -133,7 +133,7 @@ function homiliasContentDirectiveController( $http) {
 // Capillas directive
 function capillasContentDirective() {
   var ddo = {
-    templateUrl: "snippets/capillas-snippet.html"
+    templateUrl: "snippets/capillas-snippet.html" + '?_=' + new Date().getTime()
   };
   return ddo;
 }
@@ -141,7 +141,7 @@ function capillasContentDirective() {
 // Sacramentos directive
 function sacramentosContentDirective() {
   var ddo = {
-    templateUrl: "snippets/sacramentos-snippet.html"
+    templateUrl: "snippets/sacramentos-snippet.html" + '?_=' + new Date().getTime()
   };
   return ddo;
 }
@@ -183,7 +183,7 @@ function economiaContentDirectiveController( $http) {
 // Articulos directive
 function articulosContentDirective() {
   var ddo = {
-    templateUrl: "snippets/articulos-snippet.html"
+    templateUrl: "snippets/articulos-snippet.html" + '?_=' + new Date().getTime()
   };
   return ddo;
 }
@@ -191,7 +191,7 @@ function articulosContentDirective() {
 // Caritas directive
 function caritasContentDirective() {
   var ddo = {
-    templateUrl: "snippets/caritas-snippet.html"
+    templateUrl: "snippets/caritas-snippet.html" + '?_=' + new Date().getTime()
   };
   return ddo;
 }
