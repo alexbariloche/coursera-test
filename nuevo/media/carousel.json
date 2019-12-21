@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "18/12/2019",
+	"ultima_actualizacion": "21/12/2019",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Horarios de Navidad"
+		},
+		{
 			"texto": "Caritas - Casita Llanquihue"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Balance Noviembre 2019"
-		},
-		{
-			"texto": "Horarios de Misas"
 		}
 	]
 }

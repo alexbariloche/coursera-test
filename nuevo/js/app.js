@@ -83,7 +83,7 @@ function mainContentDirectiveController( $http) {
 // Misas directive
 function misasContentDirective() {
   var ddo = {
-    templateUrl: "snippets/misas-snippet.html",
+    templateUrl: "snippets/misas-snippet.html" + '?_=' + new Date().getTime(),
     controller: misasContentDirectiveController,
     controllerAs: 'misas',
     bindToController: true
