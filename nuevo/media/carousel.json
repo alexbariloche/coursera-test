@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "21/12/2019",
+	"ultima_actualizacion": "25/12/2019",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Nochebuena"
+		},
+		{
 			"texto": "Homilía 4to Domingo de Adviento"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Caritas - Casita Llanquihue"
-		},
-		{
-			"texto": "Balance Noviembre 2019"
 		}
 	]
 }
