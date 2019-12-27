@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "25/12/2019",
+	"ultima_actualizacion": "27/12/2019",
 	"imagenes":
 	[
 		{
@@ -18,13 +18,13 @@
 	"novedades":
 	[
 		{
+			"texto": "Horarios de Año Nuevo"
+		},
+		{
 			"texto": "Homilía Nochebuena"
 		},
 		{
 			"texto": "Homilía 4to Domingo de Adviento"
-		},
-		{
-			"texto": "Horarios de Navidad"
 		},
 		{
 			"texto": "Caritas - Casita Llanquihue"
