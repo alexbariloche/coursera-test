@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Navidad",
+			"descripcion": "Santa María Madre de Dios",
+			"fecha" : "01/01/2020",
+			"audio" : "media/homilias/StaMariaMadreDios2020.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
 			"descripcion": "Sagrada Familia",	
 			"fecha" : "29/12/2018",
 			"audio" : "media/homilias/Sagrada Familia 2019.mp3"
@@ -324,16 +330,16 @@
 			"descripcion": "Epifanía",
 			"fecha" : "06/01/2019",
 			"audio" : "media/homilias/Epifania2019.mp3"
-		},
+		}
+	],
+	"historicas":
+	[
 		{
 			"tiempo": "de Navidad",
 			"descripcion": "Santa María Madre de Dios",
 			"fecha" : "01/01/2019",
 			"audio" : "media/homilias/StaMariaMadreDios2019.mp3"
-		}
-	],
-	"historicas":
-	[
+		},
 		{
 			"tiempo": "de Navidad",
 			"descripcion": "Sagrada Familia",	
