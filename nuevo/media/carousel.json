@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "01/01/2020",
+	"ultima_actualizacion": "03/01/2020",
 	"imagenes":
 	[
 		{
@@ -18,13 +18,13 @@
 	"novedades":
 	[
 		{
+			"texto": "Balance Anual 2019"
+		},
+		{
+			"texto": "Horarios de Enero 2020"
+		},
+		{
 			"texto": "Homilía Sta Maria Madre de Dios"
-		},
-		{
-			"texto": "Homilía Sagrada Familia"
-		},
-		{
-			"texto": "Horarios de Año Nuevo"
 		},
 		{
 			"texto": "Caritas - Casita Llanquihue"
