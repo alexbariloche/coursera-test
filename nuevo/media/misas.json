@@ -86,18 +86,6 @@
 						"sacerdote": "Eduardo/Gustavo"
 					}
 				]
-			},
-			{
-				"descripcion": "Por los Enfermos",
-				"dias": "Por los Enfermos - 1er Domingo del Mes",
-				"misas":
-				[
-					{
-						"capilla": "San Eduardo",
-						"hora": "18:30",
-						"sacerdote": "Gustavo"
-					}
-				]
 			}
 		]
 	},

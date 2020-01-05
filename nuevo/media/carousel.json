@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "03/01/2020",
+	"ultima_actualizacion": "05/01/2020",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Segundo Domingo Navidad"
+		},
+		{
 			"texto": "Balance Anual 2019"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Homilía Sta Maria Madre de Dios"
-		},
-		{
-			"texto": "Caritas - Casita Llanquihue"
 		}
 	]
 }
