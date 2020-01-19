@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo II",
+			"fecha" : "19/01/2020",
+			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2020.mp3"
+		},
+		{
 			"tiempo": "de Navidad",
 			"descripcion": "Bautismo del Señor",
 			"fecha" : "12/01/2020",
@@ -330,16 +336,16 @@
 			"descripcion": "Domingo III",
 			"fecha" : "27/01/2019",
 			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2019.mp3"
-		},
+		}
+	],
+	"historicas":
+	[
 		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo II",
 			"fecha" : "20/01/2019",
 			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2019.mp3"
-		}
-	],
-	"historicas":
-	[
+		},
 		{
 			"tiempo": "de Navidad",
 			"descripcion": "Bautismo del Señor",
