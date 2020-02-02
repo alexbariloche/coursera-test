@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "22/01/2020",
+	"ultima_actualizacion": "02/02/2020",
 	"imagenes":
 	[
 		{
@@ -18,16 +18,16 @@
 	"novedades":
 	[
 		{
-			"texto": "Homilía Domingo 26/01/20"
+			"texto": "Homilía Domingo IV Tiempo Ordinario"
+		},
+		{
+			"texto": "Horarios Febrero y Marzo 2020"
+		},
+		{
+			"texto": "Balance Enero 2020"
 		},
 		{
 			"texto": "Fechas para Matrimonios"
-		},
-		{
-			"texto": "Homilía Bautismo del Señor"
-		},
-		{
-			"texto": "Balance Anual 2019"
 		}
 	]
 }

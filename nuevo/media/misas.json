@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Enero de 2020",
+		"intervalo": "Febrero y Marzo de 2020",
 		"tipos":
 		[
 			{
@@ -18,11 +18,6 @@
 						"capilla": "NS del Cerro",
 						"hora": "19:00",
 						"sacerdote": "Eduardo"
-					},
-					{
-						"capilla": "San Eduardo",
-						"hora": "20:00",
-						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -65,18 +60,6 @@
 			},
 			{
 				"descripcion": "Diaria",
-				"dias": "Diaria - Lunes a Sabado",
-				"misas":
-				[
-					{
-						"capilla": "Carmelitas",
-						"hora": "11:30",
-						"sacerdote": "Eduardo/Gustavo"
-					}
-				]
-			},
-			{
-				"descripcion": "Diaria",
 				"dias": "Diaria - Lunes a Viernes",
 				"misas":
 				[
@@ -84,6 +67,30 @@
 						"capilla": "San Eduardo",
 						"hora": "19:00",
 						"sacerdote": "Eduardo/Gustavo"
+					}
+				]
+			},
+			{
+				"descripcion": "Diaria",
+				"dias": "Diaria - Sábados",
+				"misas":
+				[
+					{
+						"capilla": "San Eduardo",
+						"hora": "11:30",
+						"sacerdote": "Eduardo/Gustavo"
+					}
+				]
+			},
+			{
+				"descripcion": "Por los Enfermos",
+				"dias": "Por los Enfermos - 1er Domingo del Mes",
+				"misas":
+				[
+					{
+						"capilla": "San Eduardo",
+						"hora": "18:15",
+						"sacerdote": "Gustavo"
 					}
 				]
 			}
