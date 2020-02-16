@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo VI",
+			"fecha" : "16/02/2020",
+			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo V",
 			"fecha" : "09/02/2020",
 			"audio" : "media/homilias/Domingo V Tiempo Ordinario 2020.mp3"
