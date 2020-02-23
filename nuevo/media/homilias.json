@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo VII",
+			"fecha" : "23/02/2020",
+			"audio" : "media/homilias/Domingo VII Tiempo Ordinario 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo VI",
 			"fecha" : "16/02/2020",
 			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2020.mp3"
@@ -330,18 +336,6 @@
 			"descripcion": "Domingo VIII",
 			"fecha" : "03/03/2019",
 			"audio" : "media/homilias/Domingo VIII Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo VII",
-			"fecha" : "24/02/2019",
-			"audio" : "media/homilias/Domingo VII Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo VI",
-			"fecha" : "17/02/2019",
-			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2019.mp3"
 		}
 	],
 	"historicas":
