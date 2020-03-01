@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "23/02/2020",
+	"ultima_actualizacion": "01/03/2020",
 	"imagenes":
 	[
 		{
@@ -18,16 +18,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía 1er Domingo Tiempo Cuaresma"
+		},
+		{
+			"texto": "Balance Febrero 2020"
+		},
+		{
 			"texto": "Miercoles de Cenizas: 26/feb 19hs - Carmelitas"
 		},
 		{
-			"texto": "Homilía Domingo VII Tiempo Ordinario"
-		},
-		{
 			"texto": "Horarios Febrero y Marzo 2020"
-		},
-		{
-			"texto": "Fechas para Matrimonios"
 		}
 	]
 }

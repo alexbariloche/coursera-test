@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Cuaresma",
+			"descripcion": "Primer Domingo",
+			"fecha" : "01/03/2020",
+			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2020.mp3"
+		},
+		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo VII",
 			"fecha" : "23/02/2020",
@@ -324,7 +330,10 @@
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "31/03/2019",
 			"audio" : "media/homilias/4to Domingo Tiempo Cuaresma 2019.mp3"
-		},
+		}
+	],
+	"historicas":
+	[
 		{
 			"tiempo": "de Cuaresma",
 			"descripcion": "Primer Domingo",
@@ -336,10 +345,7 @@
 			"descripcion": "Domingo VIII",
 			"fecha" : "03/03/2019",
 			"audio" : "media/homilias/Domingo VIII Tiempo Ordinario 2019.mp3"
-		}
-	],
-	"historicas":
-	[
+		},
 		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo V",
