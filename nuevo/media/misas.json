@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Febrero y Marzo de 2020",
+		"intervalo": "Marzo de 2020",
 		"tipos":
 		[
 			{
@@ -16,7 +16,7 @@
 					},
 					{
 						"capilla": "NS del Cerro",
-						"hora": "19:00",
+						"hora": "18:00",
 						"sacerdote": "Eduardo"
 					}
 				]
