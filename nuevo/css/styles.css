@@ -108,6 +108,11 @@ body {
   height: 640px;
 }
 
+#texto-ayuda {
+  font-size: 0.8em; 
+  color: white;
+}
+
 #misas-snippet, #homilias-snippet, #capillas-snippet, 
 #balances-snippet, #retiros-snippet, #sacramentos-snippet {
 /*  background-color: #62ECC8; */
@@ -310,6 +315,12 @@ section p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+#texto-ayuda {
+  font-size: 0.8em; 
+  color: black; 
+  margin-top: 50px;
+}
+
 }
 
 /********** Medium devices only **********/
@@ -317,6 +328,12 @@ section p {
   #collapsable-nav a {
     margin-bottom: 20px;
   }
+#texto-ayuda {
+  font-size: 0.8em; 
+  color: black; 
+  margin-top: 50px;
+}
+
 }
 
 /********** Small devices only **********/
@@ -384,7 +401,7 @@ section p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 450px) {
   #home-snippet {
-    height: 500px;
+    height: 520px;
   }
   .navbar-brand {
     height: 45px;
