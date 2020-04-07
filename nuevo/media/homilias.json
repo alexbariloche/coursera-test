@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Cuaresma",
+			"descripcion": "Domingo de Ramos",
+			"fecha" : "05/04/2020",
+			"audio" : "media/homilias/Domingo de Ramos 2020.mp3"
+		},
+		{
+			"tiempo": "de Cuaresma",
 			"descripcion": "Quinto Domingo",
 			"fecha" : "29/03/2020",
 			"audio" : "media/homilias/5to Domingo Tiempo Cuaresma 2020.mp3"
@@ -330,7 +336,10 @@
 			"descripcion": "Jueves Santo",
 			"fecha" : "18/04/2019",
 			"audio" : "media/homilias/Jueves Santo 2019.mp3"
-		},
+		}
+	],
+	"historicas":
+	[
 		{
 			"tiempo": "de Cuaresma",
 			"descripcion": "Domingo de Ramos",
@@ -342,10 +351,7 @@
 			"descripcion": "Quinto Domingo",
 			"fecha" : "07/04/2019",
 			"audio" : "media/homilias/5to Domingo Tiempo Cuaresma 2019.mp3"
-		}
-	],
-	"historicas":
-	[
+		},
 		{
 			"tiempo": "de Cuaresma",
 			"descripcion": "Cuarto Domingo",

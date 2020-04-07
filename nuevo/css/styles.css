@@ -401,7 +401,7 @@ section p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 450px) {
   #home-snippet {
-    height: 520px;
+    height: 550px;
   }
   .navbar-brand {
     height: 45px;
