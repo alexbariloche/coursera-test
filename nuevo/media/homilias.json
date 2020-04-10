@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Viernes Santo",
+			"fecha" : "10/04/2020",
+			"audio" : "media/homilias/Viernes Santo 2020.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Jueves Santo",
 			"fecha" : "09/04/2020",
 			"audio" : "media/homilias/Jueves Santo 2020.mp3"
@@ -330,12 +336,6 @@
 			"descripcion": "Vigilia Pascual",
 			"fecha" : "20/04/2019",
 			"audio" : "media/homilias/Vigilia Pascual 2019.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Viernes Santo",
-			"fecha" : "19/04/2019",
-			"audio" : "media/homilias/Viernes Santo 2019.mp3"
 		}
 	],
 	"historicas":

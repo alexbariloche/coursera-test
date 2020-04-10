@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "09/04/2020",
+	"ultima_actualizacion": "10/04/2020",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Viernes Santo 2020"
+		},
+		{
 			"texto": "Homilía Jueves Santo 2020"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Balance Marzo 2020"
-		},
-		{
-			"texto": "Homilía Domingo de Ramos 2020"
 		}
 	]
 }
