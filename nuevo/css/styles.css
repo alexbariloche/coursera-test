@@ -360,6 +360,9 @@ section p {
   section {
     text-align: center;
   }
+  #home-snippet {
+    height: 550px;
+  }
   .navbar-brand h1 {
     font-size: 1.8em;
     margin-top: -8px;

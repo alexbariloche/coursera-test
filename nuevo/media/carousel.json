@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "07/04/2020",
+	"ultima_actualizacion": "09/04/2020",
 	"imagenes":
 	[
 		{
@@ -18,16 +18,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Jueves Santo 2020"
+		},
+		{
+			"texto": "Horarios Semana Santa 2020"
+		},
+		{
 			"texto": "Balance Marzo 2020"
 		},
 		{
 			"texto": "Homilía Domingo de Ramos 2020"
-		},
-		{
-			"texto": "Homilía 5to Domingo Tiempo Cuaresma"
-		},
-		{
-			"texto": "Horarios Marzo 2020"
 		}
 	]
 }
