@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "10/04/2020",
+	"ultima_actualizacion": "12/04/2020",
 	"imagenes":
 	[
 		{
@@ -18,13 +18,13 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Vigilia Pascual 2020"
+		},
+		{
 			"texto": "Homilía Viernes Santo 2020"
 		},
 		{
 			"texto": "Homilía Jueves Santo 2020"
-		},
-		{
-			"texto": "Horarios Semana Santa 2020"
 		},
 		{
 			"texto": "Balance Marzo 2020"
