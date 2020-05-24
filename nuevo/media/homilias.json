@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Ascención de Jesús",
+			"fecha" : "17/05/2020",
+			"audio" : "media/homilias/Ascension de Jesus 2020.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Sexto Domingo",
 			"fecha" : "17/05/2020",
 			"audio" : "media/homilias/6to Domingo Tiempo Pascual 2020.mp3"
