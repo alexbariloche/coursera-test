@@ -3,8 +3,14 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Pentecostés",
+			"fecha" : "31/05/2020",
+			"audio" : "media/homilias/Pentecostes2020.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Ascención de Jesús",
-			"fecha" : "17/05/2020",
+			"fecha" : "24/05/2020",
 			"audio" : "media/homilias/Ascension de Jesus 2020.mp3"
 		},
 		{
@@ -342,12 +348,6 @@
 			"descripcion": "Santísima Trinidad",
 			"fecha" : "16/06/2019",
 			"audio" : "media/homilias/Santisima_Trinidad2019.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Pentecostés",
-			"fecha" : "09/06/2019",
-			"audio" : "media/homilias/Pentecostes2019.mp3"
 		}
 	],
 	"historicas":
