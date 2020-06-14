@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Corpus Christi",
+			"fecha" : "14/06/2020",
+			"audio" : "media/homilias/Corpus_Christi2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Santísima Trinidad",
 			"fecha" : "07/06/2019",
 			"audio" : "media/homilias/Santisima_Trinidad2020.mp3"
@@ -342,12 +348,6 @@
 			"descripcion": "Domingo XIII",
 			"fecha" : "30/06/2019",
 			"audio" : "media/homilias/Domingo XIII Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Corpus Christi",
-			"fecha" : "23/06/2019",
-			"audio" : "media/homilias/Corpus_Christi2019.mp3"
 		}
 	],
 	"historicas":
