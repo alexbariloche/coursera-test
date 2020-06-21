@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "14/06/2020",
+	"ultima_actualizacion": "21/06/2020",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XII Tiempo Ordinario 2020"
+		},
+		{
 			"texto": "Homilía Corpus Christi 2020"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Balance Abril y Mayo 2020"
-		},
-		{
-			"texto": "Homilía Pentecostés 2020"
 		}
 	]
 }

@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XII",
+			"fecha" : "21/06/2019",
+			"audio" : "media/homilias/Domingo XII Tiempo Ordinario 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Corpus Christi",
 			"fecha" : "14/06/2020",
 			"audio" : "media/homilias/Corpus_Christi2020.mp3"
