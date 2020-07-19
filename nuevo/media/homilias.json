@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XVI",
+			"fecha" : "19/07/2020",
+			"audio" : "media/homilias/Domingo XVI Tiempo Ordinario 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XV",
 			"fecha" : "12/07/2020",
 			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2020.mp3"
