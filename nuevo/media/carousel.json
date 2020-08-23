@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "02/08/2020",
+	"ultima_actualizacion": "23/08/2020",
 	"imagenes":
 	[
 		{
@@ -18,6 +18,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XXI Tiempo Ordinario 2020"
+		},
+		{
 			"texto": "Homilía Domingo XX Tiempo Ordinario 2020"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Homilía Domingo XVIII Tiempo Ordinario 2020"
-		},
-		{
-			"texto": "Homilía Domingo XVII Tiempo Ordinario 2020"
 		}
 	]
 }
