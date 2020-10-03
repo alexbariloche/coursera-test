@@ -60,28 +60,7 @@
 					}
 				]
 			}
-/*			{
-				"descripcion": "Diaria",
-				"dias": "Diaria - Lunes a Viernes",
-				"misas":
-				[
-				]
-			},
-			{
-				"descripcion": "Diaria",
-				"dias": "Diaria - Sábados",
-				"misas":
-				[
-				]
-			},
-			{
-				"descripcion": "Por los Enfermos",
-				"dias": "Por los Enfermos - 1er Domingo del Mes",
-				"misas":
-				[
-				]
-			}
-*/		]
+		]
 	},
 	"fiestas":
 	{
