@@ -59,8 +59,8 @@
 						"sacerdote": "Eduardo"
 					}
 				]
-			},
-			{
+			}
+/*			{
 				"descripcion": "Diaria",
 				"dias": "Diaria - Lunes a Viernes",
 				"misas":
@@ -81,7 +81,7 @@
 				[
 				]
 			}
-		]
+*/		]
 	},
 	"fiestas":
 	{
