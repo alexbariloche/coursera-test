@@ -22,10 +22,10 @@
 				{{misaTipo.dias}}
 			</div>
 			<div class="row misas-detail" ng-repeat="misa in misaTipo.misas">
-				<div id="dia-hora" class="col-md-4 col-sm-12 visible-lg visible-md">
+				<div id="dia-hora" class="col-md-3 col-sm-12 visible-lg visible-md">
 					{{misaTipo.dias}} a las {{ misa.hora }} hs
 				</div>
-				<div id="capilla" class="col-md-4 col-sm-12">
+				<div id="capilla" class="col-md-3 col-sm-12">
 					<span class="visible-sm visible-xs">
 						Capilla&nbsp;{{ misa.capilla }}
 					</span>
@@ -33,13 +33,18 @@
 						{{ misa.capilla }}
 					</span>
 				</div>
-				<div id="horario" class="col-md-4 col-sm-12 visible-sm visible-xs">
+				<div id="horario" class="col-md-3 col-sm-12 visible-sm visible-xs">
 					{{ misa.hora }} hs
 				</div>
-				<div id="cupo" class="col-md-4 col-sm-12 visible-sm visible-xs">
-					{{ misa.cupo }} personas
+				<div id="padre" class="col-md-3 col-sm-12">
+					<span class="visible-sm visible-xs">
+						Cupo&nbsp;{{ misa.cupo}} personas
+					</span>
+					<span class="visible-md visible-lg">
+						{{ misa.cupo}} personas
+					</span>
 				</div>
-				<div id="padre" class="col-md-4 col-sm-12">
+				<div id="padre" class="col-md-3 col-sm-12">
 					<span class="visible-sm visible-xs">
 						Padre&nbsp;{{ misa.sacerdote}}
 					</span>
@@ -50,5 +55,5 @@
 			</div>
 		</div>
 	</div>
- -->	<div>&nbsp;</div>
+	<div>&nbsp;</div>
 </div>
