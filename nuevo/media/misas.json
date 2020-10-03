@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Marzo de 2020",
+		"intervalo": "Octubre de 2020",
 		"tipos":
 		[
 			{
@@ -12,11 +12,13 @@
 					{
 						"capilla": "Teresa de Calcuta",
 						"hora": "18:00",
+						"cupo": "12",
 						"sacerdote": "Gustavo"
 					},
 					{
 						"capilla": "NS del Cerro",
 						"hora": "18:00",
+						"cupo": "10",
 						"sacerdote": "Eduardo"
 					}
 				]
@@ -29,32 +31,32 @@
 					{
 						"capilla": "Carmelitas",
 						"hora": "11:00",
+						"cupo": "25",
 						"sacerdote": "Eduardo"
 					},
 					{
 						"capilla": "San Eduardo",
 						"hora": "11:00",
+						"cupo": "20",
 						"sacerdote": "Gustavo"
 					},
 					{
 						"capilla": "NS de Lujan",
 						"hora": "12:15",
+						"cupo": "10",
 						"sacerdote": "Eduardo"
 					},
 					{
 						"capilla": "San Cayetano",
 						"hora": "12:30",
+						"cupo": "10",
 						"sacerdote": "Gustavo"
 					},
 					{
 						"capilla": "María Madre de la Luz",
 						"hora": "18:00",
+						"cupo": "10",
 						"sacerdote": "Eduardo"
-					},
-					{
-						"capilla": "San Eduardo",
-						"hora": "19:00",
-						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -63,11 +65,6 @@
 				"dias": "Diaria - Lunes a Viernes",
 				"misas":
 				[
-					{
-						"capilla": "San Eduardo",
-						"hora": "19:00",
-						"sacerdote": "Eduardo/Gustavo"
-					}
 				]
 			},
 			{
@@ -75,11 +72,6 @@
 				"dias": "Diaria - Sábados",
 				"misas":
 				[
-					{
-						"capilla": "San Eduardo",
-						"hora": "11:30",
-						"sacerdote": "Eduardo/Gustavo"
-					}
 				]
 			},
 			{
@@ -87,11 +79,6 @@
 				"dias": "Por los Enfermos - 1er Domingo del Mes",
 				"misas":
 				[
-					{
-						"capilla": "San Eduardo",
-						"hora": "18:15",
-						"sacerdote": "Gustavo"
-					}
 				]
 			}
 		]
