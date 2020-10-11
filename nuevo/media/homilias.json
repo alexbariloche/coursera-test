@@ -3,6 +3,18 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVIII",
+			"fecha" : "11/10/2020",
+			"audio" : "media/homilias/Domingo XXVIII Tiempo Ordinario 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVII",
+			"fecha" : "04/10/2020",
+			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXVI",
 			"fecha" : "27/09/2020",
 			"audio" : "media/homilias/Domingo XXVI Tiempo Ordinario 2020.mp3"
@@ -336,24 +348,6 @@
 			"descripcion": "Domingo XXIX",
 			"fecha" : "20/10/2019",
 			"audio" : "media/homilias/Domingo XXIX Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXVIII",
-			"fecha" : "13/10/2019",
-			"audio" : "media/homilias/Domingo XXVIII Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXVII",
-			"fecha" : "06/10/2019",
-			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2019.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Santa Teresita",
-			"fecha" : "01/10/2019",
-			"audio" : "media/homilias/Santa Teresita 2019.mp3"
 		}
 	],
 	"historicas":
