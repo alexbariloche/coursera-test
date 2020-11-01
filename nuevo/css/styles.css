@@ -262,6 +262,13 @@ section hr {
   font-style: italic;
 }
 
+#prensaobispadobche {
+  margin: 25px 150px; 
+  text-align: inherit; 
+  padding: 25px 20px; 
+  border: 1px solid #888
+}
+
 .hrblack {
   border-top: 1px solid black;
 }
@@ -399,6 +406,9 @@ section p {
     background-color: #E6B52E;
     /*background-color: #B1F6E3;*/
   }
+  #prensaobispadobche {
+    margin: inherit; 
+  }
 }
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
@@ -441,6 +451,9 @@ section p {
     margin-top: 10px;
     align-content: center;
     color: #ccc;
+  }
+  #prensaobispadobche {
+    margin: inherit; 
   }
   #novedades-title {
     color: black;
