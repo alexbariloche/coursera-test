@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Todos los Santos",
+			"fecha" : "01/11/2020",
+			"audio" : "media/homilias/Solemnidad de Todos los Santos 2020.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXX",
 			"fecha" : "25/10/2020",
 			"audio" : "media/homilias/Domingo XXX Tiempo Ordinario 2020.mp3"
