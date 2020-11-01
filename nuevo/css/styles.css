@@ -408,6 +408,8 @@ section p {
   }
   #prensaobispadobche {
     margin: inherit; 
+    text-align: inherit; 
+    padding: 25px 20px; 
   }
 }
 
@@ -454,6 +456,8 @@ section p {
   }
   #prensaobispadobche {
     margin: inherit; 
+    text-align: inherit; 
+    padding: 25px 20px; 
   }
   #novedades-title {
     color: black;
