@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "15/11/2020",
+	"ultima_actualizacion": "22/11/2020",
 	"imagenes":
 	[
 		{
@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Cristo Rey 2020"
+		},
+		{
 			"texto": "Homilía Domingo XXXIII del Tiempo Ordinario 2020"
 		},
 		{
@@ -22,9 +25,6 @@
 		},
 		{
 			"texto": "Balance parroquial Octubre 2020"
-		},
-		{
-			"texto": "Peregrinación Virgen de las Nieves (en Horarios)"
 		}
 	]
 }
