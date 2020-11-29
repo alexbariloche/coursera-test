@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía 1er Domingo Adviento 2020"
+		},
+		{
 			"texto": "Homilía Cristo Rey 2020"
 		},
 		{
@@ -22,9 +25,6 @@
 		},
 		{
 			"texto": "Mensaje del Obispo a la Diócesis (en Iglesia)"
-		},
-		{
-			"texto": "Balance parroquial Octubre 2020"
 		}
 	]
 }
