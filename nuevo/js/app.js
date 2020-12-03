@@ -57,7 +57,7 @@ angular.module('SanEduardoApp', [])
 // Main directive
 function mainContentDirective() {
   var ddo = {
-    templateUrl: "snippets/home-snippet.html",
+    templateUrl: "snippets/home-snippet.html" + '?_=' + new Date().getTime(),
     controller: mainContentDirectiveController,
     controllerAs: 'carousel',
     bindToController: true
