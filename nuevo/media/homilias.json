@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Adviento",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "06/12/2020",
+			"audio" : "media/homilias/2do Domingo Adviento 2020.mp3"
+		},
+		{
+			"tiempo": "de Adviento",
 			"descripcion": "Primer Domingo",
 			"fecha" : "29/11/2020",
 			"audio" : "media/homilias/1er Domingo Adviento 2020.mp3"
@@ -336,12 +342,6 @@
 			"descripcion": "Tercer Domingo",
 			"fecha" : "15/12/2019",
 			"audio" : "media/homilias/3er Domingo Adviento 2019.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "08/12/2019",
-			"audio" : "media/homilias/2do Domingo Adviento 2019.mp3"
 		}
 	],
 	"historicas":
