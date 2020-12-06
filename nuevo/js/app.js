@@ -109,7 +109,7 @@ function misasContentDirectiveController( $http) {
 // Homilies directive
 function homiliasContentDirective() {
   var ddo = {
-    templateUrl: "snippets/homilias-snippet.html",
+    templateUrl: "snippets/homilias-snippet.html" + '?_=' + new Date().getTime(),
     controller: homiliasContentDirectiveController,
     controllerAs: 'homilias',
     bindToController: true
@@ -157,7 +157,7 @@ function retirosContentDirective() {
 // Economia directive
 function economiaContentDirective() {
   var ddo = {
-    templateUrl: "snippets/economia-snippet.html",
+    templateUrl: "snippets/economia-snippet.html" + '?_=' + new Date().getTime(),
     controller: economiaContentDirectiveController,
     controllerAs: 'balances',
     bindToController: true
