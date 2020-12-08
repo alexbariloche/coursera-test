@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "06/12/2020",
+	"ultima_actualizacion": "08/12/2020",
 	"imagenes":
 	[
 		{
@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Inmaculada Concepción 2020"
+		},
+		{
 			"texto": "Homilía 2do Domingo Adviento 2020"
 		},
 		{
@@ -22,9 +25,6 @@
 		},
 		{
 			"texto": "Homilía 1er Domingo Adviento 2020"
-		},
-		{
-			"texto": "Mensaje del Obispo a la Diócesis (en Iglesia)"
 		}
 	]
 }
