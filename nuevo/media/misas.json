@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Noviembre de 2020",
+		"intervalo": "Diciembre de 2020",
 		"tipos":
 		[
 			{
@@ -17,9 +17,15 @@
 					},
 					{
 						"capilla": "NS del Cerro",
-						"hora": "18:00",
+						"hora": "19:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
+					},
+					{
+						"capilla": "San Eduardo",
+						"hora": "19:30",
+						"cupo": "20",
+						"sacerdote": "Gustavo"
 					}
 				]
 			},
