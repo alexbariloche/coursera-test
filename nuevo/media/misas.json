@@ -65,6 +65,32 @@
 						"sacerdote": "Gustavo"
 					}
 				]
+			},
+			{
+				"descripcion": "Diaria",
+				"dias": "Lunes a Viernes",
+				"misas":
+				[
+					{
+						"capilla": "Carmelitas",
+						"hora": "18:00",
+						"cupo": "25",
+						"sacerdote": "Gustavo/Eduardo"
+					}
+				]
+			},
+			{
+				"descripcion": "Diaria",
+				"dias": "Sábados",
+				"misas":
+				[
+					{
+						"capilla": "Carmelitas",
+						"hora": "11:00",
+						"cupo": "25",
+						"sacerdote": "Gustavo/Eduardo"
+					}
+				]
 			}
 		]
 	},
