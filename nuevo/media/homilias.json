@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Adviento",
+			"descripcion": "Cuarto Domingo",
+			"fecha" : "20/12/2020",
+			"audio" : "media/homilias/4to Domingo Adviento 2020.mp3"
+		},
+		{
+			"tiempo": "de Adviento",
 			"descripcion": "Tercer Domingo",
 			"fecha" : "13/12/2020",
 			"audio" : "media/homilias/3er Domingo Adviento 2020.mp3"
@@ -342,12 +348,6 @@
 			"descripcion": "Nochebuena",
 			"fecha" : "24/12/2019",
 			"audio" : "media/homilias/Nochebuena 2019.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Cuarto Domingo",
-			"fecha" : "22/12/2019",
-			"audio" : "media/homilias/4to Domingo Adviento 2019.mp3"
 		}
 	],
 	"historicas":
