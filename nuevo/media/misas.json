@@ -53,16 +53,16 @@
 						"sacerdote": "Eduardo"
 					},
 					{
-						"capilla": "San Cayetano",
+						"capilla": "San Eduardo",
 						"hora": "12:30",
-						"cupo": "10",
+						"cupo": "20",
 						"sacerdote": "Gustavo"
 					},
 					{
 						"capilla": "María Madre de la Luz",
 						"hora": "18:00",
 						"cupo": "10",
-						"sacerdote": "Gustavo"
+						"sacerdote": "Eduardo"
 					}
 				]
 			},
