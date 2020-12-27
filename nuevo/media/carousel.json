@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "26/12/2020",
+	"ultima_actualizacion": "27/12/2020",
 	"imagenes":
 	[
 		{
@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Sagrada Familia 2020"
+		},
+		{
 			"texto": "Homilía Nochebuena 2020"
 		},
 		{
@@ -23,8 +26,5 @@
 		{
 			"texto": "Homilía 3er Domingo Adviento 2020"
 		},
-		{
-			"texto": "Homilía Inmaculada Concepción 2020"
-		}
 	]
 }

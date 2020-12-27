@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Navidad",
+			"descripcion": "Sagrada Familia 2020",	
+			"fecha" : "27/12/2020",
+			"audio" : "media/homilias/Sagrada Familia 2020.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
 			"descripcion": "Nochebuena",
 			"fecha" : "24/12/2020",
 			"audio" : "media/homilias/Nochebuena 2020.mp3"
@@ -342,12 +348,6 @@
 			"descripcion": "Santa María Madre de Dios",
 			"fecha" : "01/01/2020",
 			"audio" : "media/homilias/StaMariaMadreDios2020.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Sagrada Familia",	
-			"fecha" : "29/12/2018",
-			"audio" : "media/homilias/Sagrada Familia 2019.mp3"
 		}
 	],
 	"historicas":
