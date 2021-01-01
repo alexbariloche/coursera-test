@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Diciembre de 2020",
+		"intervalo": "Enero de 2021",
 		"tipos":
 		[
 			{
@@ -60,9 +60,15 @@
 					},
 					{
 						"capilla": "María Madre de la Luz",
-						"hora": "18:00",
+						"hora": "19:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
+					},
+					{
+						"capilla": "San Eduardo",
+						"hora": "19:30",
+						"cupo": "20",
+						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -72,10 +78,16 @@
 				"misas":
 				[
 					{
+						"capilla": "San Eduardo",
+						"hora": "11:00",
+						"cupo": "20",
+						"sacerdote": "Gustavo"
+					},
+					{
 						"capilla": "Carmelitas",
-						"hora": "18:00",
+						"hora": "19:00",
 						"cupo": "25",
-						"sacerdote": "Gustavo/Eduardo"
+						"sacerdote": "Eduardo"
 					}
 				]
 			},

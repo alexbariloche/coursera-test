@@ -15,16 +15,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Santa María Madre de Dios 2021"
+		},
+		{
+			"texto": "Encuentros con la Palabra"
+		},
+		{
 			"texto": "Homilía Sagrada Familia 2020"
 		},
 		{
 			"texto": "Homilía Nochebuena 2020"
-		},
-		{
-			"texto": "Homilía 4to Domingo Adviento 2020"
-		},
-		{
-			"texto": "Homilía 3er Domingo Adviento 2020"
-		},
+		}
 	]
 }
