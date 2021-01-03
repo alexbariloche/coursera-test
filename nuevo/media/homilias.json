@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Navidad",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "03/01/2021",
+			"audio" : "media/homilias/Domingo II Tiempo Navidad 2021.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
 			"descripcion": "Santa María Madre de Dios",
 			"fecha" : "01/01/2021",
 			"audio" : "media/homilias/StaMariaMadreDios2021.mp3"
@@ -342,12 +348,6 @@
 			"descripcion": "Epifanía",
 			"fecha" : "06/01/2020",
 			"audio" : "media/homilias/Epifania2020.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "05/01/2020",
-			"audio" : "media/homilias/Domingo II Tiempo Navidad 2020.mp3"
 		}
 	],
 	"historicas":
