@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Navidad",
+			"descripcion": "Bautismo del Señor",
+			"fecha" : "10/01/2021",
+			"audio" : "media/homilias/Bautismo2021.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
 			"descripcion": "Segundo Domingo",
 			"fecha" : "03/01/2021",
 			"audio" : "media/homilias/Domingo II Tiempo Navidad 2021.mp3"
@@ -336,18 +342,6 @@
 			"descripcion": "Domingo II",
 			"fecha" : "19/01/2020",
 			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Bautismo del Señor",
-			"fecha" : "12/01/2020",
-			"audio" : "media/homilias/Bautismo2020.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Epifanía",
-			"fecha" : "06/01/2020",
-			"audio" : "media/homilias/Epifania2020.mp3"
 		}
 	],
 	"historicas":
