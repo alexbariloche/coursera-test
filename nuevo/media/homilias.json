@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo II",
+			"fecha" : "17/01/2021",
+			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2021.mp3"
+		},
+		{
 			"tiempo": "de Navidad",
 			"descripcion": "Bautismo del Señor",
 			"fecha" : "10/01/2021",
@@ -336,12 +342,6 @@
 			"descripcion": "Domingo III",
 			"fecha" : "26/01/2019",
 			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo II",
-			"fecha" : "19/01/2020",
-			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
