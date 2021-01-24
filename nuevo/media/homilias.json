@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo III",
+			"fecha" : "24/01/2021",
+			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo II",
 			"fecha" : "17/01/2021",
 			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2021.mp3"
@@ -336,12 +342,6 @@
 			"descripcion": "Domingo IV",
 			"fecha" : "02/02/2020",
 			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo III",
-			"fecha" : "26/01/2019",
-			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
