@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Enero de 2021",
+		"intervalo": "Febrero de 2021",
 		"tipos":
 		[
 			{
@@ -57,7 +57,7 @@
 						"hora": "19:00",
 						"cupo": "10",
 						"sacerdote": "Gustavo"
-					},
+					}
 				]
 			},
 			{
