@@ -20,12 +20,6 @@
 						"hora": "19:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
-					},
-					{
-						"capilla": "San Eduardo",
-						"hora": "19:30",
-						"cupo": "20",
-						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -53,23 +47,17 @@
 						"sacerdote": "Eduardo"
 					},
 					{
-						"capilla": "San Eduardo",
+						"capilla": "San Cayetano",
 						"hora": "12:30",
-						"cupo": "20",
+						"cupo": "10",
 						"sacerdote": "Gustavo"
 					},
 					{
 						"capilla": "María Madre de la Luz",
 						"hora": "19:00",
 						"cupo": "10",
-						"sacerdote": "Eduardo"
-					},
-					{
-						"capilla": "San Eduardo",
-						"hora": "19:30",
-						"cupo": "20",
 						"sacerdote": "Gustavo"
-					}
+					},
 				]
 			},
 			{
@@ -78,16 +66,10 @@
 				"misas":
 				[
 					{
-						"capilla": "San Eduardo",
-						"hora": "11:00",
-						"cupo": "20",
-						"sacerdote": "Gustavo"
-					},
-					{
 						"capilla": "Carmelitas",
 						"hora": "19:00",
 						"cupo": "25",
-						"sacerdote": "Eduardo"
+						"sacerdote": "Gustavo/Eduardo"
 					}
 				]
 			},
