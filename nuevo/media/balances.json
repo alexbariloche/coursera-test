@@ -9,6 +9,11 @@
 				"balances":
 				[
 					{
+						"anio": "2021",
+						"mes": "Enero",
+						"archivo": "SanEduardo_balance_202101.pdf"
+					},
+					{
 						"anio": "2020",
 						"mes": "Diciembre",
 						"archivo": "SanEduardo_balance_202012.pdf"
