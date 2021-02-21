@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Cuaresma",
+			"descripcion": "Primer Domingo",
+			"fecha" : "21/02/2021",
+			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2021.mp3"
+		},
+		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo VI",
 			"fecha" : "14/02/2021",
@@ -330,18 +336,6 @@
 			"descripcion": "Segundo Domingo",
 			"fecha" : "08/03/2020",
 			"audio" : "media/homilias/2do Domingo Tiempo Cuaresma 2020.mp3"
-		},
-		{
-			"tiempo": "de Cuaresma",
-			"descripcion": "Primer Domingo",
-			"fecha" : "01/03/2020",
-			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo VII",
-			"fecha" : "23/02/2020",
-			"audio" : "media/homilias/Domingo VII Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
