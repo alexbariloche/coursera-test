@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Cuaresma",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "28/02/2021",
+			"audio" : "media/homilias/2do Domingo Tiempo Cuaresma 2021.mp3"
+		},
+		{
+			"tiempo": "de Cuaresma",
 			"descripcion": "Primer Domingo",
 			"fecha" : "21/02/2021",
 			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2021.mp3"
@@ -330,12 +336,6 @@
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "22/03/2020",
 			"audio" : "media/homilias/4to Domingo Tiempo Cuaresma 2020.mp3"
-		},
-		{
-			"tiempo": "de Cuaresma",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "08/03/2020",
-			"audio" : "media/homilias/2do Domingo Tiempo Cuaresma 2020.mp3"
 		}
 	],
 	"historicas":
