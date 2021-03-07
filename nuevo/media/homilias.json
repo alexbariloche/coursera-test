@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Cuaresma",
+			"descripcion": "Tercer Domingo",
+			"fecha" : "07/03/2021",
+			"audio" : "media/homilias/3er Domingo Tiempo Cuaresma 2021.mp3"
+		},
+		{
+			"tiempo": "de Cuaresma",
 			"descripcion": "Segundo Domingo",
 			"fecha" : "28/02/2021",
 			"audio" : "media/homilias/2do Domingo Tiempo Cuaresma 2021.mp3"
