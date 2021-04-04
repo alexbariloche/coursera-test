@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "02/04/2021",
+	"ultima_actualizacion": "03/04/2021",
 	"imagenes":
 	[
 		{
@@ -14,6 +14,9 @@
 	],
 	"novedades":
 	[
+		{
+			"texto": "Homilía Vigilia Pascual 2021"
+		},
 		{
 			"texto": "Homilía Viernes Santo 2021"
 		},
