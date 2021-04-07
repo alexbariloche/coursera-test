@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Febrero de 2021",
+		"intervalo": "Abril de 2021",
 		"tipos":
 		[
 			{
@@ -17,7 +17,7 @@
 					},
 					{
 						"capilla": "NS del Cerro",
-						"hora": "19:00",
+						"hora": "18:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
 					}
@@ -54,13 +54,13 @@
 					},
 					{
 						"capilla": "María Madre de la Luz",
-						"hora": "19:00",
+						"hora": "18:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
 					},
 					{
 						"capilla": "San Eduardo",
-						"hora": "19:30",
+						"hora": "18:30",
 						"cupo": "20",
 						"sacerdote": "Gustavo"
 					}
@@ -73,7 +73,7 @@
 				[
 					{
 						"capilla": "Carmelitas",
-						"hora": "19:00",
+						"hora": "18:00",
 						"cupo": "25",
 						"sacerdote": "Gustavo/Eduardo"
 					}
