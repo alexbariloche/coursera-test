@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "11/04/2021",
+			"audio" : "media/homilias/2do Domingo Tiempo Pascual 2021.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Vigilia Pascual",
 			"fecha" : "03/04/2021",
 			"audio" : "media/homilias/Vigilia Pascual 2021.mp3"
@@ -330,18 +336,6 @@
 			"descripcion": "Tercer Domingo",
 			"fecha" : "26/04/2020",
 			"audio" : "media/homilias/3er Domingo Tiempo Pascual 2020.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "19/04/2020",
-			"audio" : "media/homilias/2do Domingo Tiempo Pascual 2020.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Primer Domingo",
-			"fecha" : "12/04/2020",
-			"audio" : "media/homilias/1er Domingo Tiempo Pascual 2020.mp3"
 		}
 	],
 	"historicas":
