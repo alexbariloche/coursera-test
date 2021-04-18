@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "11/04/2021",
+	"ultima_actualizacion": "18/04/2021",
 	"imagenes":
 	[
 		{
@@ -15,19 +15,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo III Tiempo Pascual 2021"
+		},
+		{
+			"texto": "Balance Parroquia Marzo 2021"
+		},
+		{
 			"texto": "Homilía Domingo II Tiempo Pascual 2021"
 		},
 		{
 			"texto": "Horarios Abril 2021"
-		},
-		{
-			"texto": "Homilía Vigilia Pascual 2021"
-		},
-		{
-			"texto": "Homilía Viernes Santo 2021"
-		},
-		{
-			"texto": "Encuentros con la Palabra"
 		}
 	]
 }
