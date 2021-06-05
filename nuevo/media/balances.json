@@ -10,6 +10,11 @@
 				[
 					{
 						"anio": "2021",
+						"mes": "Mayo",
+						"archivo": "SanEduardo_balance_202105.pdf"
+					},
+					{
+						"anio": "2021",
 						"mes": "Abril",
 						"archivo": "SanEduardo_balance_202104.pdf"
 					},
@@ -47,26 +52,6 @@
 						"anio": "2020",
 						"mes": "Setiembre",
 						"archivo": "SanEduardo_balance_202009.pdf"
-					},
-					{
-						"anio": "2020",
-						"mes": "Abril y Mayo",
-						"archivo": "SanEduardo_balance_20200405.pdf"
-					},
-					{
-						"anio": "2020",
-						"mes": "Marzo",
-						"archivo": "SanEduardo_balance_202003.pdf"
-					},
-					{
-						"anio": "2020",
-						"mes": "Febrero",
-						"archivo": "SanEduardo_balance_202002.pdf"
-					},
-					{
-						"anio": "2020",
-						"mes": "Enero",
-						"archivo": "SanEduardo_balance_202001.pdf"
 					}
 				]
 			},
