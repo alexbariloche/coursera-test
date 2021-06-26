@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XII",
+			"fecha" : "20/06/2021",
+			"audio" : "media/homilias/Domingo XII Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Corpus Christi",
 			"fecha" : "06/06/2021",
 			"audio" : "media/homilias/Corpus_Christi2021.mp3"
@@ -312,12 +318,6 @@
 			"descripcion": "Domingo XIII",
 			"fecha" : "28/06/2020",
 			"audio" : "media/homilias/Domingo XIII Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XII",
-			"fecha" : "21/06/2020",
-			"audio" : "media/homilias/Domingo XII Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
