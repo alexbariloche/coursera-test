@@ -47,10 +47,16 @@
 						"sacerdote": "Gustavo"
 					},
 					{
-						"capilla": "María Madre de la Luz",
+						"capilla": "NS del Cerro",
 						"hora": "18:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
+					},
+					{
+						"capilla": "María Madre de la Luz",
+						"hora": "18:00",
+						"cupo": "10",
+						"sacerdote": "Gustavo"
 					}
 				]
 			},
