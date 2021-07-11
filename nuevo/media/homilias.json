@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XV",
+			"fecha" : "11/07/2021",
+			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XIV",
 			"fecha" : "04/07/2021",
 			"audio" : "media/homilias/Domingo XIV Tiempo Ordinario 2021.mp3"
@@ -312,12 +318,6 @@
 			"descripcion": "Domingo XVI",
 			"fecha" : "19/07/2020",
 			"audio" : "media/homilias/Domingo XVI Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XV",
-			"fecha" : "12/07/2020",
-			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":

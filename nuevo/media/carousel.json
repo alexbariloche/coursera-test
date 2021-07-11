@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "10/07/2021",
+	"ultima_actualizacion": "11/07/2021",
 	"imagenes":
 	[
 		{
@@ -14,6 +14,9 @@
 	],
 	"novedades":
 	[
+		{
+			"texto": "Homilía Domingo Tiempo Ordinario XV 2021"
+		},
 		{
 			"texto": "Balance Parroquia Junio 2021"
 		},
