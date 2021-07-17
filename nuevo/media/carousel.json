@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "11/07/2021",
+	"ultima_actualizacion": "17/07/2021",
 	"imagenes":
 	[
 		{
@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Nuestra Señora del Carmen 2021"
+		},
+		{
 			"texto": "Homilía Domingo Tiempo Ordinario XV 2021"
 		},
 		{
@@ -22,9 +25,6 @@
 		},
 		{
 			"texto": "Horarios Julio 2021"
-		},
-		{
-			"texto": "Homilía Domingo Tiempo Ordinario XIV 2021"
 		}
 	]
 }
