@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo Tiempo Ordinario XVI 2021"
+		},
+		{
 			"texto": "Homilía Nuestra Señora del Carmen 2021"
 		},
 		{
@@ -22,9 +25,6 @@
 		},
 		{
 			"texto": "Balance Parroquia Junio 2021"
-		},
-		{
-			"texto": "Horarios Julio 2021"
 		}
 	]
 }
