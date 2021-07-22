@@ -1,9 +1,8 @@
-name: learn-github-actions
-on: [
+name: mca-windows
+on:
   push:
     paths:
       - 'mca/windows/**'
-]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
