@@ -3,8 +3,10 @@ on:
   push:
     paths:
       - 'mca/windows/**'
+      - 'common/queued_network/**'
+
 jobs:
-  check-bats-version:
+  mca-windows-builds:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
