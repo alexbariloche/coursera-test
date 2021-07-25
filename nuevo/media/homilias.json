@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XVII",
+			"fecha" : "25/07/2021",
+			"audio" : "media/homilias/Domingo XVII Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XVI",
 			"fecha" : "18/07/2021",
 			"audio" : "media/homilias/Domingo XVI Tiempo Ordinario 2021.mp3"
