@@ -1,9 +1,5 @@
 name: mca-windows
-on:
-  push:
-    paths:
-      - 'mca/windows/**'
-      - 'common/queued_network/**'
+on: [push]
 
 jobs:
   mca-windows-builds:
