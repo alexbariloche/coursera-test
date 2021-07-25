@@ -7,8 +7,8 @@ on:
 
 jobs:
   mca-windows-builds:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: cat mca/standard/main.cpp
-      - run: cat mca/windows/main.cpp
+      - run: type mca/standard/main.cpp
+      - run: type mca/windows/main.cpp
