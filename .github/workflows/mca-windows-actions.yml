@@ -1,10 +1,16 @@
 name: mca-windows
 on: [push]
 
+env:
+  # Path to the solution file relative to the root of the project.
+  SOLUTION_FILE_PATH: .
+
 jobs:
   mca-windows-builds:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - run: type mca/standard/main.cpp
-      - run: type mca/windows/main.cpp
+
+      - name: Run powershell command
+        working-directory: ${{env.GITHUB_WORKSPACE}}
+        run: powershell --command type mca\\windows\\main.cpp
