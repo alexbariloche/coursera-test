@@ -13,4 +13,5 @@ jobs:
 
       - name: Run powershell command
         working-directory: ${{env.GITHUB_WORKSPACE}}
-        run: powershell -command "echo 'Hello'"
+        run: powershell -command "cd"
+        run: powershell -command "type .\\mca\\windows\\main.cpp"
