@@ -13,4 +13,4 @@ jobs:
 
       - name: Run powershell command
         working-directory: ${{env.GITHUB_WORKSPACE}}
-        run: powershell -command "type mca\\windows\\main.cpp"
+        run: .\\aa.bat
