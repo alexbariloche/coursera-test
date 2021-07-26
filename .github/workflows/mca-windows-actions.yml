@@ -7,10 +7,18 @@ env:
 
 jobs:
   mca-windows-builds:
-    runs-on: windows-latest
+    runs-on: windows-2019
     steps:
       - uses: actions/checkout@v2
 
+      - name: Visual Studio shell
+        # You may pin to the exact commit or the version.
+        # uses: egor-tensin/vs-shell@2cef0a902be6c2434178a0d0e4d83ae07a9dd0e0
+        uses: egor-tensin/vs-shell@v2
+        with:
+          # Target architecture
+          arch: x64 # optional, default is x64
+    
       - name: Run powershell command
         working-directory: ${{env.GITHUB_WORKSPACE}}
         run: .\\aa.bat
