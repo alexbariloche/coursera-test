@@ -5,3 +5,4 @@ cd %CWD%\\mca\\windows\\
 echo "in dir of interest"
 type main.cpp
 cd %CWD%
+cmd /c echo  %date%.%time%
