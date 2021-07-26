@@ -12,6 +12,5 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run powershell command
-        working-directory: ${{env.GITHUB_WORKSPACE}}
-        run: powershell -command "cd"
-        run: powershell -command "type .\\mca\\windows\\main.cpp"
+        working-directory: .
+        run: powershell -command type .\\mca\\windows\\main.cpp"
