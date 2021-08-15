@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Asunción de María 2021",
+			"fecha" : "15/08/2021",
+			"audio" : "media/homilias/Asuncion de Maria 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XIX",
 			"fecha" : "08/08/2021",
 			"audio" : "media/homilias/Domingo XIX Tiempo Ordinario 2021.mp3"
