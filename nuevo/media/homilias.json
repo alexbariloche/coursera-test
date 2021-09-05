@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXIII",
+			"fecha" : "05/09/2020",
+			"audio" : "media/homilias/Domingo XXIII Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXII",
 			"fecha" : "29/08/2021",
 			"audio" : "media/homilias/Domingo XXII Tiempo Ordinario 2021.mp3"
@@ -324,18 +330,6 @@
 			"descripcion": "Domingo XXIII",
 			"fecha" : "06/09/2020",
 			"audio" : "media/homilias/Domingo XXIII Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXII",
-			"fecha" : "30/08/2020",
-			"audio" : "media/homilias/Domingo XXII Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXI",
-			"fecha" : "23/08/2020",
-			"audio" : "media/homilias/Domingo XXI Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
