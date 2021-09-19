@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXV",
+			"fecha" : "19/09/2021",
+			"audio" : "media/homilias/Domingo XXV Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXIV",
 			"fecha" : "12/09/2021",
 			"audio" : "media/homilias/Domingo XXIV Tiempo Ordinario 2021.mp3"
@@ -318,12 +324,6 @@
 			"descripcion": "Domingo XXVI",
 			"fecha" : "27/09/2020",
 			"audio" : "media/homilias/Domingo XXVI Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXV",
-			"fecha" : "20/09/2020",
-			"audio" : "media/homilias/Domingo XXV Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
