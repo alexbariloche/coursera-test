@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Setiembre de 2021",
+		"intervalo": "Octubre de 2021",
 		"tipos":
 		[
 			{
@@ -14,6 +14,12 @@
 						"hora": "17:00",
 						"cupo": "12",
 						"sacerdote": "Gustavo"
+					},
+					{
+						"capilla": "NS del Cerro",
+						"hora": "18:00",
+						"cupo": "10",
+						"sacerdote": "Eduardo"
 					}
 				]
 			},
@@ -47,15 +53,15 @@
 						"sacerdote": "Gustavo"
 					},
 					{
-						"capilla": "NS del Cerro",
+						"capilla": "María Madre de la Luz",
 						"hora": "18:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
 					},
 					{
-						"capilla": "María Madre de la Luz",
-						"hora": "18:00",
-						"cupo": "10",
+						"capilla": "San Eduardo",
+						"hora": "19:00",
+						"cupo": "20",
 						"sacerdote": "Gustavo"
 					}
 				]
@@ -67,7 +73,7 @@
 				[
 					{
 						"capilla": "Carmelitas",
-						"hora": "18:00",
+						"hora": "19:00",
 						"cupo": "25",
 						"sacerdote": "Gustavo/Eduardo"
 					}
