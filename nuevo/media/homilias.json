@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVII",
+			"fecha" : "02/10/2021",
+			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXVI",
 			"fecha" : "26/09/2021",
 			"audio" : "media/homilias/Domingo XXVI Tiempo Ordinario 2021.mp3"
@@ -318,12 +324,6 @@
 			"descripcion": "Domingo XXVIII",
 			"fecha" : "11/10/2020",
 			"audio" : "media/homilias/Domingo XXVIII Tiempo Ordinario 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXVII",
-			"fecha" : "04/10/2020",
-			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2020.mp3"
 		}
 	],
 	"historicas":
