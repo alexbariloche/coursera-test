@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXXI",
+			"fecha" : "31/10/2021",
+			"audio" : "media/homilias/Domingo XXXI Tiempo Ordinario 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXX",
 			"fecha" : "24/10/2021",
 			"audio" : "media/homilias/Domingo XXX Tiempo Ordinario 2021.mp3"
