@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Cristo Rey",
+			"fecha" : "21/11/2021",
+			"audio" : "media/homilias/Cristo Rey 2021.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXXIII",
 			"fecha" : "14/11/2021",
 			"audio" : "media/homilias/Domingo XXXIII Tiempo Ordinario 2021.mp3"
@@ -318,12 +324,6 @@
 			"descripcion": "Primer Domingo",
 			"fecha" : "29/11/2020",
 			"audio" : "media/homilias/1er Domingo Adviento 2020.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Cristo Rey",
-			"fecha" : "22/11/2020",
-			"audio" : "media/homilias/Cristo Rey 2020.mp3"
 		}
 	],
 	"historicas":
