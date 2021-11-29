@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Adviento",
+			"descripcion": "Primer Domingo",
+			"fecha" : "28/11/2021",
+			"audio" : "media/homilias/1er Domingo Adviento 2021.mp3"
+		},
+		{
 			"tiempo": "Ordinario",
 			"descripcion": "Cristo Rey",
 			"fecha" : "21/11/2021",
@@ -318,12 +324,6 @@
 			"descripcion": "Segundo Domingo",
 			"fecha" : "06/12/2020",
 			"audio" : "media/homilias/2do Domingo Adviento 2020.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Primer Domingo",
-			"fecha" : "29/11/2020",
-			"audio" : "media/homilias/1er Domingo Adviento 2020.mp3"
 		}
 	],
 	"historicas":
