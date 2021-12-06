@@ -10,6 +10,11 @@
 				[
 					{
 						"anio": "2021",
+						"mes": "Noviembre",
+						"archivo": "SanEduardo_balance_202111.pdf"
+					},
+					{
+						"anio": "2021",
 						"mes": "Octubre",
 						"archivo": "SanEduardo_balance_202110.pdf"
 					},
@@ -62,11 +67,6 @@
 						"anio": "2020",
 						"mes": "Diciembre",
 						"archivo": "SanEduardo_balance_202012.pdf"
-					},
-					{
-						"anio": "2020",
-						"mes": "Noviembre",
-						"archivo": "SanEduardo_balance_202011.pdf"
 					}
 				]
 			},

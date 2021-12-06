@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Adviento",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "05/12/2021",
+			"audio" : "media/homilias/2do Domingo Adviento 2021.mp3"
+		},
+		{
+			"tiempo": "de Adviento",
 			"descripcion": "Primer Domingo",
 			"fecha" : "28/11/2021",
 			"audio" : "media/homilias/1er Domingo Adviento 2021.mp3"
@@ -318,12 +324,6 @@
 			"descripcion": "Inmaculada Concepción",
 			"fecha" : "08/12/2020",
 			"audio" : "media/homilias/Inmaculada Concepcion 2020.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "06/12/2020",
-			"audio" : "media/homilias/2do Domingo Adviento 2020.mp3"
 		}
 	],
 	"historicas":
