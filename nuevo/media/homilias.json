@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Adviento",
+			"descripcion": "Tercer Domingo",
+			"fecha" : "12/12/2021",
+			"audio" : "media/homilias/3er Domingo Adviento 2021.mp3"
+		}
+		{
+			"tiempo": "de Adviento",
 			"descripcion": "Segundo Domingo",
 			"fecha" : "05/12/2021",
 			"audio" : "media/homilias/2do Domingo Adviento 2021.mp3"
@@ -312,18 +318,6 @@
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "20/12/2020",
 			"audio" : "media/homilias/4to Domingo Adviento 2020.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Tercer Domingo",
-			"fecha" : "13/12/2020",
-			"audio" : "media/homilias/3er Domingo Adviento 2020.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Inmaculada Concepción",
-			"fecha" : "08/12/2020",
-			"audio" : "media/homilias/Inmaculada Concepcion 2020.mp3"
 		}
 	],
 	"historicas":
