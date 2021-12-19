@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "12/12/2021",
+	"ultima_actualizacion": "19/12/2021",
 	"imagenes":
 	[
 		{
@@ -14,6 +14,9 @@
 	],
 	"novedades":
 	[
+		{
+			"texto": "Horarios Navidad 2021"
+		},
 		{
 			"texto": "Homilía 3er Domingo de Adviento 2021"
 		},
