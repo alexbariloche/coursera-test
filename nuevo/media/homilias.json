@@ -2,6 +2,18 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Navidad",
+			"descripcion": "Nochebuena",
+			"fecha" : "24/12/2021",
+			"audio" : "media/homilias/Nochebuena 2021.mp3"
+		},
+		{
+			"tiempo": "de Adviento",
+			"descripcion": "Cuarto Domingo",
+			"fecha" : "19/12/2021",
+			"audio" : "media/homilias/4to Domingo Adviento 2021.mp3"
+		},
+		{
 			"tiempo": "de Adviento",
 			"descripcion": "Tercer Domingo",
 			"fecha" : "12/12/2021",
@@ -306,18 +318,6 @@
 			"descripcion": "Sagrada Familia 2020",	
 			"fecha" : "27/12/2020",
 			"audio" : "media/homilias/Sagrada Familia 2020.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Nochebuena",
-			"fecha" : "24/12/2020",
-			"audio" : "media/homilias/Nochebuena 2020.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Cuarto Domingo",
-			"fecha" : "20/12/2020",
-			"audio" : "media/homilias/4to Domingo Adviento 2020.mp3"
 		}
 	],
 	"historicas":
