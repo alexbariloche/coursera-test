@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "01/01/2022",
+	"ultima_actualizacion": "02/01/2022",
 	"imagenes":
 	[
 		{
@@ -15,6 +15,12 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía 2do Domingo Tiempo Navidad 2022"
+		},
+		{
+			"texto": "Horarios Enero 2022"
+		},
+		{
 			"texto": "Homilía Santa Maria Madre de Dios 2022"
 		},
 		{
@@ -22,9 +28,6 @@
 		},
 		{
 			"texto": "Homilía Nochebuena 2021"
-		},
-		{
-			"texto": "Horarios Navidad 2021"
 		}
 	]
 }

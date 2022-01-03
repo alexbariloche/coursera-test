@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Desde el 13 de Noviembre de 2021",
+		"intervalo": "Desde Enero 2022",
 		"tipos":
 		[
 			{
@@ -11,7 +11,7 @@
 				[
 					{
 						"capilla": "Teresa de Calcuta",
-						"hora": "18:00",
+						"hora": "18:30",
 						"cupo": "12",
 						"sacerdote": "Gustavo"
 					},
@@ -20,6 +20,12 @@
 						"hora": "19:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
+					},
+					{
+						"capilla": "San Eduardo",
+						"hora": "20:00",
+						"cupo": "20",
+						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -47,7 +53,7 @@
 						"sacerdote": "Eduardo"
 					},
 					{
-						"capilla": "San Cayetano",
+						"capilla": "San Eduardo",
 						"hora": "12:30",
 						"cupo": "10",
 						"sacerdote": "Gustavo"
@@ -60,7 +66,7 @@
 					},
 					{
 						"capilla": "San Eduardo",
-						"hora": "19:00",
+						"hora": "20:00",
 						"cupo": "20",
 						"sacerdote": "Gustavo"
 					}
@@ -73,9 +79,15 @@
 				[
 					{
 						"capilla": "Carmelitas",
-						"hora": "19:00",
+						"hora": "11:00",
 						"cupo": "25",
 						"sacerdote": "Gustavo/Eduardo"
+					},
+					{
+						"capilla": "San Eduardo",
+						"hora": "19:00",
+						"cupo": "20",
+						"sacerdote": "Gustavo"
 					}
 				]
 			},
