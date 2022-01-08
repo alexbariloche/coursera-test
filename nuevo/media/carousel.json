@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "02/01/2022",
+	"ultima_actualizacion": "07/01/2022",
 	"imagenes":
 	[
 		{
@@ -15,6 +15,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Informacion para aportes en pagina principal"
+		},
+		{
 			"texto": "Homilía 2do Domingo Tiempo Navidad 2022"
 		},
 		{
@@ -25,9 +28,6 @@
 		},
 		{
 			"texto": "Homilía Sagrada Familia 2021"
-		},
-		{
-			"texto": "Homilía Nochebuena 2021"
 		}
 	]
 }
