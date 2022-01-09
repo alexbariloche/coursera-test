@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "07/01/2022",
+	"ultima_actualizacion": "09/01/2022",
 	"imagenes":
 	[
 		{
@@ -15,19 +15,19 @@
 	"novedades":
 	[
 		{
-			"texto": "Homilía Epifanía 2022"
+			"texto": "Colaborar con la parroquia: ver en Economía"
 		},
 		{
-			"texto": "Informacion para aportes en pagina principal"
+			"texto": "Homilía Bautismo del Señor 2022"
+		},
+		{
+			"texto": "Homilía Epifanía 2022"
 		},
 		{
 			"texto": "Homilía 2do Domingo Tiempo Navidad 2022"
 		},
 		{
 			"texto": "Horarios Enero 2022"
-		},
-		{
-			"texto": "Homilía Santa Maria Madre de Dios 2022"
 		}
 	]
 }
