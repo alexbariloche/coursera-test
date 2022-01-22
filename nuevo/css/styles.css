@@ -197,7 +197,7 @@ body {
 }
 
 #novedades-title {
-  margin-top: 203px;
+  margin-top: 20px;
   font-style: normal;
 }
 
@@ -460,6 +460,7 @@ section p {
     padding: 25px 20px; 
   }
   #novedades-title {
+  margin-top: 20px;
     color: black;
   }
   .novedades-item {
