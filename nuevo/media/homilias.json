@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo III",
+			"fecha" : "23/01/2022",
+			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2022.mp3"
+		},
+		{
 			"tiempo": "de Navidad",
 			"descripcion": "Bautismo del Señor",
 			"fecha" : "09/01/2022",
@@ -312,18 +318,6 @@
 			"descripcion": "Domingo IV",
 			"fecha" : "31/01/2021",
 			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo III",
-			"fecha" : "24/01/2021",
-			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo II",
-			"fecha" : "17/01/2021",
-			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2021.mp3"
 		}
 	],
 	"historicas":
