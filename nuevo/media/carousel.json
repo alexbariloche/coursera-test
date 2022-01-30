@@ -3,7 +3,13 @@
 	"imagenes":
 	[
 		{
-			"archivo" : "images/carousel/Maria Madre.jpg"
+			"archivo" : "images/carousel/SanEduardo.jpg"
+		},
+		{
+			"archivo" : "images/carousel/Teresita.jpg"
+		},
+		{
+			"archivo" : "images/carousel/El Buen Pastor.jpg"
 		},
 		{
 			"archivo" : "images/carousel/Pironio_gde.jpg"
