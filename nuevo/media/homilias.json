@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo VII",
+			"fecha" : "20/02/2022",
+			"audio" : "media/homilias/Domingo VII Tiempo Ordinario 2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo VI",
 			"fecha" : "13/02/2022",
 			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2022.mp3"
