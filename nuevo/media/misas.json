@@ -11,21 +11,15 @@
 				[
 					{
 						"capilla": "Teresa de Calcuta",
-						"hora": "18:30",
+						"hora": "18:00",
 						"cupo": "12",
 						"sacerdote": "Gustavo"
 					},
 					{
 						"capilla": "NS del Cerro",
-						"hora": "19:00",
+						"hora": "18:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
-					},
-					{
-						"capilla": "San Eduardo",
-						"hora": "20:00",
-						"cupo": "20",
-						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -66,7 +60,7 @@
 					},
 					{
 						"capilla": "San Eduardo",
-						"hora": "20:00",
+						"hora": "19:00",
 						"cupo": "20",
 						"sacerdote": "Gustavo"
 					}
