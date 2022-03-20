@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Cuaresma",
+			"descripcion": "Tercer Domingo",
+			"fecha" : "20/03/2022",
+			"audio" : "media/homilias/3er Domingo Tiempo Cuaresma 2022.mp3"
+		},
+		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo VIII",
 			"fecha" : "27/02/2022",
@@ -312,24 +318,6 @@
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "14/03/2021",
 			"audio" : "media/homilias/4to Domingo Tiempo Cuaresma 2021.mp3"
-		},
-		{
-			"tiempo": "de Cuaresma",
-			"descripcion": "Tercer Domingo",
-			"fecha" : "07/03/2021",
-			"audio" : "media/homilias/3er Domingo Tiempo Cuaresma 2021.mp3"
-		},
-		{
-			"tiempo": "de Cuaresma",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "28/02/2021",
-			"audio" : "media/homilias/2do Domingo Tiempo Cuaresma 2021.mp3"
-		},
-		{
-			"tiempo": "de Cuaresma",
-			"descripcion": "Primer Domingo",
-			"fecha" : "21/02/2021",
-			"audio" : "media/homilias/1er Domingo Tiempo Cuaresma 2021.mp3"
 		}
 	],
 	"historicas":
