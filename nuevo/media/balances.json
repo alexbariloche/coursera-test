@@ -10,6 +10,11 @@
 				[
 					{
 						"anio": "2022",
+						"mes": "Febrero",
+						"archivo": "SanEduardo_balance_202202.pdf"
+					},
+					{
+						"anio": "2022",
 						"mes": "Enero",
 						"archivo": "SanEduardo_balance_202201.pdf"
 					},
@@ -62,11 +67,6 @@
 						"anio": "2021",
 						"mes": "Marzo",
 						"archivo": "SanEduardo_balance_202103.pdf"
-					},
-					{
-						"anio": "2021",
-						"mes": "Febrero",
-						"archivo": "SanEduardo_balance_202102.pdf"
 					}
 				]
 			},
