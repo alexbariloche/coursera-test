@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "27/03/2022",
+	"ultima_actualizacion": "03/04/2022",
 	"imagenes":
 	[
 		{
@@ -21,6 +21,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Horarios de Abril"
+		},
+		{
 			"texto": "Homilía IV Domingo Tiempo Cuaresmal"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Homilía III Domingo Tiempo Cuaresmal"
-		},
-		{
-			"texto": "Horarios de Marzo"
 		}
 	]
 }
