@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Cuaresma",
+			"descripcion": "Domingo de Ramos",
+			"fecha" : "10/04/2022",
+			"audio" : "media/homilias/Domingo de Ramos 2022.mp3"
+		},
+		{
+			"tiempo": "de Cuaresma",
 			"descripcion": "Quinto Domingo",
 			"fecha" : "03/04/2021",
 			"audio" : "media/homilias/5to Domingo Tiempo Cuaresma 2022.mp3"
@@ -312,12 +318,6 @@
 			"descripcion": "Jueves Santo",
 			"fecha" : "01/04/2021",
 			"audio" : "media/homilias/Jueves Santo 2021.mp3"
-		},
-		{
-			"tiempo": "de Cuaresma",
-			"descripcion": "Domingo de Ramos",
-			"fecha" : "28/04/2021",
-			"audio" : "media/homilias/Domingo de Ramos 2021.mp3"
 		}
 	],
 	"historicas":
