@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "10/04/2022",
+	"ultima_actualizacion": "15/04/2022",
 	"imagenes":
 	[
 		{
@@ -21,13 +21,13 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Jueves Santo"
+		},
+		{
 			"texto": "Homilía Domingo de Ramos"
 		},
 		{
 			"texto": "Balance Parroquia Marzo 2022"
-		},
-		{
-			"texto": "Homilía V Domingo Tiempo Cuaresmal"
 		},
 		{
 			"texto": "Horarios de Semana Santa 2022"
