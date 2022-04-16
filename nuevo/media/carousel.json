@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "15/04/2022",
+	"ultima_actualizacion": "16/04/2022",
 	"imagenes":
 	[
 		{
@@ -20,6 +20,9 @@
 	],
 	"novedades":
 	[
+		{
+			"texto": "Homilía Viernes Santo"
+		},
 		{
 			"texto": "Homilía Jueves Santo"
 		},

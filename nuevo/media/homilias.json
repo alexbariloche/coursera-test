@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Viernes Santo",
+			"fecha" : "15/04/2022",
+			"audio" : "media/homilias/Viernes Santo 2022.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Jueves Santo",
 			"fecha" : "14/04/2022",
 			"audio" : "media/homilias/Jueves Santo 2022.mp3"
@@ -312,12 +318,6 @@
 			"descripcion": "Vigilia Pascual",
 			"fecha" : "03/04/2021",
 			"audio" : "media/homilias/Vigilia Pascual 2021.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Viernes Santo",
-			"fecha" : "02/04/2021",
-			"audio" : "media/homilias/Viernes Santo 2021.mp3"
 		}
 	],
 	"historicas":
