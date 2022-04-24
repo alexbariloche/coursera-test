@@ -312,12 +312,6 @@
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "25/04/2021",
 			"audio" : "media/homilias/4to Domingo Tiempo Pascual 2021.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Tercer Domingo",
-			"fecha" : "18/04/2021",
-			"audio" : "media/homilias/3er Domingo Tiempo Pascual 2021.mp3"
 		}
 	],
 	"historicas":

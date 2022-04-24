@@ -27,11 +27,11 @@
 				<hr>
 			</div>
 			<div id="dia" class="col-md-4 col-sm-12 visible-sm visible-xs diaTipo">
-				{{misaTipo.dias}}
+				{{misaTipo.descripcion}} - {{misaTipo.dias}}
 			</div>
 			<div class="row misas-detail" ng-repeat="misa in misaTipo.misas">
 				<div id="dia-hora" class="col-md-4 col-sm-12 visible-lg visible-md">
-					{{misaTipo.dias}} a las {{ misa.hora }} hs
+					{{misaTipo.descripcion}} - {{misaTipo.dias}} a las {{ misa.hora }} hs
 				</div>
 				<div id="capilla" class="col-md-4 col-sm-12">
 					<span class="visible-sm visible-xs">
