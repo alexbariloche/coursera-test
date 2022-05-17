@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "01/05/2022",
+	"ultima_actualizacion": "16/05/2022",
 	"imagenes":
 	[
 		{
@@ -21,19 +21,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía 5to Domingo Tiempo de Pascua"
+		},
+		{
+			"texto": "Homilía 4to Domingo Tiempo de Pascua"
+		},
+		{
 			"texto": "Homilía 3er Domingo Tiempo de Pascua"
 		},
 		{
-			"texto": "Homilía 2do Domingo Tiempo de Pascua"
-		},
-		{
-			"texto": "Homilía Vigilia Pascual"
-		},
-		{
-			"texto": "Homilía Viernes Santo"
-		},
-		{
-			"texto": "Homilía Jueves Santo"
+			"texto": "Homilías Triduo Pascual"
 		}
 	]
 }

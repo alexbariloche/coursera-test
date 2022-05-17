@@ -3,6 +3,18 @@
 	[
 		{
 			"tiempo": "de Pascua",
+			"descripcion": "Quinto Domingo",
+			"fecha" : "15/05/2022",
+			"audio" : "media/homilias/5to Domingo Tiempo Pascual 2022.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
+			"descripcion": "Cuarto Domingo",
+			"fecha" : "08/05/2022",
+			"audio" : "media/homilias/4to Domingo Tiempo Pascual 2022.mp3"
+		},
+		{
+			"tiempo": "de Pascua",
 			"descripcion": "Tercer Domingo",
 			"fecha" : "01/05/2022",
 			"audio" : "media/homilias/3er Domingo Tiempo Pascual 2022.mp3"
@@ -306,18 +318,6 @@
 			"descripcion": "Ascención de Jesús",
 			"fecha" : "16/05/2021",
 			"audio" : "media/homilias/Ascension de Jesus 2021.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Quinto Domingo",
-			"fecha" : "02/05/2021",
-			"audio" : "media/homilias/5to Domingo Tiempo Pascual 2021.mp3"
-		},
-		{
-			"tiempo": "de Pascua",
-			"descripcion": "Cuarto Domingo",
-			"fecha" : "25/04/2021",
-			"audio" : "media/homilias/4to Domingo Tiempo Pascual 2021.mp3"
 		}
 	],
 	"historicas":
