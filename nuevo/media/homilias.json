@@ -2,6 +2,12 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Pentecostés",
+			"fecha" : "05/06/2022",
+			"audio" : "media/homilias/Pentecostes2022.mp3"
+		}
+		{
 			"tiempo": "de Pascua",
 			"descripcion": "Ascención de Jesús",
 			"fecha" : "29/05/2022",
@@ -318,12 +324,6 @@
 			"descripcion": "Domingo XII",
 			"fecha" : "20/06/2021",
 			"audio" : "media/homilias/Domingo XII Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Corpus Christi",
-			"fecha" : "06/06/2021",
-			"audio" : "media/homilias/Corpus_Christi2021.mp3"
 		}
 	],
 	"historicas":

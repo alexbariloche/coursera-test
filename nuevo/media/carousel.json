@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "29/05/2022",
+	"ultima_actualizacion": "05/06/2022",
 	"imagenes":
 	[
 		{
@@ -21,6 +21,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Pentecostés"
+		},
+		{
 			"texto": "Homilía Ascensión de Jesús"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Balance Parroquia Abril 2022"
-		},
-		{
-			"texto": "Homilía 5to Domingo Tiempo de Pascua"
 		}
 	]
 }
