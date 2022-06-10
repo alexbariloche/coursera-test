@@ -1,25 +1,16 @@
 {
-	"ultima_actualizacion": "05/06/2022",
+	"ultima_actualizacion": "10/06/2022",
 	"imagenes":
 	[
-		{
-			"archivo" : "images/carousel/SanEduardo.jpg"
-		},
-		{
-			"archivo" : "images/carousel/Teresita.jpg"
-		},
-		{
-			"archivo" : "images/carousel/El Buen Pastor.jpg"
-		},
-		{
-			"archivo" : "images/carousel/Pironio_gde.jpg"
-		},
-		{
-			"archivo" : "images/carousel/Jesus en el Monte.jpg"
+ 		{
+			"archivo" : "images/carousel/Colecta Caritas 2022.jpg"
 		}
 	],
 	"novedades":
 	[
+		{
+			"texto": "Colecta Caritas 2022"
+		},
 		{
 			"texto": "Homilía Pentecostés"
 		},
@@ -28,9 +19,6 @@
 		},
 		{
 			"texto": "Homilía 6to Domingo Tiempo de Pascua"
-		},
-		{
-			"texto": "Balance Parroquia Abril 2022"
 		}
 	]
 }
