@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "05/06/2022",
+	"ultima_actualizacion": "10/06/2022",
 	"imagenes":
 	[
 		{
@@ -21,6 +21,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Colecta Caritas 2022"
+		},
+		{
 			"texto": "Homilía Pentecostés"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Homilía 6to Domingo Tiempo de Pascua"
-		},
-		{
-			"texto": "Balance Parroquia Abril 2022"
 		}
 	]
 }
