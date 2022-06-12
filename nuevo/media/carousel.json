@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "10/06/2022",
+	"ultima_actualizacion": "12/06/2022",
 	"imagenes":
 	[
  		{
@@ -9,6 +9,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Santisima Trinidad"
+		},
+		{
 			"texto": "Colecta Caritas 2022"
 		},
 		{
@@ -16,9 +19,6 @@
 		},
 		{
 			"texto": "Homilía Ascensión de Jesús"
-		},
-		{
-			"texto": "Homilía 6to Domingo Tiempo de Pascua"
 		}
 	]
 }

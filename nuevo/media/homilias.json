@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Santisima Trinidad",
+			"fecha" : "12/06/2022",
+			"audio" : "media/homilias/Santisima_Trinidad2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Pentecostés",
 			"fecha" : "05/06/2022",
 			"audio" : "media/homilias/Pentecostes2022.mp3"
