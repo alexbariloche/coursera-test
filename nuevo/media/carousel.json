@@ -9,6 +9,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Balance Parroquia Mayo 2022"
+		},
+		{
 			"texto": "Homilía Santisima Trinidad"
 		},
 		{
@@ -16,9 +19,6 @@
 		},
 		{
 			"texto": "Homilía Pentecostés"
-		},
-		{
-			"texto": "Homilía Ascensión de Jesús"
 		}
 	]
 }
