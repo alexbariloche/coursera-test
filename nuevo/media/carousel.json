@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "19/06/2022",
+	"ultima_actualizacion": "26/06/2022",
 	"imagenes":
 	[
 		{
@@ -21,6 +21,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XIII Tiempo Ordinario"
+		},
+		{
 			"texto": "Homilía Corpus Christi"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Homilía Santisima Trinidad"
-		},
-		{
-			"texto": "Homilía Pentecostés"
 		}
 	]
 }
