@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XVI",
+			"fecha" : "17/07/2022",
+			"audio" : "media/homilias/Domingo XVI Tiempo Ordinario 2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XV",
 			"fecha" : "10/07/2022",
 			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2022.mp3"
@@ -318,24 +324,6 @@
 			"descripcion": "Domingo XVII",
 			"fecha" : "25/07/2021",
 			"audio" : "media/homilias/Domingo XVII Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XVI",
-			"fecha" : "18/07/2021",
-			"audio" : "media/homilias/Domingo XVI Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "NS del Carmen",
-			"fecha" : "16/07/2021",
-			"audio" : "media/homilias/NS del Carmen 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XV",
-			"fecha" : "11/07/2021",
-			"audio" : "media/homilias/Domingo XV Tiempo Ordinario 2021.mp3"
 		}
 	],
 	"historicas":
