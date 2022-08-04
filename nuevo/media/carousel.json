@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "24/07/2022",
+	"ultima_actualizacion": "31/07/2022",
 	"imagenes":
 	[
 		{
@@ -20,6 +20,9 @@
 	],
 	"novedades":
 	[
+		{
+			"texto": "Homilía Domingo XVIII Tiempo Ordinario"
+		},
 		{
 			"texto": "Homilía Domingo XVII Tiempo Ordinario"
 		},

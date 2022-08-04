@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XVIII",
+			"fecha" : "31/07/2022",
+			"audio" : "media/homilias/Domingo XVIII Tiempo Ordinario 2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XVII",
 			"fecha" : "24/07/2022",
 			"audio" : "media/homilias/Domingo XVII Tiempo Ordinario 2022.mp3"
@@ -318,12 +324,6 @@
 			"descripcion": "Domingo XIX",
 			"fecha" : "08/08/2021",
 			"audio" : "media/homilias/Domingo XIX Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XVIII",
-			"fecha" : "01/08/2021",
-			"audio" : "media/homilias/Domingo XVIII Tiempo Ordinario 2021.mp3"
 		}
 	],
 	"historicas":
