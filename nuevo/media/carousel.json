@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "04/09/2022",
+	"ultima_actualizacion": "18/09/2022",
 	"imagenes":
 	[
 		{
@@ -21,6 +21,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XXV Tiempo Ordinario"
+		},
+		{
 			"texto": "Balance Parroquia Agosto 2022"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Homilía Domingo XXII Tiempo Ordinario"
-		},
-		{
-			"texto": "Homilía Domingo XXI Tiempo Ordinario"
 		}
 	]
 }
