@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "18/09/2022",
+	"ultima_actualizacion": "25/09/2022",
 	"imagenes":
 	[
 		{
@@ -21,6 +21,9 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XXVI Tiempo Ordinario"
+		},
+		{
 			"texto": "Homilía Domingo XXV Tiempo Ordinario"
 		},
 		{
@@ -28,9 +31,6 @@
 		},
 		{
 			"texto": "Homilía Domingo XXIII Tiempo Ordinario"
-		},
-		{
-			"texto": "Homilía Domingo XXII Tiempo Ordinario"
 		}
 	]
 }
