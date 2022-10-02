@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXVII",
+			"fecha" : "02/10/2022",
+			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXVI",
 			"fecha" : "25/09/2022",
 			"audio" : "media/homilias/Domingo XXVI Tiempo Ordinario 2022.mp3"
@@ -312,12 +318,6 @@
 			"descripcion": "Domingo XXVIII",
 			"fecha" : "10/10/2021",
 			"audio" : "media/homilias/Domingo XXVIII Tiempo Ordinario 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXVII",
-			"fecha" : "03/10/2021",
-			"audio" : "media/homilias/Domingo XXVII Tiempo Ordinario 2021.mp3"
 		}
 	],
 	"historicas":
