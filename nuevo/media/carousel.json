@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "16/10/2022",
+	"ultima_actualizacion": "23/10/2022",
 	"imagenes":
 	[
 		{
@@ -21,16 +21,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía Domingo XXX Tiempo Ordinario"
+		},
+		{
+			"texto": "Horarios Misas desde Octubre 2022"
+		},
+		{
 			"texto": "Homilía Domingo XXIX Tiempo Ordinario"
 		},
 		{
-			"texto": "Homilía Domingo XXVIII Tiempo Ordinario"
-		},
-		{
 			"texto": "Balance Parroquia Setiembre 2022"
-		},
-		{
-			"texto": "Homilía Domingo XXVII Tiempo Ordinario"
 		}
 	]
 }
