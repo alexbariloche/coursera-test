@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "23/11/2022",
+	"ultima_actualizacion": "27/11/2022",
 	"imagenes":
 	[
 		{
@@ -21,13 +21,13 @@
 	"novedades":
 	[
 		{
+			"texto": "Homilía 1er Domingo de Adviento"
+		},
+		{
+			"texto": "Homilía Cristo Rey"
+		},
+		{
 			"texto": "Horarios de Misa"
-		},
-		{
-			"texto": "Homilía Todos los Santos"
-		},
-		{
-			"texto": "Homilía Domingo XXXI Tiempo Ordinario"
 		},
 		{
 			"texto": "Balance Parroquia Octubre 2022"

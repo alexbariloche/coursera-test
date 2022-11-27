@@ -2,6 +2,24 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Adviento",
+			"descripcion": "Primer Domingo",
+			"fecha" : "27/11/2022",
+			"audio" : "media/homilias/1er Domingo Adviento 2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Cristo Rey",
+			"fecha" : "20/11/2022",
+			"audio" : "media/homilias/Cristo Rey 2022.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo XXXIII",
+			"fecha" : "13/11/2022",
+			"audio" : "media/homilias/Domingo XXXIII Tiempo Ordinario 2022.mp3"
+		},
+		{
 			"tiempo": "Ordinario",
 			"descripcion": "Domingo XXXII",
 			"fecha" : "06/11/2022",
@@ -306,24 +324,6 @@
 			"descripcion": "Segundo Domingo",
 			"fecha" : "05/12/2021",
 			"audio" : "media/homilias/2do Domingo Adviento 2021.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Primer Domingo",
-			"fecha" : "28/11/2021",
-			"audio" : "media/homilias/1er Domingo Adviento 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Cristo Rey",
-			"fecha" : "21/11/2021",
-			"audio" : "media/homilias/Cristo Rey 2021.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo XXXIII",
-			"fecha" : "14/11/2021",
-			"audio" : "media/homilias/Domingo XXXIII Tiempo Ordinario 2021.mp3"
 		}
 	],
 	"historicas":
