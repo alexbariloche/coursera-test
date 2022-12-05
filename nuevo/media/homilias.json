@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "de Adviento",
+			"descripcion": "Segundo Domingo",
+			"fecha" : "04/12/2022",
+			"audio" : "media/homilias/2do Domingo Adviento 2022.mp3"
+		},
+		{
+			"tiempo": "de Adviento",
 			"descripcion": "Primer Domingo",
 			"fecha" : "27/11/2022",
 			"audio" : "media/homilias/1er Domingo Adviento 2022.mp3"
@@ -318,12 +324,6 @@
 			"descripcion": "Tercer Domingo",
 			"fecha" : "12/12/2021",
 			"audio" : "media/homilias/3er Domingo Adviento 2021.mp3"
-		},
-		{
-			"tiempo": "de Adviento",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "05/12/2021",
-			"audio" : "media/homilias/2do Domingo Adviento 2021.mp3"
 		}
 	],
 	"historicas":
