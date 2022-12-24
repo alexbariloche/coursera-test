@@ -1,7 +1,7 @@
 {
 	"semanales":
 	{
-		"intervalo": "Noviembre hasta el 23 de Diciembre 2022",
+		"intervalo": "2 al 29 de Enero 2023",
 		"tipos":
 		[
 			{
@@ -11,7 +11,7 @@
 				[
 					{
 						"capilla": "Teresa de Calcuta",
-						"hora": "18:00",
+						"hora": "18:30",
 						"cupo": "12",
 						"sacerdote": "Gustavo"
 					},
@@ -20,6 +20,12 @@
 						"hora": "19:00",
 						"cupo": "10",
 						"sacerdote": "Eduardo"
+					},
+					{
+						"capilla": "San Eduardo",
+						"hora": "20:00",
+						"cupo": "20",
+						"sacerdote": "Gustavo"
 					}
 				]
 			},
@@ -47,9 +53,9 @@
 						"sacerdote": "Eduardo"
 					},
 					{
-						"capilla": "San Cayetano",
-						"hora": "12:15",
-						"cupo": "10",
+						"capilla": "San Eduardo",
+						"hora": "12:30",
+						"cupo": "20",
 						"sacerdote": "Gustavo"
 					},
 					{
@@ -73,6 +79,12 @@
 				[
 					{
 						"capilla": "Carmelitas",
+						"hora": "11:00",
+						"cupo": "20",
+						"sacerdote": "Eduardo"
+					},
+					{
+						"capilla": "San Eduardo",
 						"hora": "19:00",
 						"cupo": "20",
 						"sacerdote": "Gustavo"
