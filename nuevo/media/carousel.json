@@ -1,5 +1,5 @@
 {
-	"ultima_actualizacion": "24/12/2022",
+	"ultima_actualizacion": "25/12/2022",
 	"imagenes":
 	[
 		{
@@ -21,13 +21,16 @@
 	"novedades":
 	[
 		{
+			"texto": "Horarios Enero 2023"
+		},
+		{
+			"texto": "Homilía Navidad de Adviento"
+		},
+		{
+			"texto": "Homilía Nochebuena"
+		},
+		{
 			"texto": "Horarios Navidad 2022"
-		},
-		{
-			"texto": "Homilía 4to Domingo de Adviento"
-		},
-		{
-			"texto": "Balance Parroquia Noviembre 2022"
 		}
 	]
 }

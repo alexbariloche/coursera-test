@@ -2,6 +2,18 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "de Navidad",
+			"descripcion": "Navidad",
+			"fecha" : "25/12/2022",
+			"audio" : "media/homilias/Navidad 2022.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
+			"descripcion": "Nochebuena",
+			"fecha" : "24/12/2022",
+			"audio" : "media/homilias/Nochebuena 2022.mp3"
+		},
+		{
 			"tiempo": "de Adviento",
 			"descripcion": "Cuarto Domingo",
 			"fecha" : "18/12/2022",
@@ -318,12 +330,6 @@
 			"descripcion": "Sagrada Familia",	
 			"fecha" : "26/12/2021",
 			"audio" : "media/homilias/Sagrada Familia 2021.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Nochebuena",
-			"fecha" : "24/12/2021",
-			"audio" : "media/homilias/Nochebuena 2021.mp3"
 		}
 	],
 	"historicas":
