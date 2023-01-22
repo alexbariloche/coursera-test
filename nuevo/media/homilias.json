@@ -2,6 +2,30 @@
 	"dominicales":
 	[
 		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo III",
+			"fecha" : "22/01/2023",
+			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2023.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo II",
+			"fecha" : "15/01/2023",
+			"audio" : "media/homilias/Domingo II Tiempo Ordinario 2023.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
+			"descripcion": "Bautismo del Señor",
+			"fecha" : "08/01/2023",
+			"audio" : "media/homilias/Bautismo2023.mp3"
+		},
+		{
+			"tiempo": "de Navidad",
+			"descripcion": "Santa María Madre de Dios",
+			"fecha" : "01/01/2023",
+			"audio" : "media/homilias/StaMariaMadreDios2023.mp3"
+		},
+		{
 			"tiempo": "de Navidad",
 			"descripcion": "Navidad",
 			"fecha" : "25/12/2022",
@@ -294,42 +318,6 @@
 			"descripcion": "Domingo IV",
 			"fecha" : "30/01/2022",
 			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2022.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo III",
-			"fecha" : "23/01/2022",
-			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2022.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Bautismo del Señor",
-			"fecha" : "09/01/2022",
-			"audio" : "media/homilias/Bautismo2022.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Epifanía",
-			"fecha" : "06/01/2022",
-			"audio" : "media/homilias/Epifania2022.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Segundo Domingo",
-			"fecha" : "02/01/2022",
-			"audio" : "media/homilias/Domingo II Tiempo Navidad 2022.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Santa María Madre de Dios",
-			"fecha" : "01/01/2022",
-			"audio" : "media/homilias/StaMariaMadreDios2022.mp3"
-		},
-		{
-			"tiempo": "de Navidad",
-			"descripcion": "Sagrada Familia",	
-			"fecha" : "26/12/2021",
-			"audio" : "media/homilias/Sagrada Familia 2021.mp3"
 		}
 	],
 	"historicas":
