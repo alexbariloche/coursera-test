@@ -3,6 +3,12 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo IV",
+			"fecha" : "29/01/2023",
+			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2023.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo III",
 			"fecha" : "22/01/2023",
 			"audio" : "media/homilias/Domingo III Tiempo Ordinario 2023.mp3"
@@ -312,12 +318,6 @@
 			"descripcion": "Domingo V",
 			"fecha" : "06/02/2022",
 			"audio" : "media/homilias/Domingo V Tiempo Ordinario 2022.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo IV",
-			"fecha" : "30/01/2022",
-			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2022.mp3"
 		}
 	],
 	"historicas":
