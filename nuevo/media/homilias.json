@@ -3,6 +3,18 @@
 	[
 		{
 			"tiempo": "Ordinario",
+			"descripcion": "Domingo VI",
+			"fecha" : "12/02/2023",
+			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2023.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
+			"descripcion": "Domingo V",
+			"fecha" : "05/02/2023",
+			"audio" : "media/homilias/Domingo V Tiempo Ordinario 2023.mp3"
+		},
+		{
+			"tiempo": "Ordinario",
 			"descripcion": "Domingo IV",
 			"fecha" : "29/01/2023",
 			"audio" : "media/homilias/Domingo IV Tiempo Ordinario 2023.mp3"
@@ -306,18 +318,6 @@
 			"descripcion": "Domingo VII",
 			"fecha" : "20/02/2022",
 			"audio" : "media/homilias/Domingo VII Tiempo Ordinario 2022.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo VI",
-			"fecha" : "13/02/2022",
-			"audio" : "media/homilias/Domingo VI Tiempo Ordinario 2022.mp3"
-		},
-		{
-			"tiempo": "Ordinario",
-			"descripcion": "Domingo V",
-			"fecha" : "06/02/2022",
-			"audio" : "media/homilias/Domingo V Tiempo Ordinario 2022.mp3"
 		}
 	],
 	"historicas":
