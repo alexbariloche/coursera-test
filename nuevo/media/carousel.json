@@ -1,7 +1,10 @@
 {
-	"ultima_actualizacion": "12/02/2023",
+	"ultima_actualizacion": "09/04/2023",
 	"imagenes":
 	[
+		{
+			"archivo" : "images/carousel/Pascua 2023.jpg"
+		},
 		{
 			"archivo" : "images/carousel/SanEduardo.jpg"
 		},
@@ -12,25 +15,19 @@
 			"archivo" : "images/carousel/El Buen Pastor.jpg"
 		},
 		{
-			"archivo" : "images/carousel/Pironio_gde.jpg"
-		},
-		{
 			"archivo" : "images/carousel/Jesus en el Monte.jpg"
 		}
 	],
 	"novedades":
 	[
 		{
-			"texto": "Homilía Domingo VI Tiempo Ordinario"
+			"texto": "Homilías Triduo Pascual"
 		},
 		{
-			"texto": "Homilía Domingo V Tiempo Ordinario"
+			"texto": "Balance Parroquia Marzo 2023"
 		},
 		{
-			"texto": "Balance Parroquia Enero 2023"
-		},
-		{
-			"texto": "Horarios Febrero 2023"
+			"texto": "Homilía Domingo de Ramos"
 		}
 	]
 }
